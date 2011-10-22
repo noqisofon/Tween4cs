@@ -3,10 +3,11 @@ using System.IO;
 using System.Timers;
 using System.Windows.Forms;
 
+
 namespace Tween.CustomControls {
 
 
-    public AdsBrowser : WebBrowser {
+    public class AdsBrowser : WebBrowser {
         public AdsBrowser() {
             base();
 
@@ -56,3 +57,7 @@ namespace Tween.CustomControls {
 
 
 }
+// Local Variables:
+//   coding: utf-8
+//   mode: ecmascript
+// End:

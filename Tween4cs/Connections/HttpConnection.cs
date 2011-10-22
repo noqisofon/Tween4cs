@@ -15,7 +15,7 @@ namespace Tween.Connections {
      */
     public class HttpConnection {
         /**
-         * 通信クラスの初期化処理です。タイムアウト値とプロキシを設定する。
+         * 通信クラスの初期化処理です。タイムアウト値とプロキシを設定します。
          */
         public static void InitializeConnection( int timeout,
                                                  ProxyType proxy_type,

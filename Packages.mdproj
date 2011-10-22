@@ -1,1 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  <PropertyGroup>    <ItemType>PackagingProject</ItemType>    <ProductVersion>9.0.21022</ProductVersion>    <SchemaVersion>2.0</SchemaVersion>    <ProjectGuid>{58B5EED2-B817-49D8-9A5A-88E3C1863F88}</ProjectGuid>    <Packages>      <Packages xmlns="">        <Package name="Linux バイナリファイル">          <Builder targetFile="Tween4cs-linux.tar.gz" platform="Linux" configuration="Debug|x86" ctype="BinariesZipPackageBuilder">            <ChildEntries>              <SolutionItemReference path="Tween4cs\Tween4cs.csproj" />            </ChildEntries>            <RootEntry path="Tween4cs.sln" id=":root:" />          </Builder>        </Package>        <Package name="Microsoft Windows バイナリファイル">          <Builder targetFile="Tween4cs-windows.tar.gz" platform="Windows" configuration="Debug|x86" ctype="BinariesZipPackageBuilder">            <ChildEntries>              <SolutionItemReference path="Tween4cs\Tween4cs.csproj" />            </ChildEntries>            <RootEntry path="Tween4cs.sln" id=":root:" />          </Builder>        </Package>        <Package name="Tarball">          <Builder TargetDirectory="Tween4cs" DefaultConfiguration="Debug|x86" ctype="TarballDeployTarget">            <ChildEntries>              <SolutionItemReference path="Tween4cs\Tween4cs.csproj" />            </ChildEntries>            <RootEntry path="Tween4cs.sln" id=":root:" />          </Builder>        </Package>      </Packages>    </Packages>  </PropertyGroup></Project>
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58B5EED2-B817-49D8-9A5A-88E3C1863F88}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="Linux バイナリファイル">
+          <Builder targetFile="Tween4cs-linux.tar.gz" platform="Linux" configuration="Debug|x86" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="Tween4cs\Tween4cs.csproj" />
+            </ChildEntries>
+            <RootEntry path="Tween4cs.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="Microsoft Windows バイナリファイル">
+          <Builder targetFile="Tween4cs-windows.tar.gz" platform="Windows" configuration="Debug|x86" ctype="BinariesZipPackageBuilder">
+            <ChildEntries>
+              <SolutionItemReference path="Tween4cs\Tween4cs.csproj" />
+            </ChildEntries>
+            <RootEntry path="Tween4cs.sln" id=":root:" />
+          </Builder>
+        </Package>
+        <Package name="Tarball">
+          <Builder TargetDirectory="Tween4cs" DefaultConfiguration="Debug|x86" ctype="TarballDeployTarget">
+            <ChildEntries>
+              <SolutionItemReference path="Tween4cs\Tween4cs.csproj" />
+            </ChildEntries>
+            <RootEntry path="Tween4cs.sln" id=":root:" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

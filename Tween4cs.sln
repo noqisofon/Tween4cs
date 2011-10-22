@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tween4cs", "Project\Tween4cs.csproj", "{1694A4E8-5FFE-47FD-A62C-327A42208990}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tween4cs", "Tween4cs\Tween4cs.csproj", "{1694A4E8-5FFE-47FD-A62C-327A42208990}"
 EndProject
 Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "Packages", "Packages.mdproj", "{58B5EED2-B817-49D8-9A5A-88E3C1863F88}"
 EndProject
@@ -20,5 +20,18 @@ Global
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Tween4cs\Tween4cs.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/plain
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
 	EndGlobalSection
 EndGlobal
