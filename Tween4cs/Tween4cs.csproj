@@ -59,6 +59,8 @@
       <Package>gtk-sharp-2.0</Package>
     </Reference>
     <Reference Include="Mono.Posix" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="gtk-gui\gui.stetic">
@@ -79,6 +81,13 @@
     <Compile Include="Connections\ProxyType.cs" />
     <Compile Include="CustomControls\AdsBrowser.cs" />
     <Compile Include="Mime\MimeType.cs" />
+    <Compile Include="AppendSettingDialog.Designer.cs" />
+    <Compile Include="DisplayTitleKind.cs" />
+    <Compile Include="IconSizes.cs" />
+    <Compile Include="NameBalloons.cs" />
+    <Compile Include="ReplyIconState.cs" />
+    <Compile Include="Connections\IHttpConnection.cs" />
+    <Compile Include="Connections\CallbackDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.desktop" />

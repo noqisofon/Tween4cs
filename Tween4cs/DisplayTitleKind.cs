@@ -11,7 +11,7 @@ namespace Tween {
         UnreadReplyCount = 2 << 3,
         UnreadAllCount = 2 << 4,
         UnreadAllReplyCount = 2 << 5,
-        UnreadAllCount = 2 << 6,
+        UnreadCountAllCount = 2 << 6,
         OwnStatus = 2 << 7
     }
 

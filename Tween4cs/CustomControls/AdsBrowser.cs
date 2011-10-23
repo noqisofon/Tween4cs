@@ -8,9 +8,7 @@ namespace Tween.CustomControls {
 
 
     public class AdsBrowser : WebBrowser {
-        public AdsBrowser() {
-            base();
-
+        public AdsBrowser() : base() {
             this.abs_path_ = Path.Combine( path.GetTempPath(), PathGetRamdomFileName() );
             File.WroteAllText( this.abs_path_, Tween.Propaerties.Ads );
 
@@ -52,7 +50,7 @@ namespace Tween.CustomControls {
         }
         
         private string abs_path_;
-        private Timer refresh_timer_;
+        private System.Timers.Timer refresh_timer_;
     }
 
 

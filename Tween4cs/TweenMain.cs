@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel;
+using System.Drawing;
 using System.Diagnostics;
 using System.IO;
 //using System.Linq;
@@ -8,6 +9,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Reflection;
 using System.Web;
+using System.Windows.Forms;
 
 
 namespace Tween {
@@ -58,9 +60,9 @@ namespace Tween {
         private struct ConfigFileSpecify {
             public SettingToConfig Setting;
             public SettingLocal Local;
-            public bool ModifySettingLocal = false;
-            public bool ModifySettingCommon = false;
-            public bool ModifySettingAtId = false;
+            public bool ModifySettingLocal/* = false*/;
+            public bool ModifySettingCommon/* = false*/;
+            public bool ModifySettingAtId/* = false*/;
         }
         private ConfigFileSpecify specify_;
 

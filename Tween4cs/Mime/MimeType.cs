@@ -19,7 +19,7 @@ namespace Tween.Mime {
         private ContentType(string type, string sub_type, string parameter) {
             this.type_ = type;
             this.sub_type_ = sub_type;
-            this.parameter_ parameter;
+            this.parameter_ = parameter;
         }
 
         
@@ -63,8 +63,8 @@ namespace Tween.Mime {
         public static ContentType ValueTo(string extension) {
             extension = extension.ToLower();
             switch ( extension ) {
-            case ".jpg": goto ".jpeg";
-            case ".jpe": goto ".jpeg";
+            case ".jpg": goto case ".jpeg";
+            case ".jpe": goto case ".jpeg";
             case ".jpeg":
                 return new ContentType( "image", "jpeg" );
 
@@ -74,7 +74,7 @@ namespace Tween.Mime {
             case ".png":
                 return new ContentType(  "image", "png" );
 
-            case ".tif": goto ".tiff";
+            case ".tif": goto case ".tiff";
             case ".tiff":
                 return new ContentType( "image", "tiff" );
 
@@ -102,7 +102,7 @@ namespace Tween.Mime {
             case ".rm":
                 return new ContentType( "application", "vnd.rn-realmedia" );
 
-            case ".mpg": goto ".mpeg";
+            case ".mpg": goto case ".mpeg";
             case ".mpeg":
                 return new ContentType( "video", "mpeg" );
 

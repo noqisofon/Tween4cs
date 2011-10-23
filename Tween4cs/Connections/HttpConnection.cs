@@ -29,20 +29,20 @@ namespace Tween.Connections {
 
             switch ( proxy_type ) {
                 case ProxyType.None:
-                    _web_proxy = null;
+                    __web_proxy = null;
                     break;
 
                 case ProxyType.Specified:
-                    _web_proxy = new WebProxy( string.Format( "http://{0}:{1}", proxy_address, proxy_port ) );
+                    __web_proxy = new WebProxy( string.Format( "http://{0}:{1}", proxy_address, proxy_port ) );
                     if ( string.IsNullOrEmpty( proxy_user ) || !string.IsNullOrEmpty( proxy_password ) )
-                        _web_proxy.Credentials = new NetworkCredential( proxy_user, proxy_password );
+                        __web_proxy.Credentials = new NetworkCredential( proxy_user, proxy_password );
                     break;
 
                 case ProxyType.IE:
                     // IE(システム設定)はデフォルト値なので、処理しません。
                     break;
             }
-            _proxy_kind = proxy_type;
+            __proxy_kind = proxy_type;
 #if _WINDOWS
             WIN32API.SetProxy( proxy_type, proxy_address, proxy_port, proxy_user, proxy_password );
 #else
@@ -72,16 +72,16 @@ namespace Tween.Connections {
          * 通信タイムアウト時間(ms)を取得、設定します。10〜120 秒の範囲で指定し、値が範囲外になった場合は 20 秒に固定されます。
          */
         protected static int DefaultTimeout {
-            get { return _timeout; }
+            get { return __timeout; }
             set {
                 const int TimeoutMinValue = 10000;
                 const int TimeoutMaxValue = 120000;
                 const int TimeoutDefaultValue = 20000;
 
                 if ( value < TimeoutMinValue || value > TimeoutMaxValue )
-                    _timeout = TimeoutDefaultValue;
+                    __timeout = TimeoutDefaultValue;
                 else
-                    _timeout = value;
+                    __timeout = value;
             }
         }
 
@@ -101,7 +101,7 @@ namespace Tween.Connections {
          * @return 指定された内容を反映した HttpWebRequest オブジェクト。
          */
         protected HttpWebRequest CreateRequest(string method, Uri request_uri, IDictionary<string, string> param, bool with_cookie) {
-            if ( _is_initialized )
+            if ( __is_initialized )
                 throw new Exception( "Sequence error(not initialized)" );
             /* 
              * GET メソッドの場合はクエリと url を結合しておきます。
@@ -116,8 +116,8 @@ namespace Tween.Connections {
             /*
              * プロキシ設定を行います。
              */
-            if ( _proxy_kind != ProxyType.IE )
-                request.Proxy = _web_proxy;
+            if ( __proxy_kind != ProxyType.IE )
+                request.Proxy = __web_proxy;
 
             request.Method = method;
             if ( method == PostMethod || method == PutMethod ) {
@@ -129,7 +129,7 @@ namespace Tween.Connections {
             }
             // クッキーの設定です。
             if ( with_cookie )
-                request.CookieContainer = this._cookie_container;
+                request.CookieContainer = this.__cookie_container;
             // タイムアウトの設定です。
             if ( this.InstanceTimeout > 0 )
                 request.Timeout = this.InstanceTimeout;
@@ -153,7 +153,7 @@ namespace Tween.Connections {
                                                 IDictionary<string, string> param,
                                                 IList<KeyValuePair<string, FileInfo>> binary_file_info,
                                                 bool with_cookie ) {
-            if ( _is_initialized )
+            if ( __is_initialized )
                 throw new Exception( "Sequence error(not initialized)" );
 
             // method は POST, PUT のみ許可します。
@@ -165,7 +165,7 @@ namespace Tween.Connections {
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create( uri_builder.Uri );
             // プロキシの設定を行います。
-            if ( _proxy_kind != ProxyType.IE )
+            if ( __proxy_kind != ProxyType.IE )
                 request.Proxy = proxy;
             request.Method = method;
 
@@ -226,7 +226,7 @@ namespace Tween.Connections {
             }  // if ( method == PostMethod || method == PutMethod )
             // cookie を設定します。
             if ( with_cookie )
-                request.CookieContainer = _cookie_container;
+                request.CookieContainer = __cookie_container;
             // タイムアウトを設定します。
             if ( this.InstanceTimeout > 0 )
                 request.Timeout = this.InstanceTimeout;
@@ -476,7 +476,7 @@ namespace Tween.Connections {
             foreach ( Cookie cookie in cookies ) {
                 if ( cookie.Domain.StartsWith( "." ) ) {
                     cookie.Domin = cookie.Domain.Substring( 1, cookie.Domin.Length - 1 );
-                    _cookie_container.Add( cookie );
+                    __cookie_container.Add( cookie );
                 }
             }
         }
@@ -553,24 +553,24 @@ namespace Tween.Connections {
         private int timeout_ = 0;
         
         
-        private static _timeout = 20000;
+        private static int __timeout = 20000;
 
         /**
          * HTTP コネクションで使用されるプロキシです。
          */
-        private static WebProxy _web_proxy = null;
+        private static WebProxy __web_proxy = null;
         /**
          * ユーザーが選択したプロキシの方式を表します。
          */
-        private static ProxyKind _proxy_kind = ProxyType.IE;
+        private static ProxyType __proxy_kind = ProxyType.IE;
         /**
          * クッキー保存用コンテナです。
          */
-        private static CookieContainer _cookie_container = new CookieContainer();
+        private static CookieContainer __cookie_container = new CookieContainer();
         /**
          * 初期化済みフラグ。
          */
-        private static bool _is_initialized = false;
+        private static bool __is_initialized = false;
     }
 
 
