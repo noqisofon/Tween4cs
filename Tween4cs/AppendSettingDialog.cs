@@ -695,7 +695,104 @@ namespace Tween {
                 case DisplayTitleKind.UnreadAllCount:
                     ComboDispTitle.SelectedIndex = 4;
                     break;
+
+                case DisplayTitleKind.UnreadAllReplyCount:
+                    ComboDispTitle.SelectedIndex = 5;
+                    break;
+
+                case DisplayTitleKind.UnreadCountAllCount:
+                    ComboDispTitle.SelectedIndex = 6;
+                    break;
+
+                case DisplayTitleKind.OwnStatus:
+                    ComboDispTitle.SelectedIndex = 7;
+                    break;
             }
+
+            CheckSortOrderLock.Checked = this.sort_order_lock_;
+            CheckTinyUrl.Checked = this.tiny_url_resolve_;
+            CheckForseResolve.Checked = this.short_url_force_resolve_;
+
+            switch ( this.proxy_type_ ) {
+                case ProxyType.None:
+                    RaidoProxyNode.Checked = true;
+                    break;
+
+                case ProxyType.IE:
+                    RaidoProxyIE.Checked = true;
+                    break;
+
+                default:
+                    RaidoProxySpecified.Checked = true;
+                    break;
+            }
+
+            bool check = RadioProxySpecified.Checked;
+
+            LabelProxyAddress.Enabled = check;
+            TextProxyAddress.Enabled = check;
+
+            LabelProxyPort.Enabled = check;
+            TextProxyPort.Enabled = check;
+
+            LabelProxyUser.Enabled check;
+            TextProxyUser.Enabled = check;
+
+            LabelProxyPassword.Enabled = check;
+            TextProxyPassword.Enabled = check;
+
+            TextProxyAddress.Text = this.proxy_address_;
+            TextProxyPort.Text = this.proxy_port_;
+            TextProxyUser.Text = this.proxy_user_;
+            TextProxyPassword.Text = this.proxy_password_;
+
+            CheckPeriodAdjust.Checked = this.period_adjust_;
+            CheckStartupVersion.Checked = this.startup_version_;
+            CheckStartupFollowers.Checked = this.startup_followers_;
+            CheckFavRestrict.Checked = this.restrict_favorite_check_;
+            CheckAlwaysTop.Checked = this.always_top_;
+            CheckAutoConvertUrl.Checked = this.url_convert_auto_;
+
+            ShortenTcoCheck.Checked = this.shorten_tco_;
+            ShortenTcoCheck.Enabled = CheckAutoConvertUrl.Checked;
+
+            CheckOutputz.Checked = this.outputz_;
+            TextBoxOutputzKey.Text = this.outputz_key_;
+
+            switch ( this.outputz_url_mode_ ) {
+                case OutputzUrlmode.TwiiterCom:
+                    ComboBoxOutputzUrlmode.SelectedIndex = 0;
+                    break;
+
+                case OutputzUrlmode.TwiiterComWithUsername:
+                    ComboBoxOutputzUrlmode.SelectedIndex = 1;
+                    break;
+            }
+
+            CheckNicoms.Checked = this.nicoms_;
+            chkUnreadStyle.Checked = this.unread_style_;
+            CmbDateTimeFormat.Text = this.datetime_format_;
+            ConnectionTimeOut.Text = this.default_timeout_.ToString();
+            CheckRetweetNoConfirm.Checked = this.retweet_no_confirm_;
+            CheckBalloonLimit.Checked = this.limit_balloon_;
+
+            ApplyEventNotifyFlag( this.event_notify_enabled_, this.event_notify_flag_, this.is_event_notify_flags_ );
+
+            CheckForseEventNotify.Checked = this.force_event_notify_;
+            CheckFavEventUnread.Checked = this.favorite_event_unread_;
+
+            ComboBoxTranslateLanguage.SelectedIndex = new Bing().GetIndexFromLanguage( this.translate_language_ );
+
+            SoundFileListup();
+
+            ComboBoxAutoShortUrlFirst.SelectedIndex = this.auto_short_url_first_;
+            chkTabIconDisp.Checked = this.tab_icon_display_;
+            chkReadOwnPost.Checked = this.read_own_post_;
+            chkGetFav.Checked = this.get_favorite_;
+            CheckMonospace.Checked = this.mono_space_;
+            CheckReadOldPosts.Checked = this.read_old_posts_;
+            CheckUseSsl.Checked = this.use_ssl_;
+            
         }
 
 
@@ -840,9 +937,6 @@ namespace Tween {
         private TwitterDataModel.Configuration twitter_configuration_;
 
         private static AppendSettingDialog _instance = new AppendSettingDialog();
-
-
-        
     }
 
 
