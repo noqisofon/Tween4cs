@@ -123,9 +123,9 @@ namespace Tween {
 
             if ( panel.Name == "PreviewPanel" ) {
                 if ( GrowlHelper.IsDllExists )
-                    IsNotifyUseGrowlCheckBox.Enabled = true;
+                    isNotifyUseGrowlCheckBox.Enabled = true;
                 else
-                    IsNotifyUseGrowlCheckBox.Enabled = false;
+                    isNotifyUseGrowlCheckBox.Enabled = false;
             }
         }
 

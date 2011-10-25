@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tween4cs/AppendSettingDialog.Designer.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tween4cs/AppendSettingDialog.cs" ctype="Workbench">
     <Files>
-      <File FileName="Tween4cs/AppendSettingDialog.Designer.cs" Line="1507" Column="44" />
+      <File FileName="Tween4cs/AppendSettingDialog.Designer.cs" Line="1652" Column="53" />
+      <File FileName="Tween4cs/AppendSettingDialog.cs" Line="836" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

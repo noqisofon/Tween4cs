@@ -284,8 +284,8 @@ namespace Tween {
             this.AuthUserCombo = new System.Windows.Forms.ComboBox();
             this.TabMouseLockCheck = new System.Windows.Forms.CheckBox();
             this.IsRemoveSameFavEventCheckBox = new System.Windows.Forms.CheckBox();
-            this.IsNotifyUseGrowlCheckBox = new System.Windows.Forms.CheckBox();
-            this.Label2 = new System.Windows.Forms.Label();
+            this.isNotifyUseGrowlCheckBox = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
 
             ((System.ComponentModel.ISupportInitialize)this.splitContainer1).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -1340,11 +1340,11 @@ namespace Tween {
             // 
             // IsNotifyUseGrowlCheckBox
             // 
-            this.IsNotifyUseGrowlCheckBox.Name = "IsNotifyUseGrowlCheckBox";
+            this.isNotifyUseGrowlCheckBox.Name = "IsNotifyUseGrowlCheckBox";
             // 
             // Label2
             // 
-            this.Label2.Name = "Label2";
+            this.label2.Name = "Label2";
 
             this.splitContainer1.Panel1.ResumeLayout( false );
             this.splitContainer1.Panel2.ResumeLayout( false );
@@ -1504,13 +1504,13 @@ namespace Tween {
         private System.Windows.Forms.Label detailLabel;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Button owlButton;
-        private System.Windows.Forms.Label owlButton;
+        private System.Windows.Forms.Label owlLabel;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Button favoriteButton;
         private System.Windows.Forms.Label favoriteLabel;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Button listFontButton;
-        private System.Windows.Forms.Label listFontButton;
+        private System.Windows.Forms.Label listFontLabel;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.FontDialog fontDialog1;
         private System.Windows.Forms.ColorDialog colorDialog1;
@@ -1649,8 +1649,8 @@ namespace Tween {
         private System.Windows.Forms.ComboBox AuthUserCombo;
         private System.Windows.Forms.CheckBox TabMouseLockCheck;
         private System.Windows.Forms.CheckBox IsRemoveSameFavEventCheckBox;
-        private System.Windows.Forms.CheckBox IsNotifyUseGrowlCheckBox;
-        private System.Windows.Forms.Label Label2;
+        private System.Windows.Forms.CheckBox isNotifyUseGrowlCheckBox;
+        private System.Windows.Forms.Label label2;
 
     }
 

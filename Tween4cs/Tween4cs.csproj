@@ -88,9 +88,13 @@
     <Compile Include="ReplyIconState.cs" />
     <Compile Include="Connections\IHttpConnection.cs" />
     <Compile Include="Connections\CallbackDelegate.cs" />
+    <Compile Include="SearchWordDialog.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.desktop" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="Connections\#CallbackDelegate.cs#" />
+  </ItemGroup>
 </Project>
