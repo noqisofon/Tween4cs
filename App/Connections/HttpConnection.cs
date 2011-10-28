@@ -10,6 +10,8 @@ using System.Text;
 
 
 namespace Tween.Connections {
+
+
     /**
      * 
      */
@@ -23,7 +25,7 @@ namespace Tween.Connections {
                                                  int proxy_port,
                                                  string proxy_user,
                                                  string proxy_password) {
-            _is_initialize = true;
+            __is_initialized = true;
             ServicePointManager.Expect100Continue = false;
             DefaultTimeout = timeout * 1000;  // 秒を㍉秒に変換しておきます。
 

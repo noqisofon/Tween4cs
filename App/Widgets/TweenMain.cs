@@ -44,6 +44,7 @@ namespace Tween {
 
 
     using Tween.CustomControls;
+    using Tween.Extensions.Twitter;
 
 
     public class TweenMain {
@@ -68,7 +69,7 @@ namespace Tween {
         private Point tab_mouse_down_point_;
         private string rclick_tab_name_;  //!< 右クリックしたタブの名前(Tab コントロール機能不足の対応)。
 
-        private readonly object SyncObject_ = new object();  //!< ロック用。
+        private readonly object sync_object_ = new object();  //!< ロック用。
 
         private const string DetailHtmlFormatMono1 = "<html><head><style type=\"text/css\"><!-- pre { font-family: \"";
         private const string DetailHtmlFormat2 = "\", sans-serif; font-size: ";
@@ -80,8 +81,8 @@ namespace Tween {
 
         private string detailHtmlFormatHeader;
         private string detailHtmlFormatFooter;
-        private bool my_status_error_ = false;
-        private bool my_status_online_ = false;
+        private bool status_error_ = false;
+        private bool status_online_ = false;
         private bool sound_file_listup_ = false;
         private SpaceKeyCanceler space_key_canceler_;
 

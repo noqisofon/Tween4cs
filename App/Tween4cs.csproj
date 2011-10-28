@@ -61,6 +61,8 @@
     <Reference Include="Mono.Posix" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="gtk-gui\gui.stetic">
@@ -74,27 +76,47 @@
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="IntervalChangedEventArgs.cs" />
-    <Compile Include="AppendSettingDialog.cs" />
-    <Compile Include="TweenMain.cs" />
     <Compile Include="Connections\HttpConnection.cs" />
     <Compile Include="Connections\OAuthHttpConnection.cs" />
     <Compile Include="Connections\ProxyType.cs" />
     <Compile Include="CustomControls\AdsBrowser.cs" />
     <Compile Include="Mime\MimeType.cs" />
-    <Compile Include="AppendSettingDialog.Designer.cs" />
     <Compile Include="DisplayTitleKind.cs" />
     <Compile Include="IconSizes.cs" />
     <Compile Include="NameBalloons.cs" />
     <Compile Include="ReplyIconState.cs" />
     <Compile Include="Connections\IHttpConnection.cs" />
     <Compile Include="Connections\CallbackDelegate.cs" />
-    <Compile Include="SearchWordDialog.cs" />
+    <Compile Include="Widgets\AppendSettingDialog.Designer.cs" />
+    <Compile Include="Widgets\AppendSettingDialog.cs" />
+    <Compile Include="Widgets\SearchWordDialog.Designer.cs" />
+    <Compile Include="Widgets\SearchWordDialog.cs" />
+    <Compile Include="DoubleClickCanceller.cs" />
+    <Compile Include="CustomControls\PictureBoxEx.cs" />
+    <Compile Include="Widgets\MessageForm.Designer.cs" />
+    <Compile Include="Widgets\MessageForm.cs" />
+    <Compile Include="Widgets\TweenMain.Designer.cs" />
+    <Compile Include="Widgets\TweenMain.cs" />
+    <Compile Include="LogUnitEnum.cs" />
+    <Compile Include="Extensions\Outputz\OutputzUrlMode.cs" />
+    <Compile Include="Extensions\UrlConvertor.cs" />
+    <Compile Include="TweenEventType.cs" />
+    <Compile Include="Extensions\Twitter\TwitterAnalysis.cs" />
+    <Compile Include="Extensions\Twitter\UserAccount.cs" />
+    <Compile Include="Extensions\Twitter\DataModel\Configuration.cs" />
+    <Compile Include="Connections\IMultimediaShareService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.desktop" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="Connections\#CallbackDelegate.cs#" />
+    <None Include="CustomControls\#PictureBoxEx.cs#" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\Outputz\" />
+    <Folder Include="Extensions\Twitter\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Extensions\Twitter\DataModel\" />
   </ItemGroup>
 </Project>

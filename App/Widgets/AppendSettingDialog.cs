@@ -35,6 +35,10 @@ namespace Tween {
     
     
     using Tween.Connections;
+    using Tween.Extensions;
+    using Tween.Extensions.Outputz;
+    using Tween.Extensions.Twitter;
+    using Tween.Extensions.Twitter.DataModel;
 
 
     public partial class AppendSettingDialog {
@@ -88,7 +92,7 @@ namespace Tween {
         }
 
 
-        public TwitterDataModel.Configuration TwitterConfiguration {
+        public Tween.Extensions.Twitter.DataModel.Configuration TwitterConfiguration {
             get { return this.twitter_configuration_; }
             set {
                 if ( value != null )
@@ -971,7 +975,7 @@ namespace Tween {
         private bool tab_mouse_lock_;
         private bool is_remove_same_event_;
         private bool is_notify_use_growl_;
-        private TwitterDataModel.Configuration twitter_configuration_;
+        private Tween.Extensions.Twitter.DataModel.Configuration twitter_configuration_;
 
         private static AppendSettingDialog _instance = new AppendSettingDialog();
     }
