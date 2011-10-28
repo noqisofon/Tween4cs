@@ -2,11 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.Drawing;
 using System.IO;
 using System.IO.Compression;
 using System.Net;
 using System.Text;
+
+using Tween.Mime;
 
 
 namespace Tween.Connections {
@@ -45,11 +48,7 @@ namespace Tween.Connections {
                     break;
             }
             __proxy_kind = proxy_type;
-#if _WINDOWS
             WIN32API.SetProxy( proxy_type, proxy_address, proxy_port, proxy_user, proxy_password );
-#else
-            WebProxy.SetProxy( proxy_type, proxy_address, proxy_port, proxy_user, proxy_password );
-#endif
         }
 
 
@@ -109,7 +108,7 @@ namespace Tween.Connections {
              * GET メソッドの場合はクエリと url を結合しておきます。
              */
             UriBuilder uri_builder = new UriBuilder( request_uri.AbsoluteUri );
-            if ( param != null && (method == PostMethod || method == GetMethod || method == HeadMethod) ) {
+            if ( param != null && (method == POST_METHOD || method == GET_METHOD || method == HEAD_METHOD) ) {
                 uri_builder.Query = CreateQueryString( param );
             }
 
@@ -122,7 +121,7 @@ namespace Tween.Connections {
                 request.Proxy = __web_proxy;
 
             request.Method = method;
-            if ( method == PostMethod || method == PutMethod ) {
+            if ( method == POST_METHOD || method == PUT_METHOD ) {
                 request.ContentType = "application/x-www--form-urlencoded";
                 // POST/PUT メソッドの場合は、ボディデータとしてクエリ構成して書き込みします。
                 using ( StreamWriter writer = new StreamWriter( request.GetRequestStream() ) ) {
@@ -131,12 +130,12 @@ namespace Tween.Connections {
             }
             // クッキーの設定です。
             if ( with_cookie )
-                request.CookieContainer = this.__cookie_container;
+                request.CookieContainer = __cookie_container;
             // タイムアウトの設定です。
             if ( this.InstanceTimeout > 0 )
                 request.Timeout = this.InstanceTimeout;
             else
-                request.Timeout = this.DefaultTimeout;
+                request.Timeout = DefaultTimeout;
 
             return request;
         }
@@ -160,7 +159,7 @@ namespace Tween.Connections {
 
             // method は POST, PUT のみ許可します。
             UriBuilder uri_builder = new UriBuilder( request_uri.AbsoluteUri );
-            if ( method == GetMethod || method == DeleteMethod || method == HeadMethod )
+            if ( method == GET_METHOD || method == DELETE_METHOD || method == HEAD_METHOD )
                 throw new ArgumentException( "Method must be `POST' or `PUT'" );
             if ( (param == null || param.Count == 0) && (binary_file_info == null || binary_file_info.Count == 0) )
                 throw new ArgumentException( "Data is empty" );
@@ -168,10 +167,10 @@ namespace Tween.Connections {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create( uri_builder.Uri );
             // プロキシの設定を行います。
             if ( __proxy_kind != ProxyType.IE )
-                request.Proxy = proxy;
+                request.Proxy = __web_proxy;
             request.Method = method;
 
-            if ( method == PostMethod || method == PutMethod ) {
+            if ( method == POST_METHOD || method == PUT_METHOD ) {
                 int boundary = Environment.TickCount;
 
                 request.ContentType = string.Format( "multipart/form-data; boundary={0}", boundary );
@@ -181,9 +180,9 @@ namespace Tween.Connections {
                     // POST 送信する文字列データを作成します。
                     if ( param != null ) {
                         foreach ( KeyValuePair<string, string> pair in param ) {
-                            writer.WriteFormat( "--{0}", boundary ).WriteLine();
-                            writer.WriteFormat( "Content-Diposition: form-data; name=\"{0}\"", pair.Key ).WriteLine().WriteLine();
-                            writer.Write( pair.Value ).WriteLine();
+                            writer.Write( "--{0}", boundary ); writer.WriteLine();
+                            writer.Write( "Content-Diposition: form-data; name=\"{0}\"", pair.Key ); writer.WriteLine(); writer.WriteLine();
+                            writer.Write( pair.Value ); writer.WriteLine();
                         }
                         writer.Flush();
                     }
@@ -192,11 +191,11 @@ namespace Tween.Connections {
                         foreach ( KeyValuePair<string, FileInfo> pair in binary_file_info ) {
                             string mime = ContentType.ValueOf( pair.Value.Extension ).ToString();
 
-                            writer.WriteFormat( "--{0}", boundary );
+                            writer.Write( "--{0}", boundary );
                             writer.WriteLine();
-                            writer.WriteFormat( "Content-Disposition: form-data; name=\"{0}\"; filename=\"{1}\";", pair.Key, pair.Value );
+                            writer.Write( "Content-Disposition: form-data; name=\"{0}\"; filename=\"{1}\";", pair.Key, pair.Value );
                             writer.WriteLine();
-                            writer.WriteFormat( "Content-Type: {0}", mime );
+                            writer.Write( "Content-Type: {0}", mime );
                             writer.WriteLine();
                             if ( mime == "application/octet-stream" ) {
                                 writer.Write( "Content-Transfer-Encoding: binary" );
@@ -221,7 +220,7 @@ namespace Tween.Connections {
                             writer.WriteLine();
                         }  // foreach ( KeyValuePair<string, FileInfo> pair in binary_file_info )
                     }  // if ( binary_file_info != null )
-                    writer.WriteFormat( "--{0}--", boundary );
+                    writer.Write( "--{0}--", boundary );
                     writer.WriteLine();
                     //request_stream.Close();  // 要らない気がするけど、とりあえず。
                 }  // using ( Stream request_stream = request.GetRequestStream() )
@@ -255,7 +254,7 @@ namespace Tween.Connections {
                                               IDictionary<string, string> header_info,
                                               bool with_cookie) {
             try {
-                using ( HttpWebResponse response = (HttpWebResponse)WebResponse.GetResponse() ) {
+                using ( HttpWebResponse response = (HttpWebResponse)request.GetResponse() ) {
                     HttpStatusCode status_code = response.StatusCode;
                     // cookie を保持します。
                     if ( with_cookie )
@@ -265,11 +264,11 @@ namespace Tween.Connections {
                     GetHeaderInfo( response, header_info );
                     
                     return status_code;
-                }  // using ( HttpWebResponse response = (HttpWebResponse)WebResponse.GetResponse() )
+                }  // using ( HttpWebResponse response = (HttpWebResponse)request.GetResponse() )
             } catch ( WebException we ) {
                 if ( we.Status == WebExceptionStatus.ProtocolError ) {
                     HttpWebResponse response = (HttpWebResponse)we.Response;
-                    GetHeader( response, header_info );
+                    GetHeaderInfo( response, header_info );
                     return response.StatusCode;
                 }
                 throw ;
@@ -289,26 +288,28 @@ namespace Tween.Connections {
          * @return HTTP 応答のステータスコード。
          */
         protected HttpStatusCode GetResponse( HttpWebRequest request,
-                                              out Image content,
+                                              out Image content_bitmap,
                                               IDictionary<string, string> header_info,
                                               bool with_cookie) {
             try {
-                using ( HttpWebResponse response = (HttpWebResponse)WebResponse.GetResponse() ) {
+                using ( HttpWebResponse response = (HttpWebResponse)request.GetResponse() ) {
                     HttpStatusCode status_code = response.StatusCode;
                     // cookie を保持します。
                     if ( with_cookie )
                         SaveCookie( response.Cookies );
 
                     // リダイレクト応答の場合はリダイレクト先を設定します。
-                    GetHeaderInfo( response, header_info );
-                    content = new Bitmap( reponse.GetResponseStream() );
+                    this.GetHeaderInfo( response, header_info );
+                    content_bitmap = new Bitmap( response.GetResponseStream() );
                     
                     return status_code;
-                }  // using ( HttpWebResponse response = (HttpWebResponse)WebResponse.GetResponse() )
+                }  // using ( HttpWebResponse response = (HttpWebResponse)request.GetResponse() )
             } catch ( WebException we ) {
                 if ( we.Status == WebExceptionStatus.ProtocolError ) {
                     HttpWebResponse response = (HttpWebResponse)we.Response;
-                    GetHeader( response, header_info );
+                    
+                    this.GetHeaderInfo( response, header_info );
+                    content_bitmap = null;
 
                     return response.StatusCode;
                 }
@@ -334,7 +335,7 @@ namespace Tween.Connections {
                                               IDictionary<string, string> header_info,
                                               bool with_cookie) {
             try {
-                using ( HttpWebResponse response = (HttpWebResponse)WebResponse.GetResponse() ) {
+                using ( HttpWebResponse response = (HttpWebResponse)request.GetResponse() ) {
                     HttpStatusCode status_code = response.StatusCode;
                     // cookie を保持します。
                     if ( with_cookie )
@@ -351,18 +352,19 @@ namespace Tween.Connections {
                                     CopyStream( stream, content_stream );
                             }
                         } else {
-                            using ( Stream stream = new GZipStream( response.GetResponseStream(), CompresstionMode.Decompress ) ) {
+                            using ( Stream stream = new GZipStream( response.GetResponseStream(), CompressionMode.Decompress ) ) {
                                 if ( stream != null )
                                     CopyStream( stream, content_stream );
                             }
                         }
                     }  // if ( response.ContentLength > 0 )
                     return status_code;
-                }  // using ( HttpWebResponse response = (HttpWebResponse)WebResponse.GetResponse() )
+                }  // using ( HttpWebResponse response = (HttpWebResponse)request.GetResponse() )
             } catch ( WebException we ) {
                 if ( we.Status == WebExceptionStatus.ProtocolError ) {
                     HttpWebResponse response = (HttpWebResponse)we.Response;
-                    GetHeader( response, header_info );
+                    this.GetHeaderInfo( response, header_info );
+                    
                     return response.StatusCode;
                 }
                 throw ;
@@ -391,7 +393,7 @@ namespace Tween.Connections {
                     if ( with_cookie )
                         SaveCookie( response.Cookies );
                     // リダイレクト応答の場合は、リダイレクト先を設定します。
-                    GetHeaderInfo( response, header_info );
+                    this.GetHeaderInfo( response, header_info );
                     // 応答ストリームをテキストに書き出します。
                     using ( StreamReader reader = new StreamReader( response.GetResponseStream() ) ) {
                         content_text = reader.ReadToEnd();
@@ -399,14 +401,17 @@ namespace Tween.Connections {
                     return status_code;
                 }  // using ( HttpWebResponse response = (HttpWebResponse)request.GetResponse() )
             } catch ( WebException we ) {
+                content_text = string.Empty;
                 if ( we.Status == WebExceptionStatus.ProtocolError ) {
                     HttpWebResponse response = (HttpWebResponse)we.Response;
-                    GetHeaderInfo( response, header_info );
+                    
+                    this.GetHeaderInfo( response, header_info );
                     using ( StreamReader reader = new StreamReader( response.GetResponseStream() ) ) {
                         content_text = reader.ReadToEnd();
                     }
                     return response.StatusCode;
                 }
+                return HttpStatusCode.BadRequest;
             }
         }
             
@@ -442,7 +447,8 @@ namespace Tween.Connections {
                 if ( index == -1 )
                     query.Add( Uri.UnescapeDataString( part ), "" );
                 else
-                    query.Add( Uri.UnescapeDataString( part.Substring( 0, index ) ), Uri.UnescapeDataString( part.Substring( index + 1 ) ) );
+                    query.Add( Uri.UnescapeDataString( part.Substring( 0, index ) ),
+                              Uri.UnescapeDataString( part.Substring( index + 1 ) ) );
             }
             return query;
         }
@@ -455,12 +461,12 @@ namespace Tween.Connections {
          * @return エンコードされた文字列。
          */
         protected string UrlEncode(string encodee) {
-            const string[] UnreservedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_.~";
+            const string UnreservedChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_.~";
 
             StringBuilder builder = new StringBuilder();
             byte[] bytes = Encoding.UTF8.GetBytes( encodee );
 
-            foreach ( byte[] b in bytes ) {
+            foreach ( byte b in bytes ) {
                 if ( UnreservedChars.IndexOf( (char)b ) != -1 )
                     builder.Append( (char)b );
                 else
@@ -477,7 +483,7 @@ namespace Tween.Connections {
         private void SaveCookie(CookieCollection cookies) {
             foreach ( Cookie cookie in cookies ) {
                 if ( cookie.Domain.StartsWith( "." ) ) {
-                    cookie.Domin = cookie.Domain.Substring( 1, cookie.Domin.Length - 1 );
+                    cookie.Domain = cookie.Domain.Substring( 1, cookie.Domain.Length - 1 );
                     __cookie_container.Add( cookie );
                 }
             }
@@ -487,26 +493,26 @@ namespace Tween.Connections {
         /**
          * in/out のストリームインスタンスを受け取り、コピーして返します。
          */
-        private void CopyStream(Stream input_stream, Stream write_stream) {
-            if ( input_stream == null )
+        private void CopyStream(Stream read_stream, Stream write_stream) {
+            if ( read_stream == null )
                 throw new ArgumentNullException( "input_stream" );
             if ( write_stream == null )
                 throw new ArgumentNullException( "write_stream" );
-            if ( input_stream.CanRead )
+            if ( read_stream.CanRead )
                 throw new ArgumentException( "Input stream can not read." );
             if ( write_stream.CanWrite )
                 throw new ArgumentException( "Output stream can not write" );
-            if ( input_stream.CanSeek )
+            if ( read_stream.CanSeek )
                 throw new ArgumentException( "Input stream can not have data." );
 
             while ( true ) {
                 byte[]  buffer = new byte[1024];
                 int temp = buffer.Length;
                 
-                temp = input_stream.Read( buffer, 0, temp );
+                temp = read_stream.Read( buffer, 0, temp );
                 if ( temp == 0 )
                     break;
-                output_stream.Write( buffer, 0, temp );
+                write_stream.Write( buffer, 0, temp );
             }
         }
 
@@ -532,11 +538,11 @@ namespace Tween.Connections {
                 }
             }
 
-            HttpStatsCode status_code = response.StatusCode;
-            if ( status_code == HttpStatsCode.MovedPermanently ||
-                 status_code == HttpStatsCode.Found ||
-                 status_code == HttpStatsCode.SeeOther ||
-                 status_code == HttpStatsCode.TemporaryRedirect ) {
+            HttpStatusCode status_code = response.StatusCode;
+            if ( status_code == HttpStatusCode.MovedPermanently ||
+                 status_code == HttpStatusCode.Found ||
+                 status_code == HttpStatusCode.SeeOther ||
+                 status_code == HttpStatusCode.TemporaryRedirect ) {
                 if ( header_info.ContainsKey( "Location" ) )
                     header_info["Location"] = response.Headers["Location"];
                 else
@@ -545,11 +551,11 @@ namespace Tween.Connections {
         }
 
 
-        protected readonly string PostMethod = "POST";
-        protected readonly string GetMethod = "GET";
-        protected readonly string HeadMethod = "HEAD";
-        protected readonly string PutMethod = "PUT";
-        protected readonly string DeleteMethod = "DELETE";
+        protected readonly string POST_METHOD = "POST";
+        protected readonly string GET_METHOD = "GET";
+        protected readonly string HEAD_METHOD = "HEAD";
+        protected readonly string PUT_METHOD = "PUT";
+        protected readonly string DELETE_METHOD = "DELETE";
         
         
         private int timeout_ = 0;

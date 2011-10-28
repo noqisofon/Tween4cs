@@ -1,10 +1,10 @@
 //  
-//  UserAccount.cs
+//  ToolStripLabelHistory.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
 // 
-//  Copyright (c) 2011 rihine
+//  Copyright (c) 2011 rihine All rights reserved.
 // 
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -20,15 +20,10 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // 
 using System;
-
-
-namespace Tween.Extensions.Twitter {
-    
-    
-    public class UserAccount {
-        public UserAccount () {
+namespace Tween.CustomControls {
+    public class ToolStripLabelHistory {
+        public ToolStripLabelHistory() {
         }
     }
-
-
 }
+

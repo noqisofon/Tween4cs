@@ -1,10 +1,10 @@
 //  
-//  UserAccount.cs
+//  WIN32API.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
 // 
-//  Copyright (c) 2011 rihine
+//  Copyright (c) 2011 rihine All rights reserved.
 // 
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -21,12 +21,18 @@
 // 
 using System;
 
+using Tween.Connections;
 
-namespace Tween.Extensions.Twitter {
+
+namespace Tween {
     
     
-    public class UserAccount {
-        public UserAccount () {
+    public static class WIN32API {
+        public static void SetProxy(ProxyType proxy_type,
+                                                 string proxy_address,
+                                                 int proxy_port,
+                                                 string proxy_user,
+                                                 string proxy_password) {
         }
     }
 

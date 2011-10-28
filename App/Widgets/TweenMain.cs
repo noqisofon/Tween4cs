@@ -28,23 +28,25 @@
 // "C:\Program Files\Microsoft Visual Studio 8\SDK\v2.0\Bin\sgen.exe" /f /a:"$(TargetPath)"
 using System;
 using System.ComponentModel;
-using System.Drawing;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
-//using System.Linq;
+using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
-using System.Reflection;
 using System.Web;
 using System.Windows.Forms;
 
+using Tween.CustomControls;
+using Tween.Extensions.Growl;
+using Tween.Extensions.Twitter;
+using Tween.Settings;
+using Tween.Widgets;
+
 
 namespace Tween {
-
-
-    using Tween.CustomControls;
-    using Tween.Extensions.Twitter;
 
 
     public class TweenMain {
@@ -98,7 +100,7 @@ namespace Tween {
         // 
         // Twitter 解析部。
         // 
-        private TwitterAnalysis twitter_analysis_ = new TwitterAnalysis();
+        private Twitter twitter_analysis_ = new Twitter();
         // 
         // Growl 呼び出し部。
         // 

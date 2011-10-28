@@ -53,14 +53,16 @@ namespace Tween.Mime {
          */
         public override string ToString() {
             if ( this.Parameter == string.Empty )
-            return string.Format( "{0}/{1}", this.Type, this.SubType );
+                return string.Format( "{0}/{1}", this.Type, this.SubType );
+            
+            return string.Format( "{0}/{1}; {3}", this.Type, this.SubType, this.Parameter );
         }
 
 
         /**
          * 
          */
-        public static ContentType ValueTo(string extension) {
+        public static ContentType ValueOf(string extension) {
             extension = extension.ToLower();
             switch ( extension ) {
             case ".jpg": goto case ".jpeg";

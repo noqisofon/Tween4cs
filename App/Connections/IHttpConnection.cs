@@ -39,9 +39,21 @@ namespace Tween.Connections {
         /**
          * 
          */
+        string AuthUsername { get; }
+
+
+        /**
+         * 
+         */
+        long AuthUserId { get; set; }
+
+
+        /**
+         * 
+         */
         HttpStatusCode GetContent( string method,
                                    Uri request_uri,
-                                   Dictionary<string, string> param,
+                                   IDictionary<string, string> param,
                                    ref Stream content,
                                    string user_agent );
         /**
@@ -49,19 +61,19 @@ namespace Tween.Connections {
          */
         HttpStatusCode GetContent( string method,
                                    Uri request_uri,
-                                   Dictionary<string, string> param,
+                                   IDictionary<string, string> param,
                                    ref string content,
-                                   Dictionary<string, string> header_info,
+                                   IDictionary<string, string> header_info,
                                    CallbackDelegate callback );
         /**
          * 
          */
         HttpStatusCode GetContent( string method,
                                    Uri request_uri,
-                                   Dictionary<string, string> param,
-                                   List<KeyValuePair<string, FileInfo>> binary,
+                                   IDictionary<string, string> param,
+                                   IList<KeyValuePair<string, FileInfo>> binary,
                                    ref string content,
-                                   Dictionary<string, string> header_info,
+                                   IDictionary<string, string> header_info,
                                    CallbackDelegate callback );
 
 
@@ -74,19 +86,7 @@ namespace Tween.Connections {
         /**
          * 
          */
-        HttpStatusCode Authenticate(Uri uri, string username, string password, ref string content);
-
-
-        /**
-         * 
-         */
-        string AuthUsername { get; }
-
-
-        /**
-         * 
-         */
-        string AuthUserId { get; set; }
+        HttpStatusCode Authenticate(Uri uri, string username, string password, out string content);
     }
     
 

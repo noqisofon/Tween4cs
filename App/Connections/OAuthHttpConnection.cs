@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
+using System.Text;
 using System.Security.Cryptography;
 
 
@@ -17,10 +19,29 @@ namespace Tween.Connections {
          * 
          */
         public OAuthHttpConnection()
-            : this( string.Empty, string.Empty, string.Empty,
-                    string.Empty, string.Empty, string.Empty ) {
+            : this( string.Empty, string.Empty, string.Empty, string.Empty,
+                    string.Empty, 0, string.Empty, string.Empty ) {
         }
-        
+        /**
+         * 
+         */
+        public OAuthHttpConnection(OAuthHttpConnection other)
+            : this( other.consumer_key_, other.consumer_secret_, other.access_token_, other.access_secret_,
+                    other.authorized_username_, other.authorized_user_id_, other.user_ident_key_, other.user_id_ident_key_ ) {
+        }
+        /**
+         * @param consumer_key
+         * @param consumer_secret
+         * @param access_token
+         * @param access_token_secret
+         */
+        public OAuthHttpConnection( string consumer_key,
+                                    string consumer_secret,
+                                    string access_token,
+                                    string access_token_secret)
+            : this( consumer_key, consumer_secret, access_token, access_token_secret,
+                    string.Empty, 0, string.Empty, string.Empty ){
+        }
         /**
          * @param consumer_key
          * @param consumer_secret
@@ -34,13 +55,9 @@ namespace Tween.Connections {
                                     string access_token,
                                     string access_token_secret,
                                     string user_identifier,
-                                    string user_id_identifier ) {
-            this.consumer_key_ = consumer_key;
-            this.consumer_secret_ = consumer_secret;
-            this.access_token_ = access_token;
-            this.access_secret_ = access_token_secret;
-            this.user_ident_key_ = user_identifier;
-            this.user_id_ident_key_ = user_id_identifier;
+                                    string user_id_identifier )
+            : this( consumer_key, consumer_secret, access_token, access_token_secret,
+                    string.Empty, 0, user_identifier, user_id_identifier) {
         }
         /**
          * @param consumer_key
@@ -59,8 +76,14 @@ namespace Tween.Connections {
                                     string username,
                                     long user_id,
                                     string user_identifier,
-                                    string user_id_identifier)
-            : this(consumer_key, consumer_secret, access_token, access_token_secret) {
+                                    string user_id_identifier) {
+            this.consumer_key_ = consumer_key;
+            this.consumer_secret_ = consumer_secret;
+            this.access_token_ = access_token;
+            this.access_secret_ = access_token_secret;
+            this.user_ident_key_ = user_identifier;
+            this.user_id_ident_key_ = user_id_identifier;
+
             this.authorized_username_ = username;
             this.authorized_user_id_ = user_id;
         }
@@ -78,7 +101,7 @@ namespace Tween.Connections {
          * 
          */
         public string AccessTokenSecret {
-            get { return this.access_token_secret_; }
+            get { return this.access_secret_; }
         }
 
 
@@ -111,7 +134,7 @@ namespace Tween.Connections {
          */
         public HttpStatusCode GetContent( string method,
                                           Uri request_uri,
-                                          Dictionary<string, string> param,
+                                          IDictionary<string, string> param,
                                           ref Stream content,
                                           string user_agent ) {
             if ( string.IsNullOrEmpty( this.access_token_ ) )
@@ -119,7 +142,7 @@ namespace Tween.Connections {
 
             this.RequestAbort();
 
-            this.streaming_request_ = CreateRequest( method, reuqest_uri, param, false );
+            this.streaming_request_ = CreateRequest( method, request_uri, param, false );
             // User-Agent 指定がある場合は付加します。
             if ( !string.IsNullOrEmpty( user_agent ) )
                 this.streaming_request_.UserAgent = user_agent;
@@ -134,11 +157,13 @@ namespace Tween.Connections {
                 HttpWebResponse response = (HttpWebResponse)this.streaming_request_.GetResponse();
                 content = response.GetResponseStream();
 
-                return response.StatuseCode;
-            } catch ( WebException we ) {
-                HttpWebResponse response = (HttpWebResponse)we.Response;
                 return response.StatusCode;
-
+            } catch ( WebException we ) {
+                if ( we.Status == WebExceptionStatus.ProtocolError ) {
+                    HttpWebResponse response = (HttpWebResponse)we.Response;
+                
+                    return response.StatusCode;
+                }
                 throw;
             }
         }
@@ -155,9 +180,9 @@ namespace Tween.Connections {
          */
         public HttpStatusCode GetContent( string method,
                                           Uri request_uri,
-                                          Dictionary<string, string> param,
+                                          IDictionary<string, string> param,
                                           ref string content,
-                                          Dictionary<string, string> header_info,
+                                          IDictionary<string, string> header_info,
                                           CallbackDelegate callback ) {
             if ( string.IsNullOrEmpty( this.access_token_ ) )
                 return HttpStatusCode.Unauthorized;
@@ -173,12 +198,12 @@ namespace Tween.Connections {
 
             HttpStatusCode code;
             if ( content == null )
-                code = this.GetResponse( request, header_info, false );
+                code = base.GetResponse( request, header_info, false );
             else
-                code = this.GetResponse( request, contentm, header_info, false );
+                code = base.GetResponse( request, out content, header_info, false );
 
             if ( callback != null )
-                callback( new StackFrame( 1 ).GetMethod().Name, code, content );
+                callback( new StackFrame( 1 ).GetMethod().Name, ref code, content );
 
             return code;
         }
@@ -187,10 +212,10 @@ namespace Tween.Connections {
          */
         public HttpStatusCode GetContent( string method,
                                           Uri request_uri,
-                                          Dictionary<string, string> param,
-                                          List<KeyValuePair<string, FileInfo>> binary,
+                                          IDictionary<string, string> param,
+                                          IList<KeyValuePair<string, FileInfo>> binary,
                                           ref string content,
-                                          Dictionary<string, string> header_info,
+                                          IDictionary<string, string> header_info,
                                           CallbackDelegate callback ) {
             if ( string.IsNullOrEmpty( this.access_token_ ) )
                 return HttpStatusCode.Unauthorized;
@@ -208,10 +233,10 @@ namespace Tween.Connections {
             if ( content == null )
                 code = this.GetResponse( request, header_info, false );
             else
-                code = this.GetResponse( request, contentm, header_info, false );
+                code = this.GetResponse( request, out content, header_info, false );
 
             if ( callback != null )
-                callback( new StackFrame( 1 ).GetMethod().Name, code, content );
+                callback( new StackFrame( 1 ).GetMethod().Name, ref code, content );
 
             return code;
         }
@@ -261,14 +286,15 @@ namespace Tween.Connections {
             if ( status_code != HttpStatusCode.OK )
                 return status_code;
 
-            NameValueCollection access_token_data = ParseQueryString( content );
+            //IDictionary<string, string> access_token_data = ParseQueryString( content );
+            IDictionary<string, string> access_token_data = ParseQueryString( content );
             if ( access_token_data != null ) {
                 this.access_token_ = access_token_data["oauth_token"];
                 this.access_secret_ = access_token_data["oauth_token_secret"];
                 //
                 // サービスごとの独自拡張対応。
                 //
-                if ( this.user_ident_key != string.Empty )
+                if ( this.user_ident_key_ != string.Empty )
                     this.authorized_username_ = access_token_data[this.user_ident_key_];
                 else
                     this.authorized_username_ = string.Empty;
@@ -305,7 +331,7 @@ namespace Tween.Connections {
          * @return 成功したら真。
          */
         public bool AuthenticatePinFlowRequest(string request_token_url, string request_url, ref string request_token, out Uri authorize_uri) {
-            authorize_uri = GetAuthenticatePageUri( request_token_url, request_url, ref request_token );
+            authorize_uri = this.GetAuthenticatePageUri( request_token_url, request_url, out request_token );
 
             return authorize_uri == null? false: true;
         }
@@ -330,15 +356,16 @@ namespace Tween.Connections {
             // アクセストークンを取得します。
             //
             string content = string.Empty;
-            NameValueCollection access_token_data = null;
-            HttpStatusCode status_code = GetOAuthToken( new Uri( access_token_url ),
+            IDictionary<string, string> access_token_data = null;
+            HttpStatusCode status_code = this.GetOAuthToken( new Uri( request_token_url ),
                                                         pin_code,
                                                         request_token,
                                                         null,
-                                                        content );
+                                                        out content );
 
             if ( status_code != HttpStatusCode.OK )
                 return status_code;
+            
             access_token_data = ParseQueryString( content );
 
             if ( access_token_data != null ) {
@@ -347,7 +374,7 @@ namespace Tween.Connections {
                 //
                 // サービスごとの独自拡張対応。
                 //
-                if ( this.user_ident_key != string.Empty )
+                if ( this.user_ident_key_ != string.Empty )
                     this.authorized_username_ = access_token_data[this.user_ident_key_];
                 else
                     this.authorized_username_ = string.Empty;
@@ -381,21 +408,22 @@ namespace Tween.Connections {
          */
         private Uri GetAuthenticatePageUri(string request_token_url, string authorize_url, out string request_token) {
             const string token_key = "oauth_token";
-
+            
+            request_token = string.Empty;
             // 
             // リクエストトークンを取得します。
             //
             string content = string.Empty;
-            NameValueCollection request_token_data;
+            IDictionary<string, string> request_token_data;
             if ( GetOAuthToken( new Uri( request_token_url ),
                                 string.Empty,
                                 string.Empty,
                                 null,
-                                content ) != HttpStatusCode.OK )
+                                out content ) != HttpStatusCode.OK )
                 return null;
 
             request_token_data = ParseQueryString( content );
-
+            
             if ( request_token_data != null ) {
                 request_token = request_token_data[token_key];
                 // Uri オブジェクトを生成します。
@@ -432,14 +460,14 @@ namespace Tween.Connections {
                 }
             }
             // PIN コードが指定されていればパラメータに追加します。
-            if ( !string.IsNullOrEmopy( pin_code ) )
+            if ( !string.IsNullOrEmpty( pin_code ) )
                 query.Add( "oauth_verifier", pin_code );
             // OAuth 関連情報を HTTP リクエストに追加します。
             AppendOAuthInfo( request, query, request_token, string.Empty );
             // HTTP 応答を取得します。
             IDictionary<string, string> header = new Dictionary<string, string>();
             header["Date"] = string.Empty;
-            HttpStatusCode status_code = GetResponse( request, content, header, false );
+            HttpStatusCode status_code = base.GetResponse( request, out content, header, false );
 
             if ( status_code == HttpStatusCode.OK )
                 return status_code;
@@ -448,8 +476,8 @@ namespace Tween.Connections {
                 //content
                 StringBuilder builder = new StringBuilder( content );
 
-                builder.Append( Enironment.NewLine );
-                builder.Append( "Check the Date & Time of this computer." ).Append( Enironment.NewLine );
+                builder.Append( Environment.NewLine );
+                builder.Append( "Check the Date & Time of this computer." ).Append( Environment.NewLine );
                 builder.AppendFormat( "Sever:{0}", DateTime.Parse( header["Date"] ) );
                 builder.AppendFormat( "PC:{0}", DateTime.Now );
 
@@ -476,7 +504,7 @@ namespace Tween.Connections {
                 }
             }
             // 署名の作成・追加を行います。
-            palams.Add( "oauth_signature", CreateSignature( token_secret, request.Method, request.RequestUri, palams ) );
+            palams.Add( "oauth_signature", this.CreateSignature( token_secret, request.Method, request.RequestUri, palams ) );
             // HTTP リクエストのヘッダに追加します。
             StringBuilder buffer = new StringBuilder( "OAuth " );
             foreach ( KeyValuePair<string, string> item in palams ) {
@@ -485,7 +513,7 @@ namespace Tween.Connections {
                 if ( item.Key.StartsWith( "oauth_" ) )
                     buffer.AppendFormat( "{0}=\"{1}\",", item.Key, UrlEncode( item.Value ) );
             }
-            request.Headers.Add( HttpRequest.Authorization, buffer.ToString() );
+            request.Headers.Add( HttpRequestHeader.Authorization, buffer.ToString() );
         }
 
 
@@ -500,7 +528,7 @@ namespace Tween.Connections {
 
             palams.Add( "oauth_consumer_key", this.consumer_key_ );
             palams.Add( "oauth_signature_method", "HMAC-SHA1" );
-            palams.Add( "oauth_timespamp", Convert.ToInt64( (DateTime.UtcNow - UnixEpoch).ToString() ) );  // epoch 秒。
+            palams.Add( "oauth_timespamp", Convert.ToInt64( (DateTime.UtcNow - UnixEpoch) ).ToString() );  // epoch 秒。
             palams.Add( "oauth_nonce", NonceRandom.Next( 123400, 9999999 ).ToString() );
             palams.Add( "oauth_version", "1.0" );
             // トークンがあれば追加します。
@@ -514,9 +542,9 @@ namespace Tween.Connections {
         /**
          * OAuth 認証ヘッダの署名を作成して返します。
          */
-        protected virtual string CreateSignaure(string token_secret, string method, Uri uri,  IDictionary<string, string> palams) {
+        protected virtual string CreateSignature(string token_secret, string method, Uri uri, IDictionary<string, string> palams) {
             // params をソート済みディクショナリに詰め替えます。
-            SortedDictionary sorted_params = new SortedDictionary<string, string>( palams );
+            SortedDictionary<string, string> sorted_params = new SortedDictionary<string, string>( palams );
             // URL エンコード済みのクエリ形式文字列に変換します。
             string param_string = CreateQueryString( sorted_params );
             // アクセス先 URL の整形をおこないます。
@@ -527,8 +555,8 @@ namespace Tween.Connections {
             // アクセストークン秘密鍵が無くても '&' を残すようにしてください)。
             StringBuilder key_builder = new StringBuilder( UrlEncode( this.consumer_secret_ ) ).Append( "&" );
 
-            if ( !string.Format( this.token_secret_ ) )
-                key_builder.Append( UrlEncode( this.token_secret_ ) );
+            if ( !string.IsNullOrEmpty( token_secret ) )
+                key_builder.Append( UrlEncode( token_secret ) );
             // 
             // 鍵と署名を生成します。
             // 

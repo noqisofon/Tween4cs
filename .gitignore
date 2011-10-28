@@ -4,3 +4,4 @@
 *.txt
 *.log
 bin/
+commit_message.tmp

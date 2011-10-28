@@ -34,7 +34,7 @@ namespace Tween {
         /// </param>
         public IntervalChangedEventArgs(bool user_stream, bool timeline, bool reply, bool directmessage, bool public_search, bool lists, bool user_timeline) {
             this.UserStream = user_stream;
-            this.Timeline = timeeline;
+            this.Timeline = timeline;
             this.Reply = reply;
             this.DirectMessage = directmessage;
             this.PublicSearch = public_search;
@@ -108,7 +108,9 @@ namespace Tween {
 
         private bool user_stream_;
         private bool timeline_;
+        private bool reply_;
         private bool direct_message_;
+        private bool public_search_;
         private bool lists_;
         private bool user_timeline_;
     }

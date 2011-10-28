@@ -1,10 +1,10 @@
 //  
-//  UserAccount.cs
+//  EntryPoint.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
 // 
-//  Copyright (c) 2011 rihine
+//  Copyright (c) 2011 rihine All rights reserved.
 // 
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,11 +22,11 @@
 using System;
 
 
-namespace Tween.Extensions.Twitter {
+namespace Tween {
     
     
-    public class UserAccount {
-        public UserAccount () {
+    class EntryPoint {
+        public static void Main(string[] args) {
         }
     }
 

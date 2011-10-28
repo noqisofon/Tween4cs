@@ -1,5 +1,5 @@
 //  
-//  UserAccount.cs
+//  UploadFileType.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
@@ -22,12 +22,10 @@
 using System;
 
 
-namespace Tween.Extensions.Twitter {
+namespace Tween.Extensions {
+
     
-    
-    public class UserAccount {
-        public UserAccount () {
-        }
+    public enum UploadFileType {
     }
 
 

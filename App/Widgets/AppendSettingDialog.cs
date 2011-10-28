@@ -30,17 +30,16 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 
+using Tween.Connections;
+using Tween.Extensions;
+using Tween.Extensions.Outputz;
+using Tween.Extensions.Twitter;
+using Tween.Extensions.Twitter.DataModel;
 
-namespace Tween {
+
+namespace Tween.Widgets {
     
     
-    using Tween.Connections;
-    using Tween.Extensions;
-    using Tween.Extensions.Outputz;
-    using Tween.Extensions.Twitter;
-    using Tween.Extensions.Twitter.DataModel;
-
-
     public partial class AppendSettingDialog {
         public bool IsPreviewFoursquare {
             get { return this.is_preview_foursquare_; }
@@ -837,7 +836,7 @@ namespace Tween {
         }
 
 
-        private TwitterAnalysis twitter_analysis_;
+        private Twitter twitter_analysis_;
         private int timeline_period_;
         private int direct_message_period_;
         private int public_search_period_;

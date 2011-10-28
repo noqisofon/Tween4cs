@@ -50,7 +50,7 @@ namespace Tween.Extensions.Twitter {
     /**
      * 
      */
-    public class TwitterAnalysis : IDisposable {
+    public class Twitter : IDisposable {
         /**
          * 
          */
@@ -61,13 +61,13 @@ namespace Tween.Extensions.Twitter {
             TwitterApiInfo.Start();
 
             try {
-                respond_code = this.twitter_connection_;
+                respond_code = this.twitter_client_;
             } catch ( Exception e ) {
             }
         }
 
 
-        private HttpTwitter twitter_connection_;
+        private TwitterClient twitter_client_;
         private List<long> follower_ids;
         private bool get_follower_result_  = false;
         private List<long> no_retweet_ids_;
