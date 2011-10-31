@@ -1,5 +1,5 @@
 //  
-//  EntryPoint.cs
+//  Resources.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
@@ -22,17 +22,13 @@
 using System;
 
 
-namespace Tween {
+namespace Tween.Properties {
     
     
-    class EntryPoint {
-        public static void Main(string[] args) {
+    public class Resources {
+        public Resources() {
         }
     }
 
 
 }
-// Local Variables:
-//   coding: utf-8
-//   mode: vala
-// End:

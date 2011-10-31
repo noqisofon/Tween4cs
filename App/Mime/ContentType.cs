@@ -129,5 +129,5 @@ namespace Tween.Mime {
 }
 // Local Variables:
 //   coding: utf-8
-//   mode: ecmascript-mode
+//   mode: vala-mode
 // End:

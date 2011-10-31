@@ -29,6 +29,8 @@ namespace Tween.Extensions.Outputz {
      * 
      */
     public enum OutputzUrlMode {
+		TwitterCom,
+		TwitterComWithUsername
     }
 
 

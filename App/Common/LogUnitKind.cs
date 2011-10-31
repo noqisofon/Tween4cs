@@ -1,10 +1,10 @@
 //  
-//  EntryPoint.cs
+//  LogUnitEnum.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
 // 
-//  Copyright (c) 2011 rihine All rights reserved.
+//  Copyright (c) 2011 rihine
 // 
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,17 +22,17 @@
 using System;
 
 
-namespace Tween {
-    
-    
-    class EntryPoint {
-        public static void Main(string[] args) {
-        }
+namespace Tween.Common {
+
+
+    /**
+     * 
+     */
+    public enum LogUnitKind {
+        Minute,
+        Hour,
+        Day
     }
-
-
+    
+    
 }
-// Local Variables:
-//   coding: utf-8
-//   mode: vala
-// End:

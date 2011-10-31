@@ -71,10 +71,6 @@
     <Compile Include="Connections\OAuthHttpConnection.cs" />
     <Compile Include="Connections\ProxyType.cs" />
     <Compile Include="CustomControls\AdsBrowser.cs" />
-    <Compile Include="DisplayTitleKind.cs" />
-    <Compile Include="IconSizes.cs" />
-    <Compile Include="NameBalloons.cs" />
-    <Compile Include="ReplyIconState.cs" />
     <Compile Include="Connections\IHttpConnection.cs" />
     <Compile Include="Connections\CallbackDelegate.cs" />
     <Compile Include="Widgets\AppendSettingDialog.Designer.cs" />
@@ -87,10 +83,7 @@
     <Compile Include="Widgets\MessageForm.cs" />
     <Compile Include="Widgets\TweenMain.Designer.cs" />
     <Compile Include="Widgets\TweenMain.cs" />
-    <Compile Include="LogUnitEnum.cs" />
     <Compile Include="Extensions\Outputz\OutputzUrlMode.cs" />
-    <Compile Include="Extensions\UrlConvertor.cs" />
-    <Compile Include="TweenEventType.cs" />
     <Compile Include="Extensions\Twitter\UserAccount.cs" />
     <Compile Include="Extensions\Twitter\DataModel\Configuration.cs" />
     <Compile Include="Extensions\IMultimediaShareService.cs" />
@@ -108,6 +101,21 @@
     <Compile Include="Settings\SettingLocal.cs" />
     <Compile Include="EntryPoint.cs" />
     <Compile Include="WIN32API.cs" />
+    <Compile Include="Connections\OAuthApiImpl.cs" />
+    <Compile Include="Connections\HttpMethods.cs" />
+    <Compile Include="Common\DisplayTitleKind.cs" />
+    <Compile Include="Common\IconSizes.cs" />
+    <Compile Include="Common\LogUnitKind.cs" />
+    <Compile Include="Common\NameBalloons.cs" />
+    <Compile Include="Common\UrlConvertorKind.cs" />
+    <Compile Include="Common\HitResult.cs" />
+    <Compile Include="Connections\HttpTimeouts.cs" />
+    <Compile Include="Common\WorkerType.cs" />
+    <Compile Include="Common\AccountState.cs" />
+    <Compile Include="Common\ReplyIconState.cs" />
+    <Compile Include="Common\TweenEventType.cs" />
+    <Compile Include="Common\Utility.cs" />
+    <Compile Include="Properties\Resources.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.desktop" />
@@ -120,5 +128,6 @@
     <Folder Include="Extensions\Twitter\DataModel\" />
     <Folder Include="Extensions\Growl\" />
     <Folder Include="Settings\" />
+    <Folder Include="Properties\" />
   </ItemGroup>
 </Project>

@@ -117,6 +117,6 @@ namespace Tween {
 
 }
 // Local Variables:
-//   mode: ecmascript
+//   mode: vala
 //   coding: utf-8
 // End:

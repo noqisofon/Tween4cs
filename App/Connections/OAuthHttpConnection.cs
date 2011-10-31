@@ -620,5 +620,5 @@ namespace Tween.Connections {
 }
 // Local Variables:
 //   coding: utf-8
-//   mode: ecmascript
+//   mode: vala
 // End:

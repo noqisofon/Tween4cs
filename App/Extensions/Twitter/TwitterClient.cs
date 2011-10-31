@@ -27,94 +27,33 @@ using System;
 using System.IO;
 using System.Net;
 
+using Tween.Connections;
 
-namespace Tween.Connections {
+
+namespace Tween.Extensions.Twitter {
     
 
     /**
      * 
      */
-    public class TwitterClient : ICloneable {
+    public class TwitterClient : OAuthApiImpl {
         /**
          *
          */
-        public TwitterClient(string access_token, string access_token_secret, string user_name, long user_id) {
-            this.SetAuthInfo( access_token, access_token_secret, user_name, user_id );
+        public TwitterClient(string access_token, string access_token_secret, string user_name, long user_id)
+            : base( access_token, access_token_secret, user_name, user_id ) {
+            
         }
 
 
         /**
          * 
          */
-        public string AccessToken {
-            get {
-                if ( this.http_connection_ != null )
-                    return ((OAuthHttpConnection)this.http_connection_).AccessToken;
-                else
-                    return string.Empty;
-            }
-        }
-
-
-        /**
-         * 
-         */
-        public string AccessTokenSecret {
-            get {
-                if ( this.http_connection_ != null )
-                    return ((OAuthHttpConnection)this.http_connection_).AccessTokenSecret;
-                else
-                    return string.Empty;
-            }
-        }
-
-
-        /**
-         * 
-         */
-        public string AuthenticatedUsername {
-            get {
-                if ( this.http_connection_ != null )
-                    return this.http_connection_.AuthUsername;
-                else
-                    return string.Empty;
-            }
-        }
-
-
-        /**
-         * 
-         */
-        public long AuthenticatedId {
-            get {
-                if ( this.http_connection_ != null )
-                    return this.http_connection_.AuthUserId;
-                else
-                    return 0;
-            }
-            set {
-                if ( this.http_connection_ != null )
-                    this.http_connection_.AuthUserId = value;
-            }
-        }
-
-
-        /**
-         * 
-         */
-        public string Password {
-            get { return string.Empty; }
-        }
-
-
-        /**
-         * 
-         */
-        public bool GetRequestToken(out string content) {
+        public override bool GetRequestToken(out string content) {
             Uri authentic_uri = null;
             bool result;
 
-            result = ((TwitterOAuthHttpConnection)this.http_connection_).AuthenticatePinFlowRequest( REQUEST_TOKEN_URL,
+            result = ((TwitterOAuthHttpConnection)base.InnerConnection).AuthenticatePinFlowRequest( REQUEST_TOKEN_URL,
                                                                                                      AUTHORIZE_URL,
                                                                                                      this.request_token_,
                                                                                                      authentic_uri );
@@ -127,27 +66,19 @@ namespace Tween.Connections {
         /**
          * 
          */
-        public HttpStatusCode GetAccessToken(string pin) {
-            return ((TwitterOAuthHttpConnection)this.http_connection_).AuthenticatePinFlow( ACCESS_TOKEN_URL, this.request_token_, pin );
+        public override HttpStatusCode GetAccessToken(string pin) {
+            return ((TwitterOAuthHttpConnection)base.InnerConnection).AuthenticatePinFlow( ACCESS_TOKEN_URL, this.request_token_, pin );
         }
 
 
         /**
          * 
          */
-        public HttpStatusCode AuthenticateWithUserAndPassword(string user_name, string password, out string content) {
-            return this.http_connection_.Authenticate( new Uri( ACCESS_TOKEN_URL_XAUTH ),
+        public override HttpStatusCode AuthenticateWithUserAndPassword(string user_name, string password, out string content) {
+            return base.InnerConnection.Authenticate( new Uri( ACCESS_TOKEN_URL_XAUTH ),
                                                        user_name,
                                                        password,
                                                        content );
-        }
-
-
-        /**
-         * 
-         */
-        public void ClearAuthInfo() {
-            this.SetAuthInfo();
         }
 
 
@@ -168,47 +99,12 @@ namespace Tween.Connections {
                 palams.Add( "in_reply_to_status_id", reply_to_id.ToString() );
             palams.Add( "include_entities", "true" );
 
-            return this.http_connection_.GetContent( POST_METHOD,
+            return base.InnerConnection.GetContent( POST_METHOD,
                                                      CreateTwitterUri( "/1/statuses/update.json" ),
                                                      palams,
                                                      content,
                                                      null,
                                                      null );
-        }
-
-
-        /**
-         * 
-         */
-        private void SetAuthInfo() {
-            this.SetAuthInfo( string.Empty, string.Empty, string.Empty, 0 );
-        }
-        /**
-         * 
-         */
-        private void SetAuthInfo(string access_token, string access_token_secret, string user_name, long user_id) {
-            OAuthHttpConnection connection = null;
-
-            //static string _cache_key = string.Empty;
-            //static string _cache_key_secret = string.Empty;
-            //static string _cache_user_name = string.Empty;
-
-            //if ( _cache_key != access_token || _cache_key_secret != access_token_secret || _cache_user_name == user_name ) {
-            //    _cache_key = access_token;
-            //    _cache_key_secret = access_token_secret;
-            //    _cache_user_name = user_name;
-            //}
-            connection = new TwitterOAuthHttpConnection( DecryptString( CONSUMER_KEY ),
-                                                         DecryptString( CONSUMER_SECRET ),
-                                                         access_token,
-                                                         access_token_secret,
-                                                         user_name,
-                                                         user_id,
-                                                         "screen_name",
-                                                         "user_id" );
-            this.http_connection_ = connection;
-            this.connection_type_ = AuthMethod.OAuth;
-            this.request_token_ = string.Empty;
         }
 
 
@@ -221,31 +117,31 @@ namespace Tween.Connections {
             else
                 __protocol = "http://";
         }
-
-
+        
+        
         /**
-         * 
+         *
          */
-        private enum AuthMethod {
-            OAuth,
-            Basic
+        protected override IHttpConnection CreateHttpConnection(string access_token, string access_token_secret, string user_name, long user_id) {
+            return new TwitterOAuthHttpConnection( DecryptString( CONSUMER_KEY ),
+                                                         DecryptString( CONSUMER_SECRET ),
+                                                         access_token,
+                                                         access_token_secret,
+                                                         user_name,
+                                                         user_id,
+                                                         "screen_name",
+                                                         "user_id" );
         }
-
-
-        private IHttpConnection http_connection_;
-        private HttpVarious http_connection_various_;
-        private AuthMethod connection_type_;
-        private string request_token_;
 
 
         /**
          * OAuth のコンシューマー鍵。
          */
-        private readonly string CONSUMER_KEY = "";
+        private readonly string CONSUMER_KEY = "YM01qSkuRcXAxKWcthNOw";
         /**
          * OAuth の署名作成用秘密コンシューマーデータ。
          */
-        private readonly string CONSUMER_SECRET = "";
+        private readonly string CONSUMER_SECRET = "yHveugMdnCbx2oZXOhRPjetePRblEkNKbg9p2EXbI";
         /**
          * OAuth のアクセストークン取得先 URI。
          */
@@ -279,5 +175,5 @@ namespace Tween.Connections {
 }
 // Local Variables:
 //   coding: utf-8
-//   mode: ecmascript
+//   mode: vala
 // End:

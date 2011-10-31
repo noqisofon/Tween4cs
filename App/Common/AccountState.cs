@@ -1,10 +1,10 @@
 //  
-//  LogUnitEnum.cs
+//  AccountState.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
 // 
-//  Copyright (c) 2011 rihine
+//  Copyright (c) 2011 rihine All rights reserved.
 // 
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,13 +22,15 @@
 using System;
 
 
-namespace Tween {
-    
-    
+namespace Tween.Common {
+
+
     /**
      * 
      */
-    public enum LogUnitEnum {
+    public enum AccountState {
+        Valid,
+        Invalid
     }
 
 

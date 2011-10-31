@@ -1,5 +1,5 @@
 //  
-//  EntryPoint.cs
+//  HttpTimeouts.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
@@ -22,17 +22,17 @@
 using System;
 
 
-namespace Tween {
-    
-    
-    class EntryPoint {
-        public static void Main(string[] args) {
-        }
+namespace Tween.Connections {
+
+
+    /**
+     * 
+     */
+    public enum HttpTimeouts {
+        MinValue = 10,
+        MaxValue = 120,
+        DefaultValue = 20
     }
 
 
 }
-// Local Variables:
-//   coding: utf-8
-//   mode: vala
-// End:

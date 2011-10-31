@@ -30,6 +30,7 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 
+using Tween.Common;
 using Tween.Connections;
 using Tween.Extensions;
 using Tween.Extensions.Outputz;
@@ -135,8 +136,8 @@ namespace Tween.Widgets {
 
         private void btnSave_Click(object sender, EventArgs ergs) {
             if ( TweenMain.IsNetworkAvailable
-                 && (autoShortUrlFirstComboBox.SelectedIndex == UrlConvertor.Bitly
-                     || autoShortUrlFirstComboBox.SelectedIndex == UrlConvertor.Jmp)
+                 && (autoShortUrlFirstComboBox.SelectedIndex == UrlConvertorKind.Bitly
+                     || autoShortUrlFirstComboBox.SelectedIndex == UrlConvertorKind.Jmp)
                  && ( !string.IsNullOrEmpty( bitlyIdEntry.Text ) || !string.IsNullOrEmpty( bitlyPasswordEntry.Text ) ) ) {
                 if ( !BitlyValidation( bitlyIdEntry.Text, bitlyPasswordEntry.Text ) ) {
                     MessageBox.Show( Resources["SettingSave_ClickText1"] );
@@ -430,7 +431,7 @@ namespace Tween.Widgets {
 
                 this.translate_language_ = new Bing.GetLanguageEnumFromIndex( translateLanguageComboBox.SelectedIndex );
                 this.event_sound_file_ = eventNotifySoundComboBox.SelectedItem.ToString();
-                this.auto_short_url_first_ = autoShortUrlFirstComboBox.SelectedIndex as UrlConvertor;
+                this.auto_short_url_first_ = autoShortUrlFirstComboBox.SelectedIndex as UrlConvertorKind;
                 this.tab_icon_display_ = tabIconDispCheckBox.Checked;
                 this.read_own_post_ = readOwnPostCheckBox.Checked;
                 this.get_favorite_ = getFavoriteCheckBox.Checked;
@@ -843,7 +844,7 @@ namespace Tween.Widgets {
         private int lists_period_;
         private int user_timeline_period_;
         private int log_days_;
-        private LogUnitEnum log_unit_;
+        private LogUnitKind log_unit_;
         private bool readed_;
         private IconSizes icon_size_;
         private string status_text_;
@@ -906,7 +907,7 @@ namespace Tween.Widgets {
 
         private int reply_period_;
 
-        private UrlConvertor auto_short_url_first_;
+        private UrlConvertorKind auto_short_url_first_;
 
         private bool tab_icon_display_;
 
@@ -982,6 +983,6 @@ namespace Tween.Widgets {
 
 }
 // Local Variables:
-//   mode: ecmascript
+//   mode: vala
 //   coding: utf-8
 // End:

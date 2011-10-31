@@ -1,5 +1,5 @@
 //  
-//  EntryPoint.cs
+//  ReplyIconState.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
@@ -22,17 +22,17 @@
 using System;
 
 
-namespace Tween {
-    
-    
-    class EntryPoint {
-        public static void Main(string[] args) {
-        }
+namespace Tween.Common {
+
+
+    /**
+     * 
+     */
+    public enum ReplyIconState {
+        None,
+        StaticIcon,
+        BlinkIcon
     }
 
 
 }
-// Local Variables:
-//   coding: utf-8
-//   mode: vala
-// End:

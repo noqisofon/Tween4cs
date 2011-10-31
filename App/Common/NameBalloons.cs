@@ -1,9 +1,12 @@
 
 
 
-namespace Tween {
+namespace Tween.Common {
 
 
+	/**
+	 * 
+	 */
     public enum NameBalloons {
         None = 3 << 0,
         UserID = 3 << 1,
@@ -14,5 +17,5 @@ namespace Tween {
 }
 // Local Variables:
 //   coding: utf-8
-//   mode: ecmascript
+//   mode: vala
 // End:

@@ -1,10 +1,10 @@
 //  
-//  UrlConvertor.cs
+//  HttpMethods.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
 // 
-//  Copyright (c) 2011 rihine
+//  Copyright (c) 2011 rihine All rights reserved.
 // 
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -20,19 +20,21 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // 
 using System;
-namespace Tween.Extensions {
-    
-    
+
+
+namespace Tween.Connections {
+
+
     /**
      * 
      */
-    public class UrlConvertor {
-        /**
-         * 
-         */
-        public UrlConvertor () {
-        }
+    public static class HttpMethods {
+        public static readonly string POST = "POST";
+        public static readonly string GET = "GET";
+        public static readonly string HEAD = "HEAD";
+        public static readonly string PUT = "PUT";
+        public static readonly string DELETE = "DELETE";
     }
-
-
+    
+    
 }

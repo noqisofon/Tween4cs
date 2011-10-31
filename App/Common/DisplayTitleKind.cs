@@ -1,7 +1,7 @@
 
 
 
-namespace Tween {
+namespace Tween.Common {
 
 
     public enum DisplayTitleKind : int {
@@ -19,5 +19,5 @@ namespace Tween {
 }
 // Local Variables:
 //   coding: utf-8
-//   mode: ecmascript
+//   mode: vala
 // End:
