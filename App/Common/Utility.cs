@@ -295,9 +295,52 @@ namespace Tween.Common {
                     }
                 } else if ( Convrt.ToInt32( ch ) > 127 || ch == '%' ) {
                     // UTF-8 の場合:
-                    // 
-                }
+                    // Uri クラスを新しく作成し、入力を input から Authority 部分を除去してやり直します。
+                    if ( uri == null ) {
+                        uri = new Uri( input );
+                        input = input.Remove( 0, uri.GetLeftPart( UriPartial.Authority ).Length );
+                        buffer.Length = 0;
+
+                        goto retry;
+                    } else
+                        builder.AppendFormat( "%{0}", Convert.ToInt16( ch ).ToString( "X2" ).ToUpper() );
+                } else
+                    builder.Append( ch );
+            }  // foreach ( ch in input )
+
+            if ( uri == null )
+                result = buffer.ToString();
+            else
+                result = uri.GetLeftPart( UriPartial.Authority ) + buffer.ToString();
+
+            return result;
+        }
+
+
+        /**
+         * URL のドメイン名を punycode 展開します。
+         * @param url 展開対象の URL。
+         * <p>
+         * ドメイン名が IDN でない場合はそのまま返します。
+         * </p>
+         */
+        public static string IdnDecode(string url) {
+            string result = string.Empty;
+            IdnMapping idn_convertor = new IdnMapping();
+
+            if ( !url.Contains( "://" ) )
+                return null;
+
+            string domain;
+            string ascii_domain;
+
+            try {
+                domain = url.Split( '/' )[2];
+                ascii_domain = idn_convertor.GetAscii( domain );
+            } catch ( Exception ) {
+                return null;
             }
+            return url.Replace( string.Format( "://{0}", domain ), string.Format( "://{0}", ascii_domain ) );
         }
 
 
