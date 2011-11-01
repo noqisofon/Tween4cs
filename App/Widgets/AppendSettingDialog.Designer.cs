@@ -1420,21 +1420,12 @@ namespace Tween.Widgets {
             // 
             // FontDialog1
             // 
-            this.FontDialog1.AccessibleDescription = null;
-            this.FontDialog1.AccessibleName = null;
-            this.FontDialog1.BackgroundImage = null;
             resources.ApplyResources( this.FontDialog1, "FontDialog1" );
             this.FontDialog1.Font = null;
-            this.FontDialog1.Name = "FontDialog1";
             // 
             // ColorDialog1
             // 
-            this.ColorDialog1.AccessibleDescription = null;
-            this.ColorDialog1.AccessibleName = null;
-            this.ColorDialog1.BackgroundImage = null;
             resources.ApplyResources( this.ColorDialog1, "ColorDialog1" );
-            this.ColorDialog1.Font = null;
-            this.ColorDialog1.Name = "ColorDialog1";
             // 
             // TwitterSearchAPIText
             // 

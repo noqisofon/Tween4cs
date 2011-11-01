@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="App/Common/Utility.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="App/Widgets/AppendSettingDialog.Designer.cs" ctype="Workbench">
     <Files>
-      <File FileName="App/Common/Utility.cs" Line="1" Column="1" />
+      <File FileName="App/Common/Utility.cs" Line="269" Column="10" />
+      <File FileName="App/Common/TabUsageType.cs" Line="1" Column="1" />
+      <File FileName="App/Widgets/AppendSettingDialog.Designer.cs" Line="2397" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,12 +12,12 @@
           <Option id="ShowVersionControlOverlays" value="True" />
           <Option id="ShowAllFiles" value="False" />
           <Node name="Tween4cs" expanded="True">
-            <Node name="Common" expanded="True">
-              <Node name="Utility.cs" selected="True" />
-            </Node>
+            <Node name="Common" expanded="True" />
             <Node name="Connections" expanded="True" />
             <Node name="Extensions" expanded="True" />
-            <Node name="Widgets" expanded="True" />
+            <Node name="Widgets" expanded="True">
+              <Node name="AppendSettingDialog.Designer.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

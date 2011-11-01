@@ -116,6 +116,7 @@
     <Compile Include="Common\TweenEventType.cs" />
     <Compile Include="Common\Utility.cs" />
     <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Common\TabUsageType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.desktop" />
