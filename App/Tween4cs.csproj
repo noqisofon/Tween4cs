@@ -66,7 +66,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="IntervalChangedEventArgs.cs" />
     <Compile Include="Connections\HttpConnection.cs" />
     <Compile Include="Connections\OAuthHttpConnection.cs" />
     <Compile Include="Connections\ProxyType.cs" />
@@ -77,7 +76,6 @@
     <Compile Include="Widgets\AppendSettingDialog.cs" />
     <Compile Include="Widgets\SearchWordDialog.Designer.cs" />
     <Compile Include="Widgets\SearchWordDialog.cs" />
-    <Compile Include="DoubleClickCanceller.cs" />
     <Compile Include="CustomControls\PictureBoxEx.cs" />
     <Compile Include="Widgets\MessageForm.Designer.cs" />
     <Compile Include="Widgets\MessageForm.cs" />
@@ -91,7 +89,6 @@
     <Compile Include="Connections\TwitterOAuthHttpConnection.cs" />
     <Compile Include="CustomControls\ToolStripLabelHistory.cs" />
     <Compile Include="Extensions\Growl\GrowlHelper.cs" />
-    <Compile Include="SpaceKeyCanceler.cs" />
     <Compile Include="Widgets\TabsDialog.cs" />
     <Compile Include="Connections\HttpVarious.cs" />
     <Compile Include="Extensions\Twitter\Twitter.cs" />
@@ -100,7 +97,6 @@
     <Compile Include="Settings\SettingToConfig.cs" />
     <Compile Include="Settings\SettingLocal.cs" />
     <Compile Include="EntryPoint.cs" />
-    <Compile Include="WIN32API.cs" />
     <Compile Include="Connections\OAuthApiImpl.cs" />
     <Compile Include="Connections\HttpMethods.cs" />
     <Compile Include="Common\DisplayTitleKind.cs" />
@@ -117,6 +113,29 @@
     <Compile Include="Common\Utility.cs" />
     <Compile Include="Properties\Resources.cs" />
     <Compile Include="Common\TabUsageType.cs" />
+    <Compile Include="Widgets\SpaceKeyCanceler.cs" />
+    <Compile Include="Widgets\WorkerResult.cs" />
+    <Compile Include="Widgets\PostingStatus.cs" />
+    <Compile Include="Widgets\DoubleClickCanceller.cs" />
+    <Compile Include="Widgets\FilterDialog.cs" />
+    <Compile Include="Widgets\OpenUrl.cs" />
+    <Compile Include="Widgets\DialogAsShieldIcon.cs" />
+    <Compile Include="Widgets\EventViewerDialog.cs" />
+    <Compile Include="CustomControls\ToolStripAPIGauge.cs" />
+    <Compile Include="CustomControls\DetailsListView.cs" />
+    <Compile Include="Common\SearchType.cs" />
+    <Compile Include="CustomControls\ImageListViewItem.cs" />
+    <Compile Include="Extensions\Twitter\AtIdSupplement.cs" />
+    <Compile Include="Extensions\Twitter\HashtagManager.cs" />
+    <Compile Include="Extensions\Twitter\PostClass.cs" />
+    <Compile Include="CustomControls\ShieldIcon.cs" />
+    <Compile Include="CustomControls\Thumbnail.cs" />
+    <Compile Include="Connections\InternetSecurityManager.cs" />
+    <Compile Include="Extensions\Google\GASender.cs" />
+    <Compile Include="CustomControls\TabInformations.cs" />
+    <Compile Include="CustomControls\IntervalChangedEventArgs.cs" />
+    <Compile Include="Common\Tuple.cs" />
+    <Compile Include="Common\WIN32API.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.desktop" />
@@ -130,5 +149,6 @@
     <Folder Include="Extensions\Growl\" />
     <Folder Include="Settings\" />
     <Folder Include="Properties\" />
+    <Folder Include="Extensions\Google\" />
   </ItemGroup>
 </Project>

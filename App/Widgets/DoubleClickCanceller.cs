@@ -8,7 +8,7 @@ namespace Tween.Widgets {
     /**
      * 
      */
-    public class DoubleClickCopyCanveller : NativeWindow, IDisposable {
+    internal class DoubleClickCopyCanveller : NativeWindow, IDisposable {
         /**
          * 
          */
@@ -20,7 +20,7 @@ namespace Tween.Widgets {
         /**
          * 
          */
-        protected void WndProc(Message message) {
+        protected override void WndProc(ref Message message) {
             if ( message.Msg == WM_LBUTTONDBLCLICK )
                 this.double_click_ = true;
 
@@ -32,7 +32,7 @@ namespace Tween.Widgets {
                     return ;
                 }   
             }
-            base.WndProc( message );
+            base.WndProc( ref message );
         }
 
 
@@ -52,3 +52,7 @@ namespace Tween.Widgets {
 
 
 }
+// Local Variables:
+//   coding: utf-8
+//   mode: vala
+// End:

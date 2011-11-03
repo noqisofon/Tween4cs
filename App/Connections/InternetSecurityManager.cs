@@ -1,10 +1,10 @@
 //  
-//  TweenEventType.cs
+//  InternetSecrityManager.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
 // 
-//  Copyright (c) 2011 rihine
+//  Copyright (c) 2011 rihine All rights reserved.
 // 
 //  This program is free software: you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -22,24 +22,12 @@
 using System;
 
 
-namespace Tween.Common {
+namespace Tween.Connections {
     
     
-    /**
-     *
-     */
-    [FlagsAttribute]
-    public enum TweenEventType {
-        None              = 2 << 0,
-        Favorite          = 2 << 1,
-        UnFavorite        = 2 << 2,
-        Follow            = 2 << 3,
-        ListMemberAdded   = 2 << 4,
-        ListMemberRemoved = 2 << 5,
-        Block             = 2 << 6,
-        Unblock           = 2 << 7,
-
-        All = Favorite | UnFavorite | Follow | ListMemberAdded | ListMemberRemoved | Block | Unblock
+    public class InternetSecurityManager {
+        public InternetSecurityManager() {
+        }
     }
 
 

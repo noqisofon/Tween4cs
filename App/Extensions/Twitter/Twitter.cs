@@ -65,6 +65,10 @@ namespace Tween.Extensions.Twitter {
             } catch ( Exception e ) {
             }
         }
+        
+        
+        public void VerifyCredentiials() {
+        }
 
 
         private TwitterClient twitter_client_;
