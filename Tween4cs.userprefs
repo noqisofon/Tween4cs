@@ -2,25 +2,25 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
   <MonoDevelop.Ide.Workbench ActiveDocument="App/Widgets/AppendSettingDialog.cs" ctype="Workbench">
     <Files>
-      <File FileName="App/Widgets/AppendSettingDialog.Designer.cs" Line="42" Column="18" />
-      <File FileName="App/Widgets/AppendSettingDialog.cs" Line="170" Column="133" />
-      <File FileName="App/Extensions/Twitter/UserAccount.cs" Line="39" Column="41" />
-      <File FileName="App/Extensions/Twitter/Twitter.cs" Line="1" Column="1" />
+      <File FileName="App/Widgets/TweenMain.cs" Line="43" Column="20" />
+      <File FileName="App/Connections/HttpConnection.cs" Line="12" Column="20" />
+      <File FileName="App/Common/WIN32API.cs" Line="1" Column="1" />
+      <File FileName="App/Widgets/AppendSettingDialog.cs" Line="171" Column="133" />
+      <File FileName="App/CustomControls/IntervalChangedEventArgs.cs" Line="4" Column="11" />
+      <File FileName="App/Extensions/Twitter/Twitter.cs" Line="75" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Option id="ShowVersionControlOverlays" value="True" />
-          <Option id="ShowAllFiles" value="False" />
+          <Option id="ShowAllFiles" value="True" />
           <Node name="Tween4cs" expanded="True">
             <Node name="Common" expanded="True" />
             <Node name="Connections" expanded="True" />
             <Node name="CustomControls" expanded="True" />
             <Node name="Extensions" expanded="True">
-              <Node name="Growl" expanded="True" />
               <Node name="Twitter" expanded="True" />
             </Node>
-            <Node name="Properties" expanded="True" />
             <Node name="Widgets" expanded="True">
               <Node name="AppendSettingDialog.cs" selected="True" />
             </Node>

@@ -1,5 +1,5 @@
 //  
-//  SpaceKeyCanceler.cs
+//  FilterDialog.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
@@ -20,9 +20,9 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // 
 using System;
-namespace Tween {
-    public class SpaceKeyCanceler {
-        public SpaceKeyCanceler() {
+namespace Tween.Widgets {
+    public class FilterDialog {
+        public FilterDialog() {
         }
     }
 }
