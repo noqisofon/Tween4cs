@@ -42,7 +42,6 @@ namespace Tween.Extensions.Twitter {
          */
         public TwitterClient(string access_token, string access_token_secret, string user_name, long user_id)
             : base( access_token, access_token_secret, user_name, user_id ) {
-            
         }
 
 

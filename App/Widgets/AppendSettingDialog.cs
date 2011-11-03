@@ -33,6 +33,7 @@ using System.Windows.Forms;
 using Tween.Common;
 using Tween.Connections;
 using Tween.Extensions;
+using Tween.Extensions.Growl;
 using Tween.Extensions.Outputz;
 using Tween.Extensions.Twitter;
 using Tween.Extensions.Twitter.DataModel;
@@ -99,13 +100,18 @@ namespace Tween.Widgets {
                     this.twitter_configuration_ = value;
             }
         }
+        
+        
+        private bool BitlyValidation(string left, string right) {
+            return false;
+        }
 
 
         private void TreeViewSetting_BeforeSelect(object sender, TreeViewCancelEventArgs tvcergs) {
-            if ( this.treeViewSetting.SelectedNode == null )
+            if ( this.TreeViewSetting.SelectedNode == null )
                 return ;
 
-            Panel panel = this.treeViewSetting.SelectedNode.Tag as Panel;
+            Panel panel = this.TreeViewSetting.SelectedNode.Tag as Panel;
             if ( panel == null )
                 return ;
 
@@ -127,24 +133,24 @@ namespace Tween.Widgets {
 
             if ( panel.Name == "PreviewPanel" ) {
                 if ( GrowlHelper.IsDllExists )
-                    isNotifyUseGrowlCheckBox.Enabled = true;
+                    IsNotifyUseGrowlCheckBox.Enabled = true;
                 else
-                    isNotifyUseGrowlCheckBox.Enabled = false;
+                    IsNotifyUseGrowlCheckBox.Enabled = false;
             }
         }
 
 
         private void btnSave_Click(object sender, EventArgs ergs) {
-            if ( TweenMain.IsNetworkAvailable
-                 && (autoShortUrlFirstComboBox.SelectedIndex == UrlConvertorKind.Bitly
-                     || autoShortUrlFirstComboBox.SelectedIndex == UrlConvertorKind.Jmp)
-                 && ( !string.IsNullOrEmpty( bitlyIdEntry.Text ) || !string.IsNullOrEmpty( bitlyPasswordEntry.Text ) ) ) {
-                if ( !BitlyValidation( bitlyIdEntry.Text, bitlyPasswordEntry.Text ) ) {
-                    MessageBox.Show( Resources["SettingSave_ClickText1"] );
+            if ( Utility.IsNetworkAvailable
+                 && (ComboBoxAutoShortUrlFirst.SelectedIndex == (int)UrlConvertorKind.Bitly
+                     || ComboBoxAutoShortUrlFirst.SelectedIndex == (int)UrlConvertorKind.Jmp)
+                 && ( !string.IsNullOrEmpty( TextBitlyId.Text ) || !string.IsNullOrEmpty( TextBitlyPw.Text ) ) ) {
+                if ( !BitlyValidation( TextBitlyId.Text, TextBitlyPw.Text ) ) {
+                    MessageBox.Show( Tween.Properties.Resources.SettingSave_ClickText1, "" );
                     this.validation_error_ = true;
-                    this.treeViewSetting.SelectedNode.Name = "TweetActNode";  // 動作タブを選択します。
+                    this.TreeViewSetting.SelectedNode.Name = "TweetActNode";  // 動作タブを選択します。
 
-                    bitlyIdEntry.Focus();
+                    TextBitlyId.Focus();
 
                     return ;
                 } else
@@ -161,7 +167,7 @@ namespace Tween.Widgets {
                 foreach ( UserAccount account in this.user_accounts_ ) {
                     if ( account.Username.ToLower() == ((UserAccount)AuthUserCombo.SelectedItem).Username.ToLower() ) {
                         //this.twitter_analysis_.Initialize( account.Token, account.TokenSecret, account.Username, accoun.UserId );
-                        this.twitter_analysis_.Start( account.Token, account.TokenSecret, account.Username, accoun.UserId );
+                        this.twitter_analysis_ = new Twitter( account.Token, account.TokenSecret, account.Username, account.UserId );
                         if ( account.UserId == 0 ) {
                             this.twitter_analysis_.VerifyCredentiials();
                             account.UserId = this.twitter_analysis_.UserId;
@@ -173,7 +179,7 @@ namespace Tween.Widgets {
                 }
             } else {
                 this.twitter_analysis_.ClearAuthInfo();
-                this.twitter_analysis_.Start( string.Empty, string.Empty, string.Empty, 0 );
+                this.twitter_analysis_ = new Twitter( string.Empty, string.Empty, string.Empty, 0 );
             }
 #if UA == true
             if ( FollowCheckBox.Checked ) {
@@ -226,23 +232,23 @@ namespace Tween.Widgets {
                     is_interval_changed = true;
                 }
 
-                if ( this.lists_period_ != Convert.ToInt32( listsPeriodEntry.Text ) ) {
-                    this.lists_period_ = Convert.ToInt32( listsPeriodEntry.Text );
+                if ( this.lists_period_ != Convert.ToInt32( ListsPeriod.Text ) ) {
+                    this.lists_period_ = Convert.ToInt32( ListsPeriod.Text );
                     arg.Lists = true;
                     is_interval_changed = true;
                 }
 
-                if ( this.user_timeline_period_ != Convert.ToInt32( userTimelinePeriodEntry ) ) {
-                    this.user_timeline_period_ = Convert.ToInt32( userTimelinePeriodEntry );
-                    arg.UserTimeLine = true;
+                if ( this.user_timeline_period_ != Convert.ToInt32( UserTimelinePeriod ) ) {
+                    this.user_timeline_period_ = Convert.ToInt32( UserTimelinePeriod );
+                    arg.UserTimeline = true;
                     is_interval_changed = true;
                 }
 
                 if ( is_interval_changed )
                     IntervalChanged( this, arg );
 
-                this.readed_ = startupReadedCheckBox.Checked;
-                switch ( iconSizeComboBox.SelectedIndex ) {
+                this.readed_ = StartupUserstreamCheck.Checked;
+                switch ( IconSize.SelectedIndex ) {
                     case 0:
                         this.icon_size_ = IconSizes.IconNone;
                         break;
@@ -431,7 +437,7 @@ namespace Tween.Widgets {
 
                 this.translate_language_ = new Bing.GetLanguageEnumFromIndex( translateLanguageComboBox.SelectedIndex );
                 this.event_sound_file_ = eventNotifySoundComboBox.SelectedItem.ToString();
-                this.auto_short_url_first_ = autoShortUrlFirstComboBox.SelectedIndex as UrlConvertorKind;
+                this.auto_short_url_first_ = ComboBoxAutoShortUrlFirst.SelectedIndex as UrlConvertorKind;
                 this.tab_icon_display_ = tabIconDispCheckBox.Checked;
                 this.read_own_post_ = readOwnPostCheckBox.Checked;
                 this.get_favorite_ = getFavoriteCheckBox.Checked;
@@ -440,8 +446,8 @@ namespace Tween.Widgets {
 
                 this.use_ssl_ = useSslCheckBox.Checked;
 
-                this.bitly_id_ = bitlyIdEntry.Text;
-                this.bitly_password_ = bitlyPasswordEntry.Text;
+                this.bitly_id_ = TextBitlyId.Text;
+                this.bitly_password_ = TextBitlyPw.Text;
 
                 this.show_grid_ = showGridCheckBox.Checked;
                 this.use_at_id_supplement_ = atIdSuppleCheckBox.Checked;
@@ -587,8 +593,8 @@ namespace Tween.Widgets {
                 if ( this.validation_error_ )
                     fceargs.Cancel = true;
 
-                if ( fceargs.Cancel == false && treeViewSetting.SelectedNode != null ) {
-                    current_panel = treeViewSetting.SelectedNode as Panel;
+                if ( fceargs.Cancel == false && TreeViewSetting.SelectedNode != null ) {
+                    current_panel = TreeViewSetting.SelectedNode as Panel;
                     current_panel.Visible = false;
                     current_panel.Enabled = false;
                 }
@@ -630,30 +636,30 @@ namespace Tween.Widgets {
             replyPeriod.Text = this.reply_period_.ToString();
             directMessagePeriodEntry.Text = this.directmessage_period_.ToString();
             pubSearchPeriodEntry.Text = this.public_search_period_.ToString();
-            listsPeriodEntry.Text = this.lists_period_.ToString();
-            userTimelinePeriodEntry.Text = this.user_timeeline_period_.ToString();
+            ListsPeriod.Text = this.lists_period_.ToString();
+            UserTimelinePeriod.Text = this.user_timeeline_period_.ToString();
 
-            startupReadedCheckBox.Checked = this.readed_;
+            StartupUserstreamCheck.Checked = this.readed_;
 
             switch ( this.icon_size_ ) {
                 case IconSizes.IconNone:
-                    iconSizeComboBox.SelectedIndex = 0;
+                    IconSize.SelectedIndex = 0;
                     break;
 
                 case IconSizes.Icon16:
-                    iconSizeComboBox.SelectedIndex = 1;
+                    IconSize.SelectedIndex = 1;
                     break;
 
                 case IconSizes.Icon24:
-                    iconSizeComboBox.SelectedIndex = 2;
+                    IconSize.SelectedIndex = 2;
                     break;
 
                 case IconSizes.Icon48:
-                    iconSizeComboBox.SelectedIndex = 3;
+                    IconSize.SelectedIndex = 3;
                     break;
 
                 case IconSizes.Icon48_2:
-                    iconSizeComboBox.SelectedIndex = 4;
+                    IconSize.SelectedIndex = 4;
                     break;
             }
 
@@ -819,15 +825,15 @@ namespace Tween.Widgets {
 
             SoundFileListup();
 
-            autoShortUrlFirstComboBox.SelectedIndex = this.auto_short_url_first_;
+            ComboBoxAutoShortUrlFirst.SelectedIndex = this.auto_short_url_first_;
             tabIconDispCheckBox.Checked = this.tab_icon_display_;
             readOwnPostCheckBox.Checked = this.read_own_post_;
             getFavoriteCheckBox.Checked = this.get_favorite_;
             monospaceCheckBox.Checked = this.mono_space_;
             readOldPostsCheckBox.Checked = this.read_old_posts_;
             useSslCheckBox.Checked = this.use_ssl_;
-            bitlyIdEntry.Text = this.bitly_id_;
-            bitlyPasswordEntry.Text = this.bitly_password_;
+            TextBitlyId.Text = this.bitly_id_;
+            TextBitlyPw.Text = this.bitly_password_;
             showGridCheckBox.Checked = this.show_grid_;
             atIdSuppleCheckBox.Checked = this.use_at_id_supplement_;
             hashSuppleCheckBox.Checked = this.use_hash_supplement_;

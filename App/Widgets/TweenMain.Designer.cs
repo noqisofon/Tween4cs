@@ -1,4 +1,4 @@
-namespace Tween.Widgets {
+namespace Sample {
     partial class TweenMain : System.Windows.Forms.Form {
         /**
          * フォームがコンポーネントの一覧をクリーンアップするために Dispose メソッドをオーバーライドします。
@@ -337,8 +337,6 @@ namespace Tween.Widgets {
             // 
             // NotifyIcon1
             // 
-            this.NotifyIcon1.AccessibleDescription = null;
-            this.NotifyIcon1.AccessibleName = null;
             this.NotifyIcon1.BackgroundImage = null;
             resources.ApplyResources( this.NotifyIcon1, "NotifyIcon1" );
             this.NotifyIcon1.Font = null;
@@ -346,8 +344,6 @@ namespace Tween.Widgets {
             // 
             // ContextMenuFile
             // 
-            this.ContextMenuFile.AccessibleDescription = null;
-            this.ContextMenuFile.AccessibleName = null;
             this.ContextMenuFile.BackgroundImage = null;
             resources.ApplyResources( this.ContextMenuFile, "ContextMenuFile" );
             this.ContextMenuFile.Font = null;
@@ -355,8 +351,6 @@ namespace Tween.Widgets {
             // 
             // EndToolStripMenuItem
             // 
-            this.EndToolStripMenuItem.AccessibleDescription = null;
-            this.EndToolStripMenuItem.AccessibleName = null;
             this.EndToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.EndToolStripMenuItem, "EndToolStripMenuItem" );
             this.EndToolStripMenuItem.Font = null;
@@ -364,8 +358,6 @@ namespace Tween.Widgets {
             // 
             // ContextMenuOperate
             // 
-            this.ContextMenuOperate.AccessibleDescription = null;
-            this.ContextMenuOperate.AccessibleName = null;
             this.ContextMenuOperate.BackgroundImage = null;
             resources.ApplyResources( this.ContextMenuOperate, "ContextMenuOperate" );
             this.ContextMenuOperate.Font = null;
@@ -373,8 +365,6 @@ namespace Tween.Widgets {
             // 
             // DMStripMenuItem
             // 
-            this.DMStripMenuItem.AccessibleDescription = null;
-            this.DMStripMenuItem.AccessibleName = null;
             this.DMStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.DMStripMenuItem, "DMStripMenuItem" );
             this.DMStripMenuItem.Font = null;
@@ -382,8 +372,6 @@ namespace Tween.Widgets {
             // 
             // DeleteStripMenuItem
             // 
-            this.DeleteStripMenuItem.AccessibleDescription = null;
-            this.DeleteStripMenuItem.AccessibleName = null;
             this.DeleteStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.DeleteStripMenuItem, "DeleteStripMenuItem" );
             this.DeleteStripMenuItem.Font = null;
@@ -391,8 +379,6 @@ namespace Tween.Widgets {
             // 
             // RefreshStripMenuItem
             // 
-            this.RefreshStripMenuItem.AccessibleDescription = null;
-            this.RefreshStripMenuItem.AccessibleName = null;
             this.RefreshStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RefreshStripMenuItem, "RefreshStripMenuItem" );
             this.RefreshStripMenuItem.Font = null;
@@ -400,8 +386,6 @@ namespace Tween.Widgets {
             // 
             // SettingStripMenuItem
             // 
-            this.SettingStripMenuItem.AccessibleDescription = null;
-            this.SettingStripMenuItem.AccessibleName = null;
             this.SettingStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SettingStripMenuItem, "SettingStripMenuItem" );
             this.SettingStripMenuItem.Font = null;
@@ -409,8 +393,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator9
             // 
-            this.ToolStripSeparator9.AccessibleDescription = null;
-            this.ToolStripSeparator9.AccessibleName = null;
             this.ToolStripSeparator9.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator9, "ToolStripSeparator9" );
             this.ToolStripSeparator9.Font = null;
@@ -418,8 +400,6 @@ namespace Tween.Widgets {
             // 
             // TabImage
             // 
-            this.TabImage.AccessibleDescription = null;
-            this.TabImage.AccessibleName = null;
             this.TabImage.BackgroundImage = null;
             resources.ApplyResources( this.TabImage, "TabImage" );
             this.TabImage.Font = null;
@@ -427,8 +407,6 @@ namespace Tween.Widgets {
             // 
             // NewPostPopMenuItem
             // 
-            this.NewPostPopMenuItem.AccessibleDescription = null;
-            this.NewPostPopMenuItem.AccessibleName = null;
             this.NewPostPopMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.NewPostPopMenuItem, "NewPostPopMenuItem" );
             this.NewPostPopMenuItem.Font = null;
@@ -436,8 +414,6 @@ namespace Tween.Widgets {
             // 
             // ListLockMenuItem
             // 
-            this.ListLockMenuItem.AccessibleDescription = null;
-            this.ListLockMenuItem.AccessibleName = null;
             this.ListLockMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ListLockMenuItem, "ListLockMenuItem" );
             this.ListLockMenuItem.Font = null;
@@ -445,8 +421,6 @@ namespace Tween.Widgets {
             // 
             // JumpUnreadMenuItem
             // 
-            this.JumpUnreadMenuItem.AccessibleDescription = null;
-            this.JumpUnreadMenuItem.AccessibleName = null;
             this.JumpUnreadMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.JumpUnreadMenuItem, "JumpUnreadMenuItem" );
             this.JumpUnreadMenuItem.Font = null;
@@ -454,8 +428,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator15
             // 
-            this.ToolStripSeparator15.AccessibleDescription = null;
-            this.ToolStripSeparator15.AccessibleName = null;
             this.ToolStripSeparator15.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator15, "ToolStripSeparator15" );
             this.ToolStripSeparator15.Font = null;
@@ -463,8 +435,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator4
             // 
-            this.ToolStripSeparator4.AccessibleDescription = null;
-            this.ToolStripSeparator4.AccessibleName = null;
             this.ToolStripSeparator4.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator4, "ToolStripSeparator4" );
             this.ToolStripSeparator4.Font = null;
@@ -472,8 +442,6 @@ namespace Tween.Widgets {
             // 
             // SaveLogMenuItem
             // 
-            this.SaveLogMenuItem.AccessibleDescription = null;
-            this.SaveLogMenuItem.AccessibleName = null;
             this.SaveLogMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SaveLogMenuItem, "SaveLogMenuItem" );
             this.SaveLogMenuItem.Font = null;
@@ -481,8 +449,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator17
             // 
-            this.ToolStripSeparator17.AccessibleDescription = null;
-            this.ToolStripSeparator17.AccessibleName = null;
             this.ToolStripSeparator17.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator17, "ToolStripSeparator17" );
             this.ToolStripSeparator17.Font = null;
@@ -490,8 +456,6 @@ namespace Tween.Widgets {
             // 
             // SaveFileDialog1
             // 
-            this.SaveFileDialog1.AccessibleDescription = null;
-            this.SaveFileDialog1.AccessibleName = null;
             this.SaveFileDialog1.BackgroundImage = null;
             resources.ApplyResources( this.SaveFileDialog1, "SaveFileDialog1" );
             this.SaveFileDialog1.Font = null;
@@ -499,8 +463,6 @@ namespace Tween.Widgets {
             // 
             // TimerRefreshIcon
             // 
-            this.TimerRefreshIcon.AccessibleDescription = null;
-            this.TimerRefreshIcon.AccessibleName = null;
             this.TimerRefreshIcon.BackgroundImage = null;
             resources.ApplyResources( this.TimerRefreshIcon, "TimerRefreshIcon" );
             this.TimerRefreshIcon.Font = null;
@@ -508,8 +470,6 @@ namespace Tween.Widgets {
             // 
             // ContextMenuTabProperty
             // 
-            this.ContextMenuTabProperty.AccessibleDescription = null;
-            this.ContextMenuTabProperty.AccessibleName = null;
             this.ContextMenuTabProperty.BackgroundImage = null;
             resources.ApplyResources( this.ContextMenuTabProperty, "ContextMenuTabProperty" );
             this.ContextMenuTabProperty.Font = null;
@@ -517,8 +477,6 @@ namespace Tween.Widgets {
             // 
             // UreadManageMenuItem
             // 
-            this.UreadManageMenuItem.AccessibleDescription = null;
-            this.UreadManageMenuItem.AccessibleName = null;
             this.UreadManageMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UreadManageMenuItem, "UreadManageMenuItem" );
             this.UreadManageMenuItem.Font = null;
@@ -526,8 +484,6 @@ namespace Tween.Widgets {
             // 
             // NotifyDispMenuItem
             // 
-            this.NotifyDispMenuItem.AccessibleDescription = null;
-            this.NotifyDispMenuItem.AccessibleName = null;
             this.NotifyDispMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.NotifyDispMenuItem, "NotifyDispMenuItem" );
             this.NotifyDispMenuItem.Font = null;
@@ -535,8 +491,6 @@ namespace Tween.Widgets {
             // 
             // SoundFileComboBox
             // 
-            this.SoundFileComboBox.AccessibleDescription = null;
-            this.SoundFileComboBox.AccessibleName = null;
             this.SoundFileComboBox.BackgroundImage = null;
             resources.ApplyResources( this.SoundFileComboBox, "SoundFileComboBox" );
             this.SoundFileComboBox.Font = null;
@@ -544,8 +498,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator18
             // 
-            this.ToolStripSeparator18.AccessibleDescription = null;
-            this.ToolStripSeparator18.AccessibleName = null;
             this.ToolStripSeparator18.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator18, "ToolStripSeparator18" );
             this.ToolStripSeparator18.Font = null;
@@ -553,8 +505,6 @@ namespace Tween.Widgets {
             // 
             // DeleteTabMenuItem
             // 
-            this.DeleteTabMenuItem.AccessibleDescription = null;
-            this.DeleteTabMenuItem.AccessibleName = null;
             this.DeleteTabMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.DeleteTabMenuItem, "DeleteTabMenuItem" );
             this.DeleteTabMenuItem.Font = null;
@@ -562,8 +512,6 @@ namespace Tween.Widgets {
             // 
             // FilterEditMenuItem
             // 
-            this.FilterEditMenuItem.AccessibleDescription = null;
-            this.FilterEditMenuItem.AccessibleName = null;
             this.FilterEditMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FilterEditMenuItem, "FilterEditMenuItem" );
             this.FilterEditMenuItem.Font = null;
@@ -571,8 +519,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator19
             // 
-            this.ToolStripSeparator19.AccessibleDescription = null;
-            this.ToolStripSeparator19.AccessibleName = null;
             this.ToolStripSeparator19.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator19, "ToolStripSeparator19" );
             this.ToolStripSeparator19.Font = null;
@@ -580,8 +526,6 @@ namespace Tween.Widgets {
             // 
             // AddTabMenuItem
             // 
-            this.AddTabMenuItem.AccessibleDescription = null;
-            this.AddTabMenuItem.AccessibleName = null;
             this.AddTabMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.AddTabMenuItem, "AddTabMenuItem" );
             this.AddTabMenuItem.Font = null;
@@ -589,8 +533,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator20
             // 
-            this.ToolStripSeparator20.AccessibleDescription = null;
-            this.ToolStripSeparator20.AccessibleName = null;
             this.ToolStripSeparator20.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator20, "ToolStripSeparator20" );
             this.ToolStripSeparator20.Font = null;
@@ -598,8 +540,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator10
             // 
-            this.ToolStripSeparator10.AccessibleDescription = null;
-            this.ToolStripSeparator10.AccessibleName = null;
             this.ToolStripSeparator10.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator10, "ToolStripSeparator10" );
             this.ToolStripSeparator10.Font = null;
@@ -607,8 +547,6 @@ namespace Tween.Widgets {
             // 
             // SelectAllMenuItem
             // 
-            this.SelectAllMenuItem.AccessibleDescription = null;
-            this.SelectAllMenuItem.AccessibleName = null;
             this.SelectAllMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SelectAllMenuItem, "SelectAllMenuItem" );
             this.SelectAllMenuItem.Font = null;
@@ -616,8 +554,6 @@ namespace Tween.Widgets {
             // 
             // ClearTabMenuItem
             // 
-            this.ClearTabMenuItem.AccessibleDescription = null;
-            this.ClearTabMenuItem.AccessibleName = null;
             this.ClearTabMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ClearTabMenuItem, "ClearTabMenuItem" );
             this.ClearTabMenuItem.Font = null;
@@ -625,8 +561,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator11
             // 
-            this.ToolStripSeparator11.AccessibleDescription = null;
-            this.ToolStripSeparator11.AccessibleName = null;
             this.ToolStripSeparator11.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator11, "ToolStripSeparator11" );
             this.ToolStripSeparator11.Font = null;
@@ -634,8 +568,6 @@ namespace Tween.Widgets {
             // 
             // PlaySoundMenuItem
             // 
-            this.PlaySoundMenuItem.AccessibleDescription = null;
-            this.PlaySoundMenuItem.AccessibleName = null;
             this.PlaySoundMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.PlaySoundMenuItem, "PlaySoundMenuItem" );
             this.PlaySoundMenuItem.Font = null;
@@ -643,8 +575,6 @@ namespace Tween.Widgets {
             // 
             // OpenFileDialog1
             // 
-            this.OpenFileDialog1.AccessibleDescription = null;
-            this.OpenFileDialog1.AccessibleName = null;
             this.OpenFileDialog1.BackgroundImage = null;
             resources.ApplyResources( this.OpenFileDialog1, "OpenFileDialog1" );
             this.OpenFileDialog1.Font = null;
@@ -652,8 +582,6 @@ namespace Tween.Widgets {
             // 
             // ContextMenuUserPicture
             // 
-            this.ContextMenuUserPicture.AccessibleDescription = null;
-            this.ContextMenuUserPicture.AccessibleName = null;
             this.ContextMenuUserPicture.BackgroundImage = null;
             resources.ApplyResources( this.ContextMenuUserPicture, "ContextMenuUserPicture" );
             this.ContextMenuUserPicture.Font = null;
@@ -661,8 +589,6 @@ namespace Tween.Widgets {
             // 
             // IconNameToolStripMenuItem
             // 
-            this.IconNameToolStripMenuItem.AccessibleDescription = null;
-            this.IconNameToolStripMenuItem.AccessibleName = null;
             this.IconNameToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.IconNameToolStripMenuItem, "IconNameToolStripMenuItem" );
             this.IconNameToolStripMenuItem.Font = null;
@@ -670,8 +596,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripMenuItem1
             // 
-            this.ToolStripMenuItem1.AccessibleDescription = null;
-            this.ToolStripMenuItem1.AccessibleName = null;
             this.ToolStripMenuItem1.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripMenuItem1, "ToolStripMenuItem1" );
             this.ToolStripMenuItem1.Font = null;
@@ -679,8 +603,6 @@ namespace Tween.Widgets {
             // 
             // SaveIconPictureToolStripMenuItem
             // 
-            this.SaveIconPictureToolStripMenuItem.AccessibleDescription = null;
-            this.SaveIconPictureToolStripMenuItem.AccessibleName = null;
             this.SaveIconPictureToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SaveIconPictureToolStripMenuItem, "SaveIconPictureToolStripMenuItem" );
             this.SaveIconPictureToolStripMenuItem.Font = null;
@@ -688,8 +610,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripContainer1
             // 
-            this.ToolStripContainer1.AccessibleDescription = null;
-            this.ToolStripContainer1.AccessibleName = null;
             this.ToolStripContainer1.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripContainer1, "ToolStripContainer1" );
             this.ToolStripContainer1.Font = null;
@@ -697,8 +617,6 @@ namespace Tween.Widgets {
             // 
             // SplitContainer1
             // 
-            this.SplitContainer1.AccessibleDescription = null;
-            this.SplitContainer1.AccessibleName = null;
             this.SplitContainer1.BackgroundImage = null;
             resources.ApplyResources( this.SplitContainer1, "SplitContainer1" );
             this.SplitContainer1.Font = null;
@@ -706,8 +624,6 @@ namespace Tween.Widgets {
             // 
             // ListTab
             // 
-            this.ListTab.AccessibleDescription = null;
-            this.ListTab.AccessibleName = null;
             this.ListTab.BackgroundImage = null;
             resources.ApplyResources( this.ListTab, "ListTab" );
             this.ListTab.Font = null;
@@ -715,8 +631,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemTab
             // 
-            this.MenuItemTab.AccessibleDescription = null;
-            this.MenuItemTab.AccessibleName = null;
             this.MenuItemTab.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemTab, "MenuItemTab" );
             this.MenuItemTab.Font = null;
@@ -724,8 +638,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemOperate
             // 
-            this.MenuItemOperate.AccessibleDescription = null;
-            this.MenuItemOperate.AccessibleName = null;
             this.MenuItemOperate.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemOperate, "MenuItemOperate" );
             this.MenuItemOperate.Font = null;
@@ -733,8 +645,6 @@ namespace Tween.Widgets {
             // 
             // StatusStrip1
             // 
-            this.StatusStrip1.AccessibleDescription = null;
-            this.StatusStrip1.AccessibleName = null;
             this.StatusStrip1.BackgroundImage = null;
             resources.ApplyResources( this.StatusStrip1, "StatusStrip1" );
             this.StatusStrip1.Font = null;
@@ -742,8 +652,6 @@ namespace Tween.Widgets {
             // 
             // StatusLabelUrl
             // 
-            this.StatusLabelUrl.AccessibleDescription = null;
-            this.StatusLabelUrl.AccessibleName = null;
             this.StatusLabelUrl.BackgroundImage = null;
             resources.ApplyResources( this.StatusLabelUrl, "StatusLabelUrl" );
             this.StatusLabelUrl.Font = null;
@@ -751,8 +659,6 @@ namespace Tween.Widgets {
             // 
             // MenuStrip1
             // 
-            this.MenuStrip1.AccessibleDescription = null;
-            this.MenuStrip1.AccessibleName = null;
             this.MenuStrip1.BackgroundImage = null;
             resources.ApplyResources( this.MenuStrip1, "MenuStrip1" );
             this.MenuStrip1.Font = null;
@@ -760,8 +666,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemFile
             // 
-            this.MenuItemFile.AccessibleDescription = null;
-            this.MenuItemFile.AccessibleName = null;
             this.MenuItemFile.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemFile, "MenuItemFile" );
             this.MenuItemFile.Font = null;
@@ -769,8 +673,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemEdit
             // 
-            this.MenuItemEdit.AccessibleDescription = null;
-            this.MenuItemEdit.AccessibleName = null;
             this.MenuItemEdit.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemEdit, "MenuItemEdit" );
             this.MenuItemEdit.Font = null;
@@ -778,8 +680,6 @@ namespace Tween.Widgets {
             // 
             // CopySTOTMenuItem
             // 
-            this.CopySTOTMenuItem.AccessibleDescription = null;
-            this.CopySTOTMenuItem.AccessibleName = null;
             this.CopySTOTMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CopySTOTMenuItem, "CopySTOTMenuItem" );
             this.CopySTOTMenuItem.Font = null;
@@ -787,8 +687,6 @@ namespace Tween.Widgets {
             // 
             // CopyURLMenuItem
             // 
-            this.CopyURLMenuItem.AccessibleDescription = null;
-            this.CopyURLMenuItem.AccessibleName = null;
             this.CopyURLMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CopyURLMenuItem, "CopyURLMenuItem" );
             this.CopyURLMenuItem.Font = null;
@@ -796,8 +694,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator6
             // 
-            this.ToolStripSeparator6.AccessibleDescription = null;
-            this.ToolStripSeparator6.AccessibleName = null;
             this.ToolStripSeparator6.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator6, "ToolStripSeparator6" );
             this.ToolStripSeparator6.Font = null;
@@ -805,8 +701,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemSubSearch
             // 
-            this.MenuItemSubSearch.AccessibleDescription = null;
-            this.MenuItemSubSearch.AccessibleName = null;
             this.MenuItemSubSearch.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemSubSearch, "MenuItemSubSearch" );
             this.MenuItemSubSearch.Font = null;
@@ -814,8 +708,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemSearchNext
             // 
-            this.MenuItemSearchNext.AccessibleDescription = null;
-            this.MenuItemSearchNext.AccessibleName = null;
             this.MenuItemSearchNext.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemSearchNext, "MenuItemSearchNext" );
             this.MenuItemSearchNext.Font = null;
@@ -823,8 +715,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemSearchPrev
             // 
-            this.MenuItemSearchPrev.AccessibleDescription = null;
-            this.MenuItemSearchPrev.AccessibleName = null;
             this.MenuItemSearchPrev.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemSearchPrev, "MenuItemSearchPrev" );
             this.MenuItemSearchPrev.Font = null;
@@ -832,8 +722,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemCommand
             // 
-            this.MenuItemCommand.AccessibleDescription = null;
-            this.MenuItemCommand.AccessibleName = null;
             this.MenuItemCommand.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemCommand, "MenuItemCommand" );
             this.MenuItemCommand.Font = null;
@@ -841,8 +729,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemHelp
             // 
-            this.MenuItemHelp.AccessibleDescription = null;
-            this.MenuItemHelp.AccessibleName = null;
             this.MenuItemHelp.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemHelp, "MenuItemHelp" );
             this.MenuItemHelp.Font = null;
@@ -850,8 +736,6 @@ namespace Tween.Widgets {
             // 
             // MatomeMenuItem
             // 
-            this.MatomeMenuItem.AccessibleDescription = null;
-            this.MatomeMenuItem.AccessibleName = null;
             this.MatomeMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.MatomeMenuItem, "MatomeMenuItem" );
             this.MatomeMenuItem.Font = null;
@@ -859,8 +743,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator16
             // 
-            this.ToolStripSeparator16.AccessibleDescription = null;
-            this.ToolStripSeparator16.AccessibleName = null;
             this.ToolStripSeparator16.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator16, "ToolStripSeparator16" );
             this.ToolStripSeparator16.Font = null;
@@ -868,8 +750,6 @@ namespace Tween.Widgets {
             // 
             // VerUpMenuItem
             // 
-            this.VerUpMenuItem.AccessibleDescription = null;
-            this.VerUpMenuItem.AccessibleName = null;
             this.VerUpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.VerUpMenuItem, "VerUpMenuItem" );
             this.VerUpMenuItem.Font = null;
@@ -877,8 +757,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator14
             // 
-            this.ToolStripSeparator14.AccessibleDescription = null;
-            this.ToolStripSeparator14.AccessibleName = null;
             this.ToolStripSeparator14.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator14, "ToolStripSeparator14" );
             this.ToolStripSeparator14.Font = null;
@@ -886,8 +764,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator7
             // 
-            this.ToolStripSeparator7.AccessibleDescription = null;
-            this.ToolStripSeparator7.AccessibleName = null;
             this.ToolStripSeparator7.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator7, "ToolStripSeparator7" );
             this.ToolStripSeparator7.Font = null;
@@ -895,8 +771,6 @@ namespace Tween.Widgets {
             // 
             // AboutMenuItem
             // 
-            this.AboutMenuItem.AccessibleDescription = null;
-            this.AboutMenuItem.AccessibleName = null;
             this.AboutMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.AboutMenuItem, "AboutMenuItem" );
             this.AboutMenuItem.Font = null;
@@ -904,8 +778,6 @@ namespace Tween.Widgets {
             // 
             // SplitContainer2
             // 
-            this.SplitContainer2.AccessibleDescription = null;
-            this.SplitContainer2.AccessibleName = null;
             this.SplitContainer2.BackgroundImage = null;
             resources.ApplyResources( this.SplitContainer2, "SplitContainer2" );
             this.SplitContainer2.Font = null;
@@ -913,8 +785,6 @@ namespace Tween.Widgets {
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.AccessibleDescription = null;
-            this.TableLayoutPanel1.AccessibleName = null;
             this.TableLayoutPanel1.BackgroundImage = null;
             resources.ApplyResources( this.TableLayoutPanel1, "TableLayoutPanel1" );
             this.TableLayoutPanel1.Font = null;
@@ -922,8 +792,6 @@ namespace Tween.Widgets {
             // 
             // UserPicture
             // 
-            this.UserPicture.AccessibleDescription = null;
-            this.UserPicture.AccessibleName = null;
             this.UserPicture.BackgroundImage = null;
             resources.ApplyResources( this.UserPicture, "UserPicture" );
             this.UserPicture.Font = null;
@@ -931,8 +799,6 @@ namespace Tween.Widgets {
             // 
             // NameLabel
             // 
-            this.NameLabel.AccessibleDescription = null;
-            this.NameLabel.AccessibleName = null;
             this.NameLabel.BackgroundImage = null;
             resources.ApplyResources( this.NameLabel, "NameLabel" );
             this.NameLabel.Font = null;
@@ -940,8 +806,6 @@ namespace Tween.Widgets {
             // 
             // DateTimeLabel
             // 
-            this.DateTimeLabel.AccessibleDescription = null;
-            this.DateTimeLabel.AccessibleName = null;
             this.DateTimeLabel.BackgroundImage = null;
             resources.ApplyResources( this.DateTimeLabel, "DateTimeLabel" );
             this.DateTimeLabel.Font = null;
@@ -949,8 +813,6 @@ namespace Tween.Widgets {
             // 
             // StatusText
             // 
-            this.StatusText.AccessibleDescription = null;
-            this.StatusText.AccessibleName = null;
             this.StatusText.BackgroundImage = null;
             resources.ApplyResources( this.StatusText, "StatusText" );
             this.StatusText.Font = null;
@@ -958,8 +820,6 @@ namespace Tween.Widgets {
             // 
             // lblLen
             // 
-            this.lblLen.AccessibleDescription = null;
-            this.lblLen.AccessibleName = null;
             this.lblLen.BackgroundImage = null;
             resources.ApplyResources( this.lblLen, "lblLen" );
             this.lblLen.Font = null;
@@ -967,8 +827,6 @@ namespace Tween.Widgets {
             // 
             // PostButton
             // 
-            this.PostButton.AccessibleDescription = null;
-            this.PostButton.AccessibleName = null;
             this.PostButton.BackgroundImage = null;
             resources.ApplyResources( this.PostButton, "PostButton" );
             this.PostButton.Font = null;
@@ -976,8 +834,6 @@ namespace Tween.Widgets {
             // 
             // TinyUrlConvertToolStripMenuItem
             // 
-            this.TinyUrlConvertToolStripMenuItem.AccessibleDescription = null;
-            this.TinyUrlConvertToolStripMenuItem.AccessibleName = null;
             this.TinyUrlConvertToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TinyUrlConvertToolStripMenuItem, "TinyUrlConvertToolStripMenuItem" );
             this.TinyUrlConvertToolStripMenuItem.Font = null;
@@ -985,8 +841,6 @@ namespace Tween.Widgets {
             // 
             // UpdateFollowersMenuItem1
             // 
-            this.UpdateFollowersMenuItem1.AccessibleDescription = null;
-            this.UpdateFollowersMenuItem1.AccessibleName = null;
             this.UpdateFollowersMenuItem1.BackgroundImage = null;
             resources.ApplyResources( this.UpdateFollowersMenuItem1, "UpdateFollowersMenuItem1" );
             this.UpdateFollowersMenuItem1.Font = null;
@@ -994,8 +848,6 @@ namespace Tween.Widgets {
             // 
             // TinyURLToolStripMenuItem
             // 
-            this.TinyURLToolStripMenuItem.AccessibleDescription = null;
-            this.TinyURLToolStripMenuItem.AccessibleName = null;
             this.TinyURLToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TinyURLToolStripMenuItem, "TinyURLToolStripMenuItem" );
             this.TinyURLToolStripMenuItem.Font = null;
@@ -1003,8 +855,6 @@ namespace Tween.Widgets {
             // 
             // IsgdToolStripMenuItem
             // 
-            this.IsgdToolStripMenuItem.AccessibleDescription = null;
-            this.IsgdToolStripMenuItem.AccessibleName = null;
             this.IsgdToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.IsgdToolStripMenuItem, "IsgdToolStripMenuItem" );
             this.IsgdToolStripMenuItem.Font = null;
@@ -1012,8 +862,6 @@ namespace Tween.Widgets {
             // 
             // UrlConvertAutoToolStripMenuItem
             // 
-            this.UrlConvertAutoToolStripMenuItem.AccessibleDescription = null;
-            this.UrlConvertAutoToolStripMenuItem.AccessibleName = null;
             this.UrlConvertAutoToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UrlConvertAutoToolStripMenuItem, "UrlConvertAutoToolStripMenuItem" );
             this.UrlConvertAutoToolStripMenuItem.Font = null;
@@ -1021,8 +869,6 @@ namespace Tween.Widgets {
             // 
             // UrlUndoToolStripMenuItem
             // 
-            this.UrlUndoToolStripMenuItem.AccessibleDescription = null;
-            this.UrlUndoToolStripMenuItem.AccessibleName = null;
             this.UrlUndoToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UrlUndoToolStripMenuItem, "UrlUndoToolStripMenuItem" );
             this.UrlUndoToolStripMenuItem.Font = null;
@@ -1030,8 +876,6 @@ namespace Tween.Widgets {
             // 
             // ContextMenuPostBrowser
             // 
-            this.ContextMenuPostBrowser.AccessibleDescription = null;
-            this.ContextMenuPostBrowser.AccessibleName = null;
             this.ContextMenuPostBrowser.BackgroundImage = null;
             resources.ApplyResources( this.ContextMenuPostBrowser, "ContextMenuPostBrowser" );
             this.ContextMenuPostBrowser.Font = null;
@@ -1039,8 +883,6 @@ namespace Tween.Widgets {
             // 
             // SelectionSearchContextMenuItem
             // 
-            this.SelectionSearchContextMenuItem.AccessibleDescription = null;
-            this.SelectionSearchContextMenuItem.AccessibleName = null;
             this.SelectionSearchContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SelectionSearchContextMenuItem, "SelectionSearchContextMenuItem" );
             this.SelectionSearchContextMenuItem.Font = null;
@@ -1048,8 +890,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator13
             // 
-            this.ToolStripSeparator13.AccessibleDescription = null;
-            this.ToolStripSeparator13.AccessibleName = null;
             this.ToolStripSeparator13.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator13, "ToolStripSeparator13" );
             this.ToolStripSeparator13.Font = null;
@@ -1057,8 +897,6 @@ namespace Tween.Widgets {
             // 
             // SelectionCopyContextMenuItem
             // 
-            this.SelectionCopyContextMenuItem.AccessibleDescription = null;
-            this.SelectionCopyContextMenuItem.AccessibleName = null;
             this.SelectionCopyContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SelectionCopyContextMenuItem, "SelectionCopyContextMenuItem" );
             this.SelectionCopyContextMenuItem.Font = null;
@@ -1066,8 +904,6 @@ namespace Tween.Widgets {
             // 
             // SelectionAllContextMenuItem
             // 
-            this.SelectionAllContextMenuItem.AccessibleDescription = null;
-            this.SelectionAllContextMenuItem.AccessibleName = null;
             this.SelectionAllContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SelectionAllContextMenuItem, "SelectionAllContextMenuItem" );
             this.SelectionAllContextMenuItem.Font = null;
@@ -1075,8 +911,6 @@ namespace Tween.Widgets {
             // 
             // SearchWikipediaContextMenuItem
             // 
-            this.SearchWikipediaContextMenuItem.AccessibleDescription = null;
-            this.SearchWikipediaContextMenuItem.AccessibleName = null;
             this.SearchWikipediaContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SearchWikipediaContextMenuItem, "SearchWikipediaContextMenuItem" );
             this.SearchWikipediaContextMenuItem.Font = null;
@@ -1084,8 +918,6 @@ namespace Tween.Widgets {
             // 
             // SearchGoogleContextMenuItem
             // 
-            this.SearchGoogleContextMenuItem.AccessibleDescription = null;
-            this.SearchGoogleContextMenuItem.AccessibleName = null;
             this.SearchGoogleContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SearchGoogleContextMenuItem, "SearchGoogleContextMenuItem" );
             this.SearchGoogleContextMenuItem.Font = null;
@@ -1093,8 +925,6 @@ namespace Tween.Widgets {
             // 
             // SearchYatsContextMenuItem
             // 
-            this.SearchYatsContextMenuItem.AccessibleDescription = null;
-            this.SearchYatsContextMenuItem.AccessibleName = null;
             this.SearchYatsContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SearchYatsContextMenuItem, "SearchYatsContextMenuItem" );
             this.SearchYatsContextMenuItem.Font = null;
@@ -1102,8 +932,6 @@ namespace Tween.Widgets {
             // 
             // SearchPublicSearchContextMenuItem
             // 
-            this.SearchPublicSearchContextMenuItem.AccessibleDescription = null;
-            this.SearchPublicSearchContextMenuItem.AccessibleName = null;
             this.SearchPublicSearchContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SearchPublicSearchContextMenuItem, "SearchPublicSearchContextMenuItem" );
             this.SearchPublicSearchContextMenuItem.Font = null;
@@ -1111,8 +939,6 @@ namespace Tween.Widgets {
             // 
             // CurrentTabToolStripMenuItem
             // 
-            this.CurrentTabToolStripMenuItem.AccessibleDescription = null;
-            this.CurrentTabToolStripMenuItem.AccessibleName = null;
             this.CurrentTabToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CurrentTabToolStripMenuItem, "CurrentTabToolStripMenuItem" );
             this.CurrentTabToolStripMenuItem.Font = null;
@@ -1120,8 +946,6 @@ namespace Tween.Widgets {
             // 
             // UrlCopyContextMenuItem
             // 
-            this.UrlCopyContextMenuItem.AccessibleDescription = null;
-            this.UrlCopyContextMenuItem.AccessibleName = null;
             this.UrlCopyContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UrlCopyContextMenuItem, "UrlCopyContextMenuItem" );
             this.UrlCopyContextMenuItem.Font = null;
@@ -1129,8 +953,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripMenuItem6
             // 
-            this.ToolStripMenuItem6.AccessibleDescription = null;
-            this.ToolStripMenuItem6.AccessibleName = null;
             this.ToolStripMenuItem6.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripMenuItem6, "ToolStripMenuItem6" );
             this.ToolStripMenuItem6.Font = null;
@@ -1138,8 +960,6 @@ namespace Tween.Widgets {
             // 
             // MoveToHomeToolStripMenuItem
             // 
-            this.MoveToHomeToolStripMenuItem.AccessibleDescription = null;
-            this.MoveToHomeToolStripMenuItem.AccessibleName = null;
             this.MoveToHomeToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.MoveToHomeToolStripMenuItem, "MoveToHomeToolStripMenuItem" );
             this.MoveToHomeToolStripMenuItem.Font = null;
@@ -1147,8 +967,6 @@ namespace Tween.Widgets {
             // 
             // MoveToFavToolStripMenuItem
             // 
-            this.MoveToFavToolStripMenuItem.AccessibleDescription = null;
-            this.MoveToFavToolStripMenuItem.AccessibleName = null;
             this.MoveToFavToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.MoveToFavToolStripMenuItem, "MoveToFavToolStripMenuItem" );
             this.MoveToFavToolStripMenuItem.Font = null;
@@ -1156,8 +974,6 @@ namespace Tween.Widgets {
             // 
             // StatusOpenMenuItem
             // 
-            this.StatusOpenMenuItem.AccessibleDescription = null;
-            this.StatusOpenMenuItem.AccessibleName = null;
             this.StatusOpenMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.StatusOpenMenuItem, "StatusOpenMenuItem" );
             this.StatusOpenMenuItem.Font = null;
@@ -1165,8 +981,6 @@ namespace Tween.Widgets {
             // 
             // RepliedStatusOpenMenuItem
             // 
-            this.RepliedStatusOpenMenuItem.AccessibleDescription = null;
-            this.RepliedStatusOpenMenuItem.AccessibleName = null;
             this.RepliedStatusOpenMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RepliedStatusOpenMenuItem, "RepliedStatusOpenMenuItem" );
             this.RepliedStatusOpenMenuItem.Font = null;
@@ -1174,8 +988,6 @@ namespace Tween.Widgets {
             // 
             // FavorareMenuItem
             // 
-            this.FavorareMenuItem.AccessibleDescription = null;
-            this.FavorareMenuItem.AccessibleName = null;
             this.FavorareMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FavorareMenuItem, "FavorareMenuItem" );
             this.FavorareMenuItem.Font = null;
@@ -1183,8 +995,6 @@ namespace Tween.Widgets {
             // 
             // OpenURLMenuItem
             // 
-            this.OpenURLMenuItem.AccessibleDescription = null;
-            this.OpenURLMenuItem.AccessibleName = null;
             this.OpenURLMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenURLMenuItem, "OpenURLMenuItem" );
             this.OpenURLMenuItem.Font = null;
@@ -1192,8 +1002,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripMenuItem7
             // 
-            this.ToolStripMenuItem7.AccessibleDescription = null;
-            this.ToolStripMenuItem7.AccessibleName = null;
             this.ToolStripMenuItem7.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripMenuItem7, "ToolStripMenuItem7" );
             this.ToolStripMenuItem7.Font = null;
@@ -1201,8 +1009,6 @@ namespace Tween.Widgets {
             // 
             // TabMenuItem
             // 
-            this.TabMenuItem.AccessibleDescription = null;
-            this.TabMenuItem.AccessibleName = null;
             this.TabMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TabMenuItem, "TabMenuItem" );
             this.TabMenuItem.Font = null;
@@ -1210,8 +1016,6 @@ namespace Tween.Widgets {
             // 
             // IDRuleMenuItem
             // 
-            this.IDRuleMenuItem.AccessibleDescription = null;
-            this.IDRuleMenuItem.AccessibleName = null;
             this.IDRuleMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.IDRuleMenuItem, "IDRuleMenuItem" );
             this.IDRuleMenuItem.Font = null;
@@ -1219,8 +1023,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripMenuItem11
             // 
-            this.ToolStripMenuItem11.AccessibleDescription = null;
-            this.ToolStripMenuItem11.AccessibleName = null;
             this.ToolStripMenuItem11.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripMenuItem11, "ToolStripMenuItem11" );
             this.ToolStripMenuItem11.Font = null;
@@ -1228,8 +1030,6 @@ namespace Tween.Widgets {
             // 
             // ReadedStripMenuItem
             // 
-            this.ReadedStripMenuItem.AccessibleDescription = null;
-            this.ReadedStripMenuItem.AccessibleName = null;
             this.ReadedStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ReadedStripMenuItem, "ReadedStripMenuItem" );
             this.ReadedStripMenuItem.Font = null;
@@ -1237,8 +1037,6 @@ namespace Tween.Widgets {
             // 
             // UnreadStripMenuItem
             // 
-            this.UnreadStripMenuItem.AccessibleDescription = null;
-            this.UnreadStripMenuItem.AccessibleName = null;
             this.UnreadStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UnreadStripMenuItem, "UnreadStripMenuItem" );
             this.UnreadStripMenuItem.Font = null;
@@ -1246,8 +1044,6 @@ namespace Tween.Widgets {
             // 
             // ReplyStripMenuItem
             // 
-            this.ReplyStripMenuItem.AccessibleDescription = null;
-            this.ReplyStripMenuItem.AccessibleName = null;
             this.ReplyStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ReplyStripMenuItem, "ReplyStripMenuItem" );
             this.ReplyStripMenuItem.Font = null;
@@ -1255,8 +1051,6 @@ namespace Tween.Widgets {
             // 
             // ReplyAllStripMenuItem
             // 
-            this.ReplyAllStripMenuItem.AccessibleDescription = null;
-            this.ReplyAllStripMenuItem.AccessibleName = null;
             this.ReplyAllStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ReplyAllStripMenuItem, "ReplyAllStripMenuItem" );
             this.ReplyAllStripMenuItem.Font = null;
@@ -1264,8 +1058,6 @@ namespace Tween.Widgets {
             // 
             // FavAddToolStripMenuItem
             // 
-            this.FavAddToolStripMenuItem.AccessibleDescription = null;
-            this.FavAddToolStripMenuItem.AccessibleName = null;
             this.FavAddToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FavAddToolStripMenuItem, "FavAddToolStripMenuItem" );
             this.FavAddToolStripMenuItem.Font = null;
@@ -1273,8 +1065,6 @@ namespace Tween.Widgets {
             // 
             // FavRemoveToolStripMenuItem
             // 
-            this.FavRemoveToolStripMenuItem.AccessibleDescription = null;
-            this.FavRemoveToolStripMenuItem.AccessibleName = null;
             this.FavRemoveToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FavRemoveToolStripMenuItem, "FavRemoveToolStripMenuItem" );
             this.FavRemoveToolStripMenuItem.Font = null;
@@ -1282,8 +1072,6 @@ namespace Tween.Widgets {
             // 
             // ReTweetStripMenuItem
             // 
-            this.ReTweetStripMenuItem.AccessibleDescription = null;
-            this.ReTweetStripMenuItem.AccessibleName = null;
             this.ReTweetStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ReTweetStripMenuItem, "ReTweetStripMenuItem" );
             this.ReTweetStripMenuItem.Font = null;
@@ -1291,8 +1079,6 @@ namespace Tween.Widgets {
             // 
             // ContextMenuPostMode
             // 
-            this.ContextMenuPostMode.AccessibleDescription = null;
-            this.ContextMenuPostMode.AccessibleName = null;
             this.ContextMenuPostMode.BackgroundImage = null;
             resources.ApplyResources( this.ContextMenuPostMode, "ContextMenuPostMode" );
             this.ContextMenuPostMode.Font = null;
@@ -1300,8 +1086,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripMenuItemUrlMultibyteSplit
             // 
-            this.ToolStripMenuItemUrlMultibyteSplit.AccessibleDescription = null;
-            this.ToolStripMenuItemUrlMultibyteSplit.AccessibleName = null;
             this.ToolStripMenuItemUrlMultibyteSplit.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripMenuItemUrlMultibyteSplit, "ToolStripMenuItemUrlMultibyteSplit" );
             this.ToolStripMenuItemUrlMultibyteSplit.Font = null;
@@ -1309,8 +1093,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripMenuItemApiCommandEvasion
             // 
-            this.ToolStripMenuItemApiCommandEvasion.AccessibleDescription = null;
-            this.ToolStripMenuItemApiCommandEvasion.AccessibleName = null;
             this.ToolStripMenuItemApiCommandEvasion.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripMenuItemApiCommandEvasion, "ToolStripMenuItemApiCommandEvasion" );
             this.ToolStripMenuItemApiCommandEvasion.Font = null;
@@ -1318,8 +1100,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripMenuItemUrlAutoShorten
             // 
-            this.ToolStripMenuItemUrlAutoShorten.AccessibleDescription = null;
-            this.ToolStripMenuItemUrlAutoShorten.AccessibleName = null;
             this.ToolStripMenuItemUrlAutoShorten.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripMenuItemUrlAutoShorten, "ToolStripMenuItemUrlAutoShorten" );
             this.ToolStripMenuItemUrlAutoShorten.Font = null;
@@ -1327,8 +1107,6 @@ namespace Tween.Widgets {
             // 
             // DebugModeToolStripMenuItem
             // 
-            this.DebugModeToolStripMenuItem.AccessibleDescription = null;
-            this.DebugModeToolStripMenuItem.AccessibleName = null;
             this.DebugModeToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.DebugModeToolStripMenuItem, "DebugModeToolStripMenuItem" );
             this.DebugModeToolStripMenuItem.Font = null;
@@ -1336,8 +1114,6 @@ namespace Tween.Widgets {
             // 
             // DumpPostClassToolStripMenuItem
             // 
-            this.DumpPostClassToolStripMenuItem.AccessibleDescription = null;
-            this.DumpPostClassToolStripMenuItem.AccessibleName = null;
             this.DumpPostClassToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.DumpPostClassToolStripMenuItem, "DumpPostClassToolStripMenuItem" );
             this.DumpPostClassToolStripMenuItem.Font = null;
@@ -1345,8 +1121,6 @@ namespace Tween.Widgets {
             // 
             // TraceOutToolStripMenuItem
             // 
-            this.TraceOutToolStripMenuItem.AccessibleDescription = null;
-            this.TraceOutToolStripMenuItem.AccessibleName = null;
             this.TraceOutToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TraceOutToolStripMenuItem, "TraceOutToolStripMenuItem" );
             this.TraceOutToolStripMenuItem.Font = null;
@@ -1354,8 +1128,6 @@ namespace Tween.Widgets {
             // 
             // TwurlnlToolStripMenuItem
             // 
-            this.TwurlnlToolStripMenuItem.AccessibleDescription = null;
-            this.TwurlnlToolStripMenuItem.AccessibleName = null;
             this.TwurlnlToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TwurlnlToolStripMenuItem, "TwurlnlToolStripMenuItem" );
             this.TwurlnlToolStripMenuItem.Font = null;
@@ -1363,8 +1135,6 @@ namespace Tween.Widgets {
             // 
             // TabRenameMenuItem
             // 
-            this.TabRenameMenuItem.AccessibleDescription = null;
-            this.TabRenameMenuItem.AccessibleName = null;
             this.TabRenameMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TabRenameMenuItem, "TabRenameMenuItem" );
             this.TabRenameMenuItem.Font = null;
@@ -1372,8 +1142,6 @@ namespace Tween.Widgets {
             // 
             // BitlyToolStripMenuItem
             // 
-            this.BitlyToolStripMenuItem.AccessibleDescription = null;
-            this.BitlyToolStripMenuItem.AccessibleName = null;
             this.BitlyToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.BitlyToolStripMenuItem, "BitlyToolStripMenuItem" );
             this.BitlyToolStripMenuItem.Font = null;
@@ -1381,8 +1149,6 @@ namespace Tween.Widgets {
             // 
             // ApiInfoMenuItem
             // 
-            this.ApiInfoMenuItem.AccessibleDescription = null;
-            this.ApiInfoMenuItem.AccessibleName = null;
             this.ApiInfoMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ApiInfoMenuItem, "ApiInfoMenuItem" );
             this.ApiInfoMenuItem.Font = null;
@@ -1390,8 +1156,6 @@ namespace Tween.Widgets {
             // 
             // IdeographicSpaceToSpaceToolStripMenuItem
             // 
-            this.IdeographicSpaceToSpaceToolStripMenuItem.AccessibleDescription = null;
-            this.IdeographicSpaceToSpaceToolStripMenuItem.AccessibleName = null;
             this.IdeographicSpaceToSpaceToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.IdeographicSpaceToSpaceToolStripMenuItem, "IdeographicSpaceToSpaceToolStripMenuItem" );
             this.IdeographicSpaceToSpaceToolStripMenuItem.Font = null;
@@ -1399,8 +1163,6 @@ namespace Tween.Widgets {
             // 
             // FollowCommandMenuItem
             // 
-            this.FollowCommandMenuItem.AccessibleDescription = null;
-            this.FollowCommandMenuItem.AccessibleName = null;
             this.FollowCommandMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FollowCommandMenuItem, "FollowCommandMenuItem" );
             this.FollowCommandMenuItem.Font = null;
@@ -1408,8 +1170,6 @@ namespace Tween.Widgets {
             // 
             // RemoveCommandMenuItem
             // 
-            this.RemoveCommandMenuItem.AccessibleDescription = null;
-            this.RemoveCommandMenuItem.AccessibleName = null;
             this.RemoveCommandMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RemoveCommandMenuItem, "RemoveCommandMenuItem" );
             this.RemoveCommandMenuItem.Font = null;
@@ -1417,8 +1177,6 @@ namespace Tween.Widgets {
             // 
             // FriendshipMenuItem
             // 
-            this.FriendshipMenuItem.AccessibleDescription = null;
-            this.FriendshipMenuItem.AccessibleName = null;
             this.FriendshipMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FriendshipMenuItem, "FriendshipMenuItem" );
             this.FriendshipMenuItem.Font = null;
@@ -1426,8 +1184,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator1
             // 
-            this.ToolStripSeparator1.AccessibleDescription = null;
-            this.ToolStripSeparator1.AccessibleName = null;
             this.ToolStripSeparator1.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator1, "ToolStripSeparator1" );
             this.ToolStripSeparator1.Font = null;
@@ -1435,8 +1191,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator3
             // 
-            this.ToolStripSeparator3.AccessibleDescription = null;
-            this.ToolStripSeparator3.AccessibleName = null;
             this.ToolStripSeparator3.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator3, "ToolStripSeparator3" );
             this.ToolStripSeparator3.Font = null;
@@ -1444,8 +1198,6 @@ namespace Tween.Widgets {
             // 
             // OwnStatusMenuItem
             // 
-            this.OwnStatusMenuItem.AccessibleDescription = null;
-            this.OwnStatusMenuItem.AccessibleName = null;
             this.OwnStatusMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OwnStatusMenuItem, "OwnStatusMenuItem" );
             this.OwnStatusMenuItem.Font = null;
@@ -1453,8 +1205,6 @@ namespace Tween.Widgets {
             // 
             // ReTweetOriginalStripMenuItem
             // 
-            this.ReTweetOriginalStripMenuItem.AccessibleDescription = null;
-            this.ReTweetOriginalStripMenuItem.AccessibleName = null;
             this.ReTweetOriginalStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ReTweetOriginalStripMenuItem, "ReTweetOriginalStripMenuItem" );
             this.ReTweetOriginalStripMenuItem.Font = null;
@@ -1462,8 +1212,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator5
             // 
-            this.ToolStripSeparator5.AccessibleDescription = null;
-            this.ToolStripSeparator5.AccessibleName = null;
             this.ToolStripSeparator5.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator5, "ToolStripSeparator5" );
             this.ToolStripSeparator5.Font = null;
@@ -1471,8 +1219,6 @@ namespace Tween.Widgets {
             // 
             // FollowContextMenuItem
             // 
-            this.FollowContextMenuItem.AccessibleDescription = null;
-            this.FollowContextMenuItem.AccessibleName = null;
             this.FollowContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FollowContextMenuItem, "FollowContextMenuItem" );
             this.FollowContextMenuItem.Font = null;
@@ -1480,8 +1226,6 @@ namespace Tween.Widgets {
             // 
             // RemoveContextMenuItem
             // 
-            this.RemoveContextMenuItem.AccessibleDescription = null;
-            this.RemoveContextMenuItem.AccessibleName = null;
             this.RemoveContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RemoveContextMenuItem, "RemoveContextMenuItem" );
             this.RemoveContextMenuItem.Font = null;
@@ -1489,8 +1233,6 @@ namespace Tween.Widgets {
             // 
             // FriendshipContextMenuItem
             // 
-            this.FriendshipContextMenuItem.AccessibleDescription = null;
-            this.FriendshipContextMenuItem.AccessibleName = null;
             this.FriendshipContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FriendshipContextMenuItem, "FriendshipContextMenuItem" );
             this.FriendshipContextMenuItem.Font = null;
@@ -1498,8 +1240,6 @@ namespace Tween.Widgets {
             // 
             // JmpStripMenuItem
             // 
-            this.JmpStripMenuItem.AccessibleDescription = null;
-            this.JmpStripMenuItem.AccessibleName = null;
             this.JmpStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.JmpStripMenuItem, "JmpStripMenuItem" );
             this.JmpStripMenuItem.Font = null;
@@ -1507,8 +1247,6 @@ namespace Tween.Widgets {
             // 
             // QuoteStripMenuItem
             // 
-            this.QuoteStripMenuItem.AccessibleDescription = null;
-            this.QuoteStripMenuItem.AccessibleName = null;
             this.QuoteStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.QuoteStripMenuItem, "QuoteStripMenuItem" );
             this.QuoteStripMenuItem.Font = null;
@@ -1516,8 +1254,6 @@ namespace Tween.Widgets {
             // 
             // RefreshMoreStripMenuItem
             // 
-            this.RefreshMoreStripMenuItem.AccessibleDescription = null;
-            this.RefreshMoreStripMenuItem.AccessibleName = null;
             this.RefreshMoreStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RefreshMoreStripMenuItem, "RefreshMoreStripMenuItem" );
             this.RefreshMoreStripMenuItem.Font = null;
@@ -1525,8 +1261,6 @@ namespace Tween.Widgets {
             // 
             // UndoRemoveTabMenuItem
             // 
-            this.UndoRemoveTabMenuItem.AccessibleDescription = null;
-            this.UndoRemoveTabMenuItem.AccessibleName = null;
             this.UndoRemoveTabMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UndoRemoveTabMenuItem, "UndoRemoveTabMenuItem" );
             this.UndoRemoveTabMenuItem.Font = null;
@@ -1534,8 +1268,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator12
             // 
-            this.ToolStripSeparator12.AccessibleDescription = null;
-            this.ToolStripSeparator12.AccessibleName = null;
             this.ToolStripSeparator12.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator12, "ToolStripSeparator12" );
             this.ToolStripSeparator12.Font = null;
@@ -1543,8 +1275,6 @@ namespace Tween.Widgets {
             // 
             // MoveToRTHomeMenuItem
             // 
-            this.MoveToRTHomeMenuItem.AccessibleDescription = null;
-            this.MoveToRTHomeMenuItem.AccessibleName = null;
             this.MoveToRTHomeMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.MoveToRTHomeMenuItem, "MoveToRTHomeMenuItem" );
             this.MoveToRTHomeMenuItem.Font = null;
@@ -1552,8 +1282,6 @@ namespace Tween.Widgets {
             // 
             // IdFilterAddMenuItem
             // 
-            this.IdFilterAddMenuItem.AccessibleDescription = null;
-            this.IdFilterAddMenuItem.AccessibleName = null;
             this.IdFilterAddMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.IdFilterAddMenuItem, "IdFilterAddMenuItem" );
             this.IdFilterAddMenuItem.Font = null;
@@ -1561,8 +1289,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator22
             // 
-            this.ToolStripSeparator22.AccessibleDescription = null;
-            this.ToolStripSeparator22.AccessibleName = null;
             this.ToolStripSeparator22.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator22, "ToolStripSeparator22" );
             this.ToolStripSeparator22.Font = null;
@@ -1570,8 +1296,6 @@ namespace Tween.Widgets {
             // 
             // PublicSearchQueryMenuItem
             // 
-            this.PublicSearchQueryMenuItem.AccessibleDescription = null;
-            this.PublicSearchQueryMenuItem.AccessibleName = null;
             this.PublicSearchQueryMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.PublicSearchQueryMenuItem, "PublicSearchQueryMenuItem" );
             this.PublicSearchQueryMenuItem.Font = null;
@@ -1579,8 +1303,6 @@ namespace Tween.Widgets {
             // 
             // UseHashtagMenuItem
             // 
-            this.UseHashtagMenuItem.AccessibleDescription = null;
-            this.UseHashtagMenuItem.AccessibleName = null;
             this.UseHashtagMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UseHashtagMenuItem, "UseHashtagMenuItem" );
             this.UseHashtagMenuItem.Font = null;
@@ -1588,8 +1310,6 @@ namespace Tween.Widgets {
             // 
             // StatusLabel
             // 
-            this.StatusLabel.AccessibleDescription = null;
-            this.StatusLabel.AccessibleName = null;
             this.StatusLabel.BackgroundImage = null;
             resources.ApplyResources( this.StatusLabel, "StatusLabel" );
             this.StatusLabel.Font = null;
@@ -1597,8 +1317,6 @@ namespace Tween.Widgets {
             // 
             // HashStripSplitButton
             // 
-            this.HashStripSplitButton.AccessibleDescription = null;
-            this.HashStripSplitButton.AccessibleName = null;
             this.HashStripSplitButton.BackgroundImage = null;
             resources.ApplyResources( this.HashStripSplitButton, "HashStripSplitButton" );
             this.HashStripSplitButton.Font = null;
@@ -1606,8 +1324,6 @@ namespace Tween.Widgets {
             // 
             // HashToggleMenuItem
             // 
-            this.HashToggleMenuItem.AccessibleDescription = null;
-            this.HashToggleMenuItem.AccessibleName = null;
             this.HashToggleMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.HashToggleMenuItem, "HashToggleMenuItem" );
             this.HashToggleMenuItem.Font = null;
@@ -1615,8 +1331,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator8
             // 
-            this.ToolStripSeparator8.AccessibleDescription = null;
-            this.ToolStripSeparator8.AccessibleName = null;
             this.ToolStripSeparator8.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator8, "ToolStripSeparator8" );
             this.ToolStripSeparator8.Font = null;
@@ -1624,8 +1338,6 @@ namespace Tween.Widgets {
             // 
             // HashManageMenuItem
             // 
-            this.HashManageMenuItem.AccessibleDescription = null;
-            this.HashManageMenuItem.AccessibleName = null;
             this.HashManageMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.HashManageMenuItem, "HashManageMenuItem" );
             this.HashManageMenuItem.Font = null;
@@ -1633,8 +1345,6 @@ namespace Tween.Widgets {
             // 
             // MultiLineMenuItem
             // 
-            this.MultiLineMenuItem.AccessibleDescription = null;
-            this.MultiLineMenuItem.AccessibleName = null;
             this.MultiLineMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.MultiLineMenuItem, "MultiLineMenuItem" );
             this.MultiLineMenuItem.Font = null;
@@ -1642,8 +1352,6 @@ namespace Tween.Widgets {
             // 
             // SettingFileMenuItem
             // 
-            this.SettingFileMenuItem.AccessibleDescription = null;
-            this.SettingFileMenuItem.AccessibleName = null;
             this.SettingFileMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SettingFileMenuItem, "SettingFileMenuItem" );
             this.SettingFileMenuItem.Font = null;
@@ -1651,8 +1359,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator21
             // 
-            this.ToolStripSeparator21.AccessibleDescription = null;
-            this.ToolStripSeparator21.AccessibleName = null;
             this.ToolStripSeparator21.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator21, "ToolStripSeparator21" );
             this.ToolStripSeparator21.Font = null;
@@ -1660,8 +1366,6 @@ namespace Tween.Widgets {
             // 
             // SaveFileMenuItem
             // 
-            this.SaveFileMenuItem.AccessibleDescription = null;
-            this.SaveFileMenuItem.AccessibleName = null;
             this.SaveFileMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SaveFileMenuItem, "SaveFileMenuItem" );
             this.SaveFileMenuItem.Font = null;
@@ -1669,8 +1373,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator23
             // 
-            this.ToolStripSeparator23.AccessibleDescription = null;
-            this.ToolStripSeparator23.AccessibleName = null;
             this.ToolStripSeparator23.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator23, "ToolStripSeparator23" );
             this.ToolStripSeparator23.Font = null;
@@ -1678,8 +1380,6 @@ namespace Tween.Widgets {
             // 
             // NotifyFileMenuItem
             // 
-            this.NotifyFileMenuItem.AccessibleDescription = null;
-            this.NotifyFileMenuItem.AccessibleName = null;
             this.NotifyFileMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.NotifyFileMenuItem, "NotifyFileMenuItem" );
             this.NotifyFileMenuItem.Font = null;
@@ -1687,8 +1387,6 @@ namespace Tween.Widgets {
             // 
             // PlaySoundFileMenuItem
             // 
-            this.PlaySoundFileMenuItem.AccessibleDescription = null;
-            this.PlaySoundFileMenuItem.AccessibleName = null;
             this.PlaySoundFileMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.PlaySoundFileMenuItem, "PlaySoundFileMenuItem" );
             this.PlaySoundFileMenuItem.Font = null;
@@ -1696,8 +1394,6 @@ namespace Tween.Widgets {
             // 
             // LockListFileMenuItem
             // 
-            this.LockListFileMenuItem.AccessibleDescription = null;
-            this.LockListFileMenuItem.AccessibleName = null;
             this.LockListFileMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.LockListFileMenuItem, "LockListFileMenuItem" );
             this.LockListFileMenuItem.Font = null;
@@ -1705,8 +1401,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator24
             // 
-            this.ToolStripSeparator24.AccessibleDescription = null;
-            this.ToolStripSeparator24.AccessibleName = null;
             this.ToolStripSeparator24.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator24, "ToolStripSeparator24" );
             this.ToolStripSeparator24.Font = null;
@@ -1714,8 +1408,6 @@ namespace Tween.Widgets {
             // 
             // EndFileMenuItem
             // 
-            this.EndFileMenuItem.AccessibleDescription = null;
-            this.EndFileMenuItem.AccessibleName = null;
             this.EndFileMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.EndFileMenuItem, "EndFileMenuItem" );
             this.EndFileMenuItem.Font = null;
@@ -1723,8 +1415,6 @@ namespace Tween.Widgets {
             // 
             // ReplyOpMenuItem
             // 
-            this.ReplyOpMenuItem.AccessibleDescription = null;
-            this.ReplyOpMenuItem.AccessibleName = null;
             this.ReplyOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ReplyOpMenuItem, "ReplyOpMenuItem" );
             this.ReplyOpMenuItem.Font = null;
@@ -1732,8 +1422,6 @@ namespace Tween.Widgets {
             // 
             // ReplyAllOpMenuItem
             // 
-            this.ReplyAllOpMenuItem.AccessibleDescription = null;
-            this.ReplyAllOpMenuItem.AccessibleName = null;
             this.ReplyAllOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ReplyAllOpMenuItem, "ReplyAllOpMenuItem" );
             this.ReplyAllOpMenuItem.Font = null;
@@ -1741,8 +1429,6 @@ namespace Tween.Widgets {
             // 
             // DmOpMenuItem
             // 
-            this.DmOpMenuItem.AccessibleDescription = null;
-            this.DmOpMenuItem.AccessibleName = null;
             this.DmOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.DmOpMenuItem, "DmOpMenuItem" );
             this.DmOpMenuItem.Font = null;
@@ -1750,8 +1436,6 @@ namespace Tween.Widgets {
             // 
             // RtOpMenuItem
             // 
-            this.RtOpMenuItem.AccessibleDescription = null;
-            this.RtOpMenuItem.AccessibleName = null;
             this.RtOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RtOpMenuItem, "RtOpMenuItem" );
             this.RtOpMenuItem.Font = null;
@@ -1759,8 +1443,6 @@ namespace Tween.Widgets {
             // 
             // RtUnOpMenuItem
             // 
-            this.RtUnOpMenuItem.AccessibleDescription = null;
-            this.RtUnOpMenuItem.AccessibleName = null;
             this.RtUnOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RtUnOpMenuItem, "RtUnOpMenuItem" );
             this.RtUnOpMenuItem.Font = null;
@@ -1768,8 +1450,6 @@ namespace Tween.Widgets {
             // 
             // QtOpMenuItem
             // 
-            this.QtOpMenuItem.AccessibleDescription = null;
-            this.QtOpMenuItem.AccessibleName = null;
             this.QtOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.QtOpMenuItem, "QtOpMenuItem" );
             this.QtOpMenuItem.Font = null;
@@ -1777,8 +1457,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator25
             // 
-            this.ToolStripSeparator25.AccessibleDescription = null;
-            this.ToolStripSeparator25.AccessibleName = null;
             this.ToolStripSeparator25.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator25, "ToolStripSeparator25" );
             this.ToolStripSeparator25.Font = null;
@@ -1786,8 +1464,6 @@ namespace Tween.Widgets {
             // 
             // FavOpMenuItem
             // 
-            this.FavOpMenuItem.AccessibleDescription = null;
-            this.FavOpMenuItem.AccessibleName = null;
             this.FavOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FavOpMenuItem, "FavOpMenuItem" );
             this.FavOpMenuItem.Font = null;
@@ -1795,8 +1471,6 @@ namespace Tween.Widgets {
             // 
             // UnFavOpMenuItem
             // 
-            this.UnFavOpMenuItem.AccessibleDescription = null;
-            this.UnFavOpMenuItem.AccessibleName = null;
             this.UnFavOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UnFavOpMenuItem, "UnFavOpMenuItem" );
             this.UnFavOpMenuItem.Font = null;
@@ -1804,8 +1478,6 @@ namespace Tween.Widgets {
             // 
             // OpenOpMenuItem
             // 
-            this.OpenOpMenuItem.AccessibleDescription = null;
-            this.OpenOpMenuItem.AccessibleName = null;
             this.OpenOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenOpMenuItem, "OpenOpMenuItem" );
             this.OpenOpMenuItem.Font = null;
@@ -1813,8 +1485,6 @@ namespace Tween.Widgets {
             // 
             // CreateRuleOpMenuItem
             // 
-            this.CreateRuleOpMenuItem.AccessibleDescription = null;
-            this.CreateRuleOpMenuItem.AccessibleName = null;
             this.CreateRuleOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CreateRuleOpMenuItem, "CreateRuleOpMenuItem" );
             this.CreateRuleOpMenuItem.Font = null;
@@ -1822,8 +1492,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator26
             // 
-            this.ToolStripSeparator26.AccessibleDescription = null;
-            this.ToolStripSeparator26.AccessibleName = null;
             this.ToolStripSeparator26.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator26, "ToolStripSeparator26" );
             this.ToolStripSeparator26.Font = null;
@@ -1831,8 +1499,6 @@ namespace Tween.Widgets {
             // 
             // ChangeReadOpMenuItem
             // 
-            this.ChangeReadOpMenuItem.AccessibleDescription = null;
-            this.ChangeReadOpMenuItem.AccessibleName = null;
             this.ChangeReadOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ChangeReadOpMenuItem, "ChangeReadOpMenuItem" );
             this.ChangeReadOpMenuItem.Font = null;
@@ -1840,8 +1506,6 @@ namespace Tween.Widgets {
             // 
             // JumpReadOpMenuItem
             // 
-            this.JumpReadOpMenuItem.AccessibleDescription = null;
-            this.JumpReadOpMenuItem.AccessibleName = null;
             this.JumpReadOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.JumpReadOpMenuItem, "JumpReadOpMenuItem" );
             this.JumpReadOpMenuItem.Font = null;
@@ -1849,8 +1513,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator27
             // 
-            this.ToolStripSeparator27.AccessibleDescription = null;
-            this.ToolStripSeparator27.AccessibleName = null;
             this.ToolStripSeparator27.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator27, "ToolStripSeparator27" );
             this.ToolStripSeparator27.Font = null;
@@ -1858,8 +1520,6 @@ namespace Tween.Widgets {
             // 
             // SelAllOpMenuItem
             // 
-            this.SelAllOpMenuItem.AccessibleDescription = null;
-            this.SelAllOpMenuItem.AccessibleName = null;
             this.SelAllOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SelAllOpMenuItem, "SelAllOpMenuItem" );
             this.SelAllOpMenuItem.Font = null;
@@ -1867,8 +1527,6 @@ namespace Tween.Widgets {
             // 
             // DelOpMenuItem
             // 
-            this.DelOpMenuItem.AccessibleDescription = null;
-            this.DelOpMenuItem.AccessibleName = null;
             this.DelOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.DelOpMenuItem, "DelOpMenuItem" );
             this.DelOpMenuItem.Font = null;
@@ -1876,8 +1534,6 @@ namespace Tween.Widgets {
             // 
             // RefreshOpMenuItem
             // 
-            this.RefreshOpMenuItem.AccessibleDescription = null;
-            this.RefreshOpMenuItem.AccessibleName = null;
             this.RefreshOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RefreshOpMenuItem, "RefreshOpMenuItem" );
             this.RefreshOpMenuItem.Font = null;
@@ -1885,8 +1541,6 @@ namespace Tween.Widgets {
             // 
             // RefreshPrevOpMenuItem
             // 
-            this.RefreshPrevOpMenuItem.AccessibleDescription = null;
-            this.RefreshPrevOpMenuItem.AccessibleName = null;
             this.RefreshPrevOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RefreshPrevOpMenuItem, "RefreshPrevOpMenuItem" );
             this.RefreshPrevOpMenuItem.Font = null;
@@ -1894,8 +1548,6 @@ namespace Tween.Widgets {
             // 
             // OpenHomeOpMenuItem
             // 
-            this.OpenHomeOpMenuItem.AccessibleDescription = null;
-            this.OpenHomeOpMenuItem.AccessibleName = null;
             this.OpenHomeOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenHomeOpMenuItem, "OpenHomeOpMenuItem" );
             this.OpenHomeOpMenuItem.Font = null;
@@ -1903,8 +1555,6 @@ namespace Tween.Widgets {
             // 
             // OpenFavOpMenuItem
             // 
-            this.OpenFavOpMenuItem.AccessibleDescription = null;
-            this.OpenFavOpMenuItem.AccessibleName = null;
             this.OpenFavOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenFavOpMenuItem, "OpenFavOpMenuItem" );
             this.OpenFavOpMenuItem.Font = null;
@@ -1912,8 +1562,6 @@ namespace Tween.Widgets {
             // 
             // OpenStatusOpMenuItem
             // 
-            this.OpenStatusOpMenuItem.AccessibleDescription = null;
-            this.OpenStatusOpMenuItem.AccessibleName = null;
             this.OpenStatusOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenStatusOpMenuItem, "OpenStatusOpMenuItem" );
             this.OpenStatusOpMenuItem.Font = null;
@@ -1921,8 +1569,6 @@ namespace Tween.Widgets {
             // 
             // OpenRepSourceOpMenuItem
             // 
-            this.OpenRepSourceOpMenuItem.AccessibleDescription = null;
-            this.OpenRepSourceOpMenuItem.AccessibleName = null;
             this.OpenRepSourceOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenRepSourceOpMenuItem, "OpenRepSourceOpMenuItem" );
             this.OpenRepSourceOpMenuItem.Font = null;
@@ -1930,8 +1576,6 @@ namespace Tween.Widgets {
             // 
             // OpenFavotterOpMenuItem
             // 
-            this.OpenFavotterOpMenuItem.AccessibleDescription = null;
-            this.OpenFavotterOpMenuItem.AccessibleName = null;
             this.OpenFavotterOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenFavotterOpMenuItem, "OpenFavotterOpMenuItem" );
             this.OpenFavotterOpMenuItem.Font = null;
@@ -1939,8 +1583,6 @@ namespace Tween.Widgets {
             // 
             // OpenUrlOpMenuItem
             // 
-            this.OpenUrlOpMenuItem.AccessibleDescription = null;
-            this.OpenUrlOpMenuItem.AccessibleName = null;
             this.OpenUrlOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenUrlOpMenuItem, "OpenUrlOpMenuItem" );
             this.OpenUrlOpMenuItem.Font = null;
@@ -1948,8 +1590,6 @@ namespace Tween.Widgets {
             // 
             // OpenRterHomeMenuItem
             // 
-            this.OpenRterHomeMenuItem.AccessibleDescription = null;
-            this.OpenRterHomeMenuItem.AccessibleName = null;
             this.OpenRterHomeMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenRterHomeMenuItem, "OpenRterHomeMenuItem" );
             this.OpenRterHomeMenuItem.Font = null;
@@ -1957,8 +1597,6 @@ namespace Tween.Widgets {
             // 
             // CreateTabRuleOpMenuItem
             // 
-            this.CreateTabRuleOpMenuItem.AccessibleDescription = null;
-            this.CreateTabRuleOpMenuItem.AccessibleName = null;
             this.CreateTabRuleOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CreateTabRuleOpMenuItem, "CreateTabRuleOpMenuItem" );
             this.CreateTabRuleOpMenuItem.Font = null;
@@ -1966,8 +1604,6 @@ namespace Tween.Widgets {
             // 
             // CreateIdRuleOpMenuItem
             // 
-            this.CreateIdRuleOpMenuItem.AccessibleDescription = null;
-            this.CreateIdRuleOpMenuItem.AccessibleName = null;
             this.CreateIdRuleOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CreateIdRuleOpMenuItem, "CreateIdRuleOpMenuItem" );
             this.CreateIdRuleOpMenuItem.Font = null;
@@ -1975,8 +1611,6 @@ namespace Tween.Widgets {
             // 
             // ReadOpMenuItem
             // 
-            this.ReadOpMenuItem.AccessibleDescription = null;
-            this.ReadOpMenuItem.AccessibleName = null;
             this.ReadOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ReadOpMenuItem, "ReadOpMenuItem" );
             this.ReadOpMenuItem.Font = null;
@@ -1984,8 +1618,6 @@ namespace Tween.Widgets {
             // 
             // UnreadOpMenuItem
             // 
-            this.UnreadOpMenuItem.AccessibleDescription = null;
-            this.UnreadOpMenuItem.AccessibleName = null;
             this.UnreadOpMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UnreadOpMenuItem, "UnreadOpMenuItem" );
             this.UnreadOpMenuItem.Font = null;
@@ -1993,8 +1625,6 @@ namespace Tween.Widgets {
             // 
             // CreateTbMenuItem
             // 
-            this.CreateTbMenuItem.AccessibleDescription = null;
-            this.CreateTbMenuItem.AccessibleName = null;
             this.CreateTbMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CreateTbMenuItem, "CreateTbMenuItem" );
             this.CreateTbMenuItem.Font = null;
@@ -2002,8 +1632,6 @@ namespace Tween.Widgets {
             // 
             // RenameTbMenuItem
             // 
-            this.RenameTbMenuItem.AccessibleDescription = null;
-            this.RenameTbMenuItem.AccessibleName = null;
             this.RenameTbMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RenameTbMenuItem, "RenameTbMenuItem" );
             this.RenameTbMenuItem.Font = null;
@@ -2011,8 +1639,6 @@ namespace Tween.Widgets {
             // 
             // UnreadMngTbMenuItem
             // 
-            this.UnreadMngTbMenuItem.AccessibleDescription = null;
-            this.UnreadMngTbMenuItem.AccessibleName = null;
             this.UnreadMngTbMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UnreadMngTbMenuItem, "UnreadMngTbMenuItem" );
             this.UnreadMngTbMenuItem.Font = null;
@@ -2020,8 +1646,6 @@ namespace Tween.Widgets {
             // 
             // NotifyTbMenuItem
             // 
-            this.NotifyTbMenuItem.AccessibleDescription = null;
-            this.NotifyTbMenuItem.AccessibleName = null;
             this.NotifyTbMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.NotifyTbMenuItem, "NotifyTbMenuItem" );
             this.NotifyTbMenuItem.Font = null;
@@ -2029,8 +1653,6 @@ namespace Tween.Widgets {
             // 
             // EditRuleTbMenuItem
             // 
-            this.EditRuleTbMenuItem.AccessibleDescription = null;
-            this.EditRuleTbMenuItem.AccessibleName = null;
             this.EditRuleTbMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.EditRuleTbMenuItem, "EditRuleTbMenuItem" );
             this.EditRuleTbMenuItem.Font = null;
@@ -2038,8 +1660,6 @@ namespace Tween.Widgets {
             // 
             // ClearTbMenuItem
             // 
-            this.ClearTbMenuItem.AccessibleDescription = null;
-            this.ClearTbMenuItem.AccessibleName = null;
             this.ClearTbMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ClearTbMenuItem, "ClearTbMenuItem" );
             this.ClearTbMenuItem.Font = null;
@@ -2047,8 +1667,6 @@ namespace Tween.Widgets {
             // 
             // DeleteTbMenuItem
             // 
-            this.DeleteTbMenuItem.AccessibleDescription = null;
-            this.DeleteTbMenuItem.AccessibleName = null;
             this.DeleteTbMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.DeleteTbMenuItem, "DeleteTbMenuItem" );
             this.DeleteTbMenuItem.Font = null;
@@ -2056,8 +1674,6 @@ namespace Tween.Widgets {
             // 
             // SoundFileTbComboBox
             // 
-            this.SoundFileTbComboBox.AccessibleDescription = null;
-            this.SoundFileTbComboBox.AccessibleName = null;
             this.SoundFileTbComboBox.BackgroundImage = null;
             resources.ApplyResources( this.SoundFileTbComboBox, "SoundFileTbComboBox" );
             this.SoundFileTbComboBox.Font = null;
@@ -2065,8 +1681,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator28
             // 
-            this.ToolStripSeparator28.AccessibleDescription = null;
-            this.ToolStripSeparator28.AccessibleName = null;
             this.ToolStripSeparator28.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator28, "ToolStripSeparator28" );
             this.ToolStripSeparator28.Font = null;
@@ -2074,8 +1688,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator29
             // 
-            this.ToolStripSeparator29.AccessibleDescription = null;
-            this.ToolStripSeparator29.AccessibleName = null;
             this.ToolStripSeparator29.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator29, "ToolStripSeparator29" );
             this.ToolStripSeparator29.Font = null;
@@ -2083,8 +1695,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator30
             // 
-            this.ToolStripSeparator30.AccessibleDescription = null;
-            this.ToolStripSeparator30.AccessibleName = null;
             this.ToolStripSeparator30.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator30, "ToolStripSeparator30" );
             this.ToolStripSeparator30.Font = null;
@@ -2092,8 +1702,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator31
             // 
-            this.ToolStripSeparator31.AccessibleDescription = null;
-            this.ToolStripSeparator31.AccessibleName = null;
             this.ToolStripSeparator31.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator31, "ToolStripSeparator31" );
             this.ToolStripSeparator31.Font = null;
@@ -2101,8 +1709,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator32
             // 
-            this.ToolStripSeparator32.AccessibleDescription = null;
-            this.ToolStripSeparator32.AccessibleName = null;
             this.ToolStripSeparator32.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator32, "ToolStripSeparator32" );
             this.ToolStripSeparator32.Font = null;
@@ -2110,8 +1716,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator33
             // 
-            this.ToolStripSeparator33.AccessibleDescription = null;
-            this.ToolStripSeparator33.AccessibleName = null;
             this.ToolStripSeparator33.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator33, "ToolStripSeparator33" );
             this.ToolStripSeparator33.Font = null;
@@ -2119,8 +1723,6 @@ namespace Tween.Widgets {
             // 
             // PostBrowser
             // 
-            this.PostBrowser.AccessibleDescription = null;
-            this.PostBrowser.AccessibleName = null;
             this.PostBrowser.BackgroundImage = null;
             resources.ApplyResources( this.PostBrowser, "PostBrowser" );
             this.PostBrowser.Font = null;
@@ -2128,8 +1730,6 @@ namespace Tween.Widgets {
             // 
             // SplitContainer3
             // 
-            this.SplitContainer3.AccessibleDescription = null;
-            this.SplitContainer3.AccessibleName = null;
             this.SplitContainer3.BackgroundImage = null;
             resources.ApplyResources( this.SplitContainer3, "SplitContainer3" );
             this.SplitContainer3.Font = null;
@@ -2137,8 +1737,6 @@ namespace Tween.Widgets {
             // 
             // PreviewPicture
             // 
-            this.PreviewPicture.AccessibleDescription = null;
-            this.PreviewPicture.AccessibleName = null;
             this.PreviewPicture.BackgroundImage = null;
             resources.ApplyResources( this.PreviewPicture, "PreviewPicture" );
             this.PreviewPicture.Font = null;
@@ -2146,8 +1744,6 @@ namespace Tween.Widgets {
             // 
             // PreviewScrollBar
             // 
-            this.PreviewScrollBar.AccessibleDescription = null;
-            this.PreviewScrollBar.AccessibleName = null;
             this.PreviewScrollBar.BackgroundImage = null;
             resources.ApplyResources( this.PreviewScrollBar, "PreviewScrollBar" );
             this.PreviewScrollBar.Font = null;
@@ -2155,8 +1751,6 @@ namespace Tween.Widgets {
             // 
             // ToolTip1
             // 
-            this.ToolTip1.AccessibleDescription = null;
-            this.ToolTip1.AccessibleName = null;
             this.ToolTip1.BackgroundImage = null;
             resources.ApplyResources( this.ToolTip1, "ToolTip1" );
             this.ToolTip1.Font = null;
@@ -2164,8 +1758,6 @@ namespace Tween.Widgets {
             // 
             // FollowToolStripMenuItem
             // 
-            this.FollowToolStripMenuItem.AccessibleDescription = null;
-            this.FollowToolStripMenuItem.AccessibleName = null;
             this.FollowToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FollowToolStripMenuItem, "FollowToolStripMenuItem" );
             this.FollowToolStripMenuItem.Font = null;
@@ -2173,8 +1765,6 @@ namespace Tween.Widgets {
             // 
             // UnFollowToolStripMenuItem
             // 
-            this.UnFollowToolStripMenuItem.AccessibleDescription = null;
-            this.UnFollowToolStripMenuItem.AccessibleName = null;
             this.UnFollowToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UnFollowToolStripMenuItem, "UnFollowToolStripMenuItem" );
             this.UnFollowToolStripMenuItem.Font = null;
@@ -2182,8 +1772,6 @@ namespace Tween.Widgets {
             // 
             // ShowFriendShipToolStripMenuItem
             // 
-            this.ShowFriendShipToolStripMenuItem.AccessibleDescription = null;
-            this.ShowFriendShipToolStripMenuItem.AccessibleName = null;
             this.ShowFriendShipToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShowFriendShipToolStripMenuItem, "ShowFriendShipToolStripMenuItem" );
             this.ShowFriendShipToolStripMenuItem.Font = null;
@@ -2191,8 +1779,6 @@ namespace Tween.Widgets {
             // 
             // ShowUserStatusToolStripMenuItem
             // 
-            this.ShowUserStatusToolStripMenuItem.AccessibleDescription = null;
-            this.ShowUserStatusToolStripMenuItem.AccessibleName = null;
             this.ShowUserStatusToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShowUserStatusToolStripMenuItem, "ShowUserStatusToolStripMenuItem" );
             this.ShowUserStatusToolStripMenuItem.Font = null;
@@ -2200,8 +1786,6 @@ namespace Tween.Widgets {
             // 
             // ShowUserStatusContextMenuItem
             // 
-            this.ShowUserStatusContextMenuItem.AccessibleDescription = null;
-            this.ShowUserStatusContextMenuItem.AccessibleName = null;
             this.ShowUserStatusContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShowUserStatusContextMenuItem, "ShowUserStatusContextMenuItem" );
             this.ShowUserStatusContextMenuItem.Font = null;
@@ -2209,8 +1793,6 @@ namespace Tween.Widgets {
             // 
             // ShowProfileMenuItem
             // 
-            this.ShowProfileMenuItem.AccessibleDescription = null;
-            this.ShowProfileMenuItem.AccessibleName = null;
             this.ShowProfileMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShowProfileMenuItem, "ShowProfileMenuItem" );
             this.ShowProfileMenuItem.Font = null;
@@ -2218,8 +1800,6 @@ namespace Tween.Widgets {
             // 
             // ShowProfMenuItem
             // 
-            this.ShowProfMenuItem.AccessibleDescription = null;
-            this.ShowProfMenuItem.AccessibleName = null;
             this.ShowProfMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShowProfMenuItem, "ShowProfMenuItem" );
             this.ShowProfMenuItem.Font = null;
@@ -2227,8 +1807,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator34
             // 
-            this.ToolStripSeparator34.AccessibleDescription = null;
-            this.ToolStripSeparator34.AccessibleName = null;
             this.ToolStripSeparator34.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator34, "ToolStripSeparator34" );
             this.ToolStripSeparator34.Font = null;
@@ -2236,8 +1814,6 @@ namespace Tween.Widgets {
             // 
             // HashToggleToolStripMenuItem
             // 
-            this.HashToggleToolStripMenuItem.AccessibleDescription = null;
-            this.HashToggleToolStripMenuItem.AccessibleName = null;
             this.HashToggleToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.HashToggleToolStripMenuItem, "HashToggleToolStripMenuItem" );
             this.HashToggleToolStripMenuItem.Font = null;
@@ -2245,8 +1821,6 @@ namespace Tween.Widgets {
             // 
             // HashManageToolStripMenuItem
             // 
-            this.HashManageToolStripMenuItem.AccessibleDescription = null;
-            this.HashManageToolStripMenuItem.AccessibleName = null;
             this.HashManageToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.HashManageToolStripMenuItem, "HashManageToolStripMenuItem" );
             this.HashManageToolStripMenuItem.Font = null;
@@ -2254,8 +1828,6 @@ namespace Tween.Widgets {
             // 
             // RtCountMenuItem
             // 
-            this.RtCountMenuItem.AccessibleDescription = null;
-            this.RtCountMenuItem.AccessibleName = null;
             this.RtCountMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.RtCountMenuItem, "RtCountMenuItem" );
             this.RtCountMenuItem.Font = null;
@@ -2263,8 +1835,6 @@ namespace Tween.Widgets {
             // 
             // SearchPostsDetailToolStripMenuItem
             // 
-            this.SearchPostsDetailToolStripMenuItem.AccessibleDescription = null;
-            this.SearchPostsDetailToolStripMenuItem.AccessibleName = null;
             this.SearchPostsDetailToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SearchPostsDetailToolStripMenuItem, "SearchPostsDetailToolStripMenuItem" );
             this.SearchPostsDetailToolStripMenuItem.Font = null;
@@ -2272,8 +1842,6 @@ namespace Tween.Widgets {
             // 
             // SearchAtPostsDetailNameToolStripMenuItem
             // 
-            this.SearchAtPostsDetailNameToolStripMenuItem.AccessibleDescription = null;
-            this.SearchAtPostsDetailNameToolStripMenuItem.AccessibleName = null;
             this.SearchAtPostsDetailNameToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SearchAtPostsDetailNameToolStripMenuItem, "SearchAtPostsDetailNameToolStripMenuItem" );
             this.SearchAtPostsDetailNameToolStripMenuItem.Font = null;
@@ -2281,8 +1849,6 @@ namespace Tween.Widgets {
             // 
             // TimelinePanel
             // 
-            this.TimelinePanel.AccessibleDescription = null;
-            this.TimelinePanel.AccessibleName = null;
             this.TimelinePanel.BackgroundImage = null;
             resources.ApplyResources( this.TimelinePanel, "TimelinePanel" );
             this.TimelinePanel.Font = null;
@@ -2290,8 +1856,6 @@ namespace Tween.Widgets {
             // 
             // ProfilePanel
             // 
-            this.ProfilePanel.AccessibleDescription = null;
-            this.ProfilePanel.AccessibleName = null;
             this.ProfilePanel.BackgroundImage = null;
             resources.ApplyResources( this.ProfilePanel, "ProfilePanel" );
             this.ProfilePanel.Font = null;
@@ -2299,8 +1863,6 @@ namespace Tween.Widgets {
             // 
             // Label2
             // 
-            this.Label2.AccessibleDescription = null;
-            this.Label2.AccessibleName = null;
             this.Label2.BackgroundImage = null;
             resources.ApplyResources( this.Label2, "Label2" );
             this.Label2.Font = null;
@@ -2308,8 +1870,6 @@ namespace Tween.Widgets {
             // 
             // FilePickButton
             // 
-            this.FilePickButton.AccessibleDescription = null;
-            this.FilePickButton.AccessibleName = null;
             this.FilePickButton.BackgroundImage = null;
             resources.ApplyResources( this.FilePickButton, "FilePickButton" );
             this.FilePickButton.Font = null;
@@ -2317,8 +1877,6 @@ namespace Tween.Widgets {
             // 
             // ImagefilePathText
             // 
-            this.ImagefilePathText.AccessibleDescription = null;
-            this.ImagefilePathText.AccessibleName = null;
             this.ImagefilePathText.BackgroundImage = null;
             resources.ApplyResources( this.ImagefilePathText, "ImagefilePathText" );
             this.ImagefilePathText.Font = null;
@@ -2326,8 +1884,6 @@ namespace Tween.Widgets {
             // 
             // Label1
             // 
-            this.Label1.AccessibleDescription = null;
-            this.Label1.AccessibleName = null;
             this.Label1.BackgroundImage = null;
             resources.ApplyResources( this.Label1, "Label1" );
             this.Label1.Font = null;
@@ -2335,8 +1891,6 @@ namespace Tween.Widgets {
             // 
             // ImageSelectedPicture
             // 
-            this.ImageSelectedPicture.AccessibleDescription = null;
-            this.ImageSelectedPicture.AccessibleName = null;
             this.ImageSelectedPicture.BackgroundImage = null;
             resources.ApplyResources( this.ImageSelectedPicture, "ImageSelectedPicture" );
             this.ImageSelectedPicture.Font = null;
@@ -2344,8 +1898,6 @@ namespace Tween.Widgets {
             // 
             // ImageSelectionPanel
             // 
-            this.ImageSelectionPanel.AccessibleDescription = null;
-            this.ImageSelectionPanel.AccessibleName = null;
             this.ImageSelectionPanel.BackgroundImage = null;
             resources.ApplyResources( this.ImageSelectionPanel, "ImageSelectionPanel" );
             this.ImageSelectionPanel.Font = null;
@@ -2353,8 +1905,6 @@ namespace Tween.Widgets {
             // 
             // ImagePathPanel
             // 
-            this.ImagePathPanel.AccessibleDescription = null;
-            this.ImagePathPanel.AccessibleName = null;
             this.ImagePathPanel.BackgroundImage = null;
             resources.ApplyResources( this.ImagePathPanel, "ImagePathPanel" );
             this.ImagePathPanel.Font = null;
@@ -2362,8 +1912,6 @@ namespace Tween.Widgets {
             // 
             // ImageServiceCombo
             // 
-            this.ImageServiceCombo.AccessibleDescription = null;
-            this.ImageServiceCombo.AccessibleName = null;
             this.ImageServiceCombo.BackgroundImage = null;
             resources.ApplyResources( this.ImageServiceCombo, "ImageServiceCombo" );
             this.ImageServiceCombo.Font = null;
@@ -2371,8 +1919,6 @@ namespace Tween.Widgets {
             // 
             // ImageSelectMenuItem
             // 
-            this.ImageSelectMenuItem.AccessibleDescription = null;
-            this.ImageSelectMenuItem.AccessibleName = null;
             this.ImageSelectMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ImageSelectMenuItem, "ImageSelectMenuItem" );
             this.ImageSelectMenuItem.Font = null;
@@ -2380,8 +1926,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator35
             // 
-            this.ToolStripSeparator35.AccessibleDescription = null;
-            this.ToolStripSeparator35.AccessibleName = null;
             this.ToolStripSeparator35.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator35, "ToolStripSeparator35" );
             this.ToolStripSeparator35.Font = null;
@@ -2389,8 +1933,6 @@ namespace Tween.Widgets {
             // 
             // FriendshipAllMenuItem
             // 
-            this.FriendshipAllMenuItem.AccessibleDescription = null;
-            this.FriendshipAllMenuItem.AccessibleName = null;
             this.FriendshipAllMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FriendshipAllMenuItem, "FriendshipAllMenuItem" );
             this.FriendshipAllMenuItem.Font = null;
@@ -2398,8 +1940,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator36
             // 
-            this.ToolStripSeparator36.AccessibleDescription = null;
-            this.ToolStripSeparator36.AccessibleName = null;
             this.ToolStripSeparator36.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator36, "ToolStripSeparator36" );
             this.ToolStripSeparator36.Font = null;
@@ -2407,8 +1947,6 @@ namespace Tween.Widgets {
             // 
             // UserStatusToolStripMenuItem
             // 
-            this.UserStatusToolStripMenuItem.AccessibleDescription = null;
-            this.UserStatusToolStripMenuItem.AccessibleName = null;
             this.UserStatusToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UserStatusToolStripMenuItem, "UserStatusToolStripMenuItem" );
             this.UserStatusToolStripMenuItem.Font = null;
@@ -2416,8 +1954,6 @@ namespace Tween.Widgets {
             // 
             // ImageCancelButton
             // 
-            this.ImageCancelButton.AccessibleDescription = null;
-            this.ImageCancelButton.AccessibleName = null;
             this.ImageCancelButton.BackgroundImage = null;
             resources.ApplyResources( this.ImageCancelButton, "ImageCancelButton" );
             this.ImageCancelButton.Font = null;
@@ -2425,8 +1961,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripFocusLockMenuItem
             // 
-            this.ToolStripFocusLockMenuItem.AccessibleDescription = null;
-            this.ToolStripFocusLockMenuItem.AccessibleName = null;
             this.ToolStripFocusLockMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripFocusLockMenuItem, "ToolStripFocusLockMenuItem" );
             this.ToolStripFocusLockMenuItem.Font = null;
@@ -2434,8 +1968,6 @@ namespace Tween.Widgets {
             // 
             // ListManageUserContextToolStripMenuItem
             // 
-            this.ListManageUserContextToolStripMenuItem.AccessibleDescription = null;
-            this.ListManageUserContextToolStripMenuItem.AccessibleName = null;
             this.ListManageUserContextToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ListManageUserContextToolStripMenuItem, "ListManageUserContextToolStripMenuItem" );
             this.ListManageUserContextToolStripMenuItem.Font = null;
@@ -2443,8 +1975,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator37
             // 
-            this.ToolStripSeparator37.AccessibleDescription = null;
-            this.ToolStripSeparator37.AccessibleName = null;
             this.ToolStripSeparator37.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator37, "ToolStripSeparator37" );
             this.ToolStripSeparator37.Font = null;
@@ -2452,8 +1982,6 @@ namespace Tween.Widgets {
             // 
             // ShortcutKeyListMenuItem
             // 
-            this.ShortcutKeyListMenuItem.AccessibleDescription = null;
-            this.ShortcutKeyListMenuItem.AccessibleName = null;
             this.ShortcutKeyListMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShortcutKeyListMenuItem, "ShortcutKeyListMenuItem" );
             this.ShortcutKeyListMenuItem.Font = null;
@@ -2461,8 +1989,6 @@ namespace Tween.Widgets {
             // 
             // ListManageMenuItem
             // 
-            this.ListManageMenuItem.AccessibleDescription = null;
-            this.ListManageMenuItem.AccessibleName = null;
             this.ListManageMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ListManageMenuItem, "ListManageMenuItem" );
             this.ListManageMenuItem.Font = null;
@@ -2470,8 +1996,6 @@ namespace Tween.Widgets {
             // 
             // ListManageUserContextToolStripMenuItem2
             // 
-            this.ListManageUserContextToolStripMenuItem2.AccessibleDescription = null;
-            this.ListManageUserContextToolStripMenuItem2.AccessibleName = null;
             this.ListManageUserContextToolStripMenuItem2.BackgroundImage = null;
             resources.ApplyResources( this.ListManageUserContextToolStripMenuItem2, "ListManageUserContextToolStripMenuItem2" );
             this.ListManageUserContextToolStripMenuItem2.Font = null;
@@ -2479,8 +2003,6 @@ namespace Tween.Widgets {
             // 
             // ListManageUserContextToolStripMenuItem3
             // 
-            this.ListManageUserContextToolStripMenuItem3.AccessibleDescription = null;
-            this.ListManageUserContextToolStripMenuItem3.AccessibleName = null;
             this.ListManageUserContextToolStripMenuItem3.BackgroundImage = null;
             resources.ApplyResources( this.ListManageUserContextToolStripMenuItem3, "ListManageUserContextToolStripMenuItem3" );
             this.ListManageUserContextToolStripMenuItem3.Font = null;
@@ -2488,8 +2010,6 @@ namespace Tween.Widgets {
             // 
             // ListManageToolStripMenuItem
             // 
-            this.ListManageToolStripMenuItem.AccessibleDescription = null;
-            this.ListManageToolStripMenuItem.AccessibleName = null;
             this.ListManageToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ListManageToolStripMenuItem, "ListManageToolStripMenuItem" );
             this.ListManageToolStripMenuItem.Font = null;
@@ -2497,8 +2017,6 @@ namespace Tween.Widgets {
             // 
             // CacheInfoMenuItem
             // 
-            this.CacheInfoMenuItem.AccessibleDescription = null;
-            this.CacheInfoMenuItem.AccessibleName = null;
             this.CacheInfoMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CacheInfoMenuItem, "CacheInfoMenuItem" );
             this.CacheInfoMenuItem.Font = null;
@@ -2506,8 +2024,6 @@ namespace Tween.Widgets {
             // 
             // SourceLinkLabel
             // 
-            this.SourceLinkLabel.AccessibleDescription = null;
-            this.SourceLinkLabel.AccessibleName = null;
             this.SourceLinkLabel.BackgroundImage = null;
             resources.ApplyResources( this.SourceLinkLabel, "SourceLinkLabel" );
             this.SourceLinkLabel.Font = null;
@@ -2515,8 +2031,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripStatusLabel1
             // 
-            this.ToolStripStatusLabel1.AccessibleDescription = null;
-            this.ToolStripStatusLabel1.AccessibleName = null;
             this.ToolStripStatusLabel1.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripStatusLabel1, "ToolStripStatusLabel1" );
             this.ToolStripStatusLabel1.Font = null;
@@ -2524,8 +2038,6 @@ namespace Tween.Widgets {
             // 
             // CopyUserIdStripMenuItem
             // 
-            this.CopyUserIdStripMenuItem.AccessibleDescription = null;
-            this.CopyUserIdStripMenuItem.AccessibleName = null;
             this.CopyUserIdStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.CopyUserIdStripMenuItem, "CopyUserIdStripMenuItem" );
             this.CopyUserIdStripMenuItem.Font = null;
@@ -2533,8 +2045,6 @@ namespace Tween.Widgets {
             // 
             // FavoriteRetweetMenuItem
             // 
-            this.FavoriteRetweetMenuItem.AccessibleDescription = null;
-            this.FavoriteRetweetMenuItem.AccessibleName = null;
             this.FavoriteRetweetMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FavoriteRetweetMenuItem, "FavoriteRetweetMenuItem" );
             this.FavoriteRetweetMenuItem.Font = null;
@@ -2542,8 +2052,6 @@ namespace Tween.Widgets {
             // 
             // FavoriteRetweetUnofficialMenuItem
             // 
-            this.FavoriteRetweetUnofficialMenuItem.AccessibleDescription = null;
-            this.FavoriteRetweetUnofficialMenuItem.AccessibleName = null;
             this.FavoriteRetweetUnofficialMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.FavoriteRetweetUnofficialMenuItem, "FavoriteRetweetUnofficialMenuItem" );
             this.FavoriteRetweetUnofficialMenuItem.Font = null;
@@ -2551,8 +2059,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator38
             // 
-            this.ToolStripSeparator38.AccessibleDescription = null;
-            this.ToolStripSeparator38.AccessibleName = null;
             this.ToolStripSeparator38.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator38, "ToolStripSeparator38" );
             this.ToolStripSeparator38.Font = null;
@@ -2560,8 +2066,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator39
             // 
-            this.ToolStripSeparator39.AccessibleDescription = null;
-            this.ToolStripSeparator39.AccessibleName = null;
             this.ToolStripSeparator39.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator39, "ToolStripSeparator39" );
             this.ToolStripSeparator39.Font = null;
@@ -2569,8 +2073,6 @@ namespace Tween.Widgets {
             // 
             // FavoriteRetweetContextMenu
             // 
-            this.FavoriteRetweetContextMenu.AccessibleDescription = null;
-            this.FavoriteRetweetContextMenu.AccessibleName = null;
             this.FavoriteRetweetContextMenu.BackgroundImage = null;
             resources.ApplyResources( this.FavoriteRetweetContextMenu, "FavoriteRetweetContextMenu" );
             this.FavoriteRetweetContextMenu.Font = null;
@@ -2578,8 +2080,6 @@ namespace Tween.Widgets {
             // 
             // FavoriteRetweetUnofficialContextMenu
             // 
-            this.FavoriteRetweetUnofficialContextMenu.AccessibleDescription = null;
-            this.FavoriteRetweetUnofficialContextMenu.AccessibleName = null;
             this.FavoriteRetweetUnofficialContextMenu.BackgroundImage = null;
             resources.ApplyResources( this.FavoriteRetweetUnofficialContextMenu, "FavoriteRetweetUnofficialContextMenu" );
             this.FavoriteRetweetUnofficialContextMenu.Font = null;
@@ -2587,8 +2087,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator2
             // 
-            this.ToolStripSeparator2.AccessibleDescription = null;
-            this.ToolStripSeparator2.AccessibleName = null;
             this.ToolStripSeparator2.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator2, "ToolStripSeparator2" );
             this.ToolStripSeparator2.Font = null;
@@ -2596,8 +2094,6 @@ namespace Tween.Widgets {
             // 
             // ShowRelatedStatusesMenuItem2
             // 
-            this.ShowRelatedStatusesMenuItem2.AccessibleDescription = null;
-            this.ShowRelatedStatusesMenuItem2.AccessibleName = null;
             this.ShowRelatedStatusesMenuItem2.BackgroundImage = null;
             resources.ApplyResources( this.ShowRelatedStatusesMenuItem2, "ShowRelatedStatusesMenuItem2" );
             this.ShowRelatedStatusesMenuItem2.Font = null;
@@ -2605,8 +2101,6 @@ namespace Tween.Widgets {
             // 
             // ShowRelatedStatusesMenuItem
             // 
-            this.ShowRelatedStatusesMenuItem.AccessibleDescription = null;
-            this.ShowRelatedStatusesMenuItem.AccessibleName = null;
             this.ShowRelatedStatusesMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShowRelatedStatusesMenuItem, "ShowRelatedStatusesMenuItem" );
             this.ShowRelatedStatusesMenuItem.Font = null;
@@ -2614,8 +2108,6 @@ namespace Tween.Widgets {
             // 
             // MenuItemUserStream
             // 
-            this.MenuItemUserStream.AccessibleDescription = null;
-            this.MenuItemUserStream.AccessibleName = null;
             this.MenuItemUserStream.BackgroundImage = null;
             resources.ApplyResources( this.MenuItemUserStream, "MenuItemUserStream" );
             this.MenuItemUserStream.Font = null;
@@ -2623,8 +2115,6 @@ namespace Tween.Widgets {
             // 
             // StopToolStripMenuItem
             // 
-            this.StopToolStripMenuItem.AccessibleDescription = null;
-            this.StopToolStripMenuItem.AccessibleName = null;
             this.StopToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.StopToolStripMenuItem, "StopToolStripMenuItem" );
             this.StopToolStripMenuItem.Font = null;
@@ -2632,8 +2122,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator40
             // 
-            this.ToolStripSeparator40.AccessibleDescription = null;
-            this.ToolStripSeparator40.AccessibleName = null;
             this.ToolStripSeparator40.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator40, "ToolStripSeparator40" );
             this.ToolStripSeparator40.Font = null;
@@ -2641,8 +2129,6 @@ namespace Tween.Widgets {
             // 
             // TrackToolStripMenuItem
             // 
-            this.TrackToolStripMenuItem.AccessibleDescription = null;
-            this.TrackToolStripMenuItem.AccessibleName = null;
             this.TrackToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TrackToolStripMenuItem, "TrackToolStripMenuItem" );
             this.TrackToolStripMenuItem.Font = null;
@@ -2650,8 +2136,6 @@ namespace Tween.Widgets {
             // 
             // AllrepliesToolStripMenuItem
             // 
-            this.AllrepliesToolStripMenuItem.AccessibleDescription = null;
-            this.AllrepliesToolStripMenuItem.AccessibleName = null;
             this.AllrepliesToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.AllrepliesToolStripMenuItem, "AllrepliesToolStripMenuItem" );
             this.AllrepliesToolStripMenuItem.Font = null;
@@ -2659,8 +2143,6 @@ namespace Tween.Widgets {
             // 
             // TweenRestartMenuItem
             // 
-            this.TweenRestartMenuItem.AccessibleDescription = null;
-            this.TweenRestartMenuItem.AccessibleName = null;
             this.TweenRestartMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TweenRestartMenuItem, "TweenRestartMenuItem" );
             this.TweenRestartMenuItem.Font = null;
@@ -2668,8 +2150,6 @@ namespace Tween.Widgets {
             // 
             // SearchPostsDetailNameToolStripMenuItem
             // 
-            this.SearchPostsDetailNameToolStripMenuItem.AccessibleDescription = null;
-            this.SearchPostsDetailNameToolStripMenuItem.AccessibleName = null;
             this.SearchPostsDetailNameToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SearchPostsDetailNameToolStripMenuItem, "SearchPostsDetailNameToolStripMenuItem" );
             this.SearchPostsDetailNameToolStripMenuItem.Font = null;
@@ -2677,8 +2157,6 @@ namespace Tween.Widgets {
             // 
             // SearchAtPostsDetailToolStripMenuItem
             // 
-            this.SearchAtPostsDetailToolStripMenuItem.AccessibleDescription = null;
-            this.SearchAtPostsDetailToolStripMenuItem.AccessibleName = null;
             this.SearchAtPostsDetailToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SearchAtPostsDetailToolStripMenuItem, "SearchAtPostsDetailToolStripMenuItem" );
             this.SearchAtPostsDetailToolStripMenuItem.Font = null;
@@ -2686,8 +2164,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator41
             // 
-            this.ToolStripSeparator41.AccessibleDescription = null;
-            this.ToolStripSeparator41.AccessibleName = null;
             this.ToolStripSeparator41.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator41, "ToolStripSeparator41" );
             this.ToolStripSeparator41.Font = null;
@@ -2695,8 +2171,6 @@ namespace Tween.Widgets {
             // 
             // OpenOwnHomeMenuItem
             // 
-            this.OpenOwnHomeMenuItem.AccessibleDescription = null;
-            this.OpenOwnHomeMenuItem.AccessibleName = null;
             this.OpenOwnHomeMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenOwnHomeMenuItem, "OpenOwnHomeMenuItem" );
             this.OpenOwnHomeMenuItem.Font = null;
@@ -2704,8 +2178,6 @@ namespace Tween.Widgets {
             // 
             // OpenOwnFavedMenuItem
             // 
-            this.OpenOwnFavedMenuItem.AccessibleDescription = null;
-            this.OpenOwnFavedMenuItem.AccessibleName = null;
             this.OpenOwnFavedMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenOwnFavedMenuItem, "OpenOwnFavedMenuItem" );
             this.OpenOwnFavedMenuItem.Font = null;
@@ -2713,8 +2185,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator42
             // 
-            this.ToolStripSeparator42.AccessibleDescription = null;
-            this.ToolStripSeparator42.AccessibleName = null;
             this.ToolStripSeparator42.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator42, "ToolStripSeparator42" );
             this.ToolStripSeparator42.Font = null;
@@ -2722,8 +2192,6 @@ namespace Tween.Widgets {
             // 
             // EventViewerMenuItem
             // 
-            this.EventViewerMenuItem.AccessibleDescription = null;
-            this.EventViewerMenuItem.AccessibleName = null;
             this.EventViewerMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.EventViewerMenuItem, "EventViewerMenuItem" );
             this.EventViewerMenuItem.Font = null;
@@ -2731,8 +2199,6 @@ namespace Tween.Widgets {
             // 
             // TranslationToolStripMenuItem
             // 
-            this.TranslationToolStripMenuItem.AccessibleDescription = null;
-            this.TranslationToolStripMenuItem.AccessibleName = null;
             this.TranslationToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.TranslationToolStripMenuItem, "TranslationToolStripMenuItem" );
             this.TranslationToolStripMenuItem.Font = null;
@@ -2740,8 +2206,6 @@ namespace Tween.Widgets {
             // 
             // UxnuMenuItem
             // 
-            this.UxnuMenuItem.AccessibleDescription = null;
-            this.UxnuMenuItem.AccessibleName = null;
             this.UxnuMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UxnuMenuItem, "UxnuMenuItem" );
             this.UxnuMenuItem.Font = null;
@@ -2749,8 +2213,6 @@ namespace Tween.Widgets {
             // 
             // ShowUserTimelineToolStripMenuItem
             // 
-            this.ShowUserTimelineToolStripMenuItem.AccessibleDescription = null;
-            this.ShowUserTimelineToolStripMenuItem.AccessibleName = null;
             this.ShowUserTimelineToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShowUserTimelineToolStripMenuItem, "ShowUserTimelineToolStripMenuItem" );
             this.ShowUserTimelineToolStripMenuItem.Font = null;
@@ -2758,8 +2220,6 @@ namespace Tween.Widgets {
             // 
             // ShowUserTimelineContextMenuItem
             // 
-            this.ShowUserTimelineContextMenuItem.AccessibleDescription = null;
-            this.ShowUserTimelineContextMenuItem.AccessibleName = null;
             this.ShowUserTimelineContextMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.ShowUserTimelineContextMenuItem, "ShowUserTimelineContextMenuItem" );
             this.ShowUserTimelineContextMenuItem.Font = null;
@@ -2767,8 +2227,6 @@ namespace Tween.Widgets {
             // 
             // UserTimelineToolStripMenuItem
             // 
-            this.UserTimelineToolStripMenuItem.AccessibleDescription = null;
-            this.UserTimelineToolStripMenuItem.AccessibleName = null;
             this.UserTimelineToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UserTimelineToolStripMenuItem, "UserTimelineToolStripMenuItem" );
             this.UserTimelineToolStripMenuItem.Font = null;
@@ -2776,8 +2234,6 @@ namespace Tween.Widgets {
             // 
             // UserFavorareToolStripMenuItem
             // 
-            this.UserFavorareToolStripMenuItem.AccessibleDescription = null;
-            this.UserFavorareToolStripMenuItem.AccessibleName = null;
             this.UserFavorareToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.UserFavorareToolStripMenuItem, "UserFavorareToolStripMenuItem" );
             this.UserFavorareToolStripMenuItem.Font = null;
@@ -2785,8 +2241,6 @@ namespace Tween.Widgets {
             // 
             // SelectionTranslationToolStripMenuItem
             // 
-            this.SelectionTranslationToolStripMenuItem.AccessibleDescription = null;
-            this.SelectionTranslationToolStripMenuItem.AccessibleName = null;
             this.SelectionTranslationToolStripMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SelectionTranslationToolStripMenuItem, "SelectionTranslationToolStripMenuItem" );
             this.SelectionTranslationToolStripMenuItem.Font = null;
@@ -2794,8 +2248,6 @@ namespace Tween.Widgets {
             // 
             // ToolStripSeparator43
             // 
-            this.ToolStripSeparator43.AccessibleDescription = null;
-            this.ToolStripSeparator43.AccessibleName = null;
             this.ToolStripSeparator43.BackgroundImage = null;
             resources.ApplyResources( this.ToolStripSeparator43, "ToolStripSeparator43" );
             this.ToolStripSeparator43.Font = null;
@@ -2803,8 +2255,6 @@ namespace Tween.Widgets {
             // 
             // StopRefreshAllMenuItem
             // 
-            this.StopRefreshAllMenuItem.AccessibleDescription = null;
-            this.StopRefreshAllMenuItem.AccessibleName = null;
             this.StopRefreshAllMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.StopRefreshAllMenuItem, "StopRefreshAllMenuItem" );
             this.StopRefreshAllMenuItem.Font = null;
@@ -2812,8 +2262,6 @@ namespace Tween.Widgets {
             // 
             // OpenUserSpecifiedUrlMenuItem
             // 
-            this.OpenUserSpecifiedUrlMenuItem.AccessibleDescription = null;
-            this.OpenUserSpecifiedUrlMenuItem.AccessibleName = null;
             this.OpenUserSpecifiedUrlMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.OpenUserSpecifiedUrlMenuItem, "OpenUserSpecifiedUrlMenuItem" );
             this.OpenUserSpecifiedUrlMenuItem.Font = null;
@@ -2821,8 +2269,6 @@ namespace Tween.Widgets {
             // 
             // OpenUserSpecifiedUrlMenuItem2
             // 
-            this.OpenUserSpecifiedUrlMenuItem2.AccessibleDescription = null;
-            this.OpenUserSpecifiedUrlMenuItem2.AccessibleName = null;
             this.OpenUserSpecifiedUrlMenuItem2.BackgroundImage = null;
             resources.ApplyResources( this.OpenUserSpecifiedUrlMenuItem2, "OpenUserSpecifiedUrlMenuItem2" );
             this.OpenUserSpecifiedUrlMenuItem2.Font = null;
@@ -2830,8 +2276,6 @@ namespace Tween.Widgets {
             // 
             // PostStateImageList
             // 
-            this.PostStateImageList.AccessibleDescription = null;
-            this.PostStateImageList.AccessibleName = null;
             this.PostStateImageList.BackgroundImage = null;
             resources.ApplyResources( this.PostStateImageList, "PostStateImageList" );
             this.PostStateImageList.Font = null;
@@ -2839,8 +2283,6 @@ namespace Tween.Widgets {
             // 
             // SplitContainer4
             // 
-            this.SplitContainer4.AccessibleDescription = null;
-            this.SplitContainer4.AccessibleName = null;
             this.SplitContainer4.BackgroundImage = null;
             resources.ApplyResources( this.SplitContainer4, "SplitContainer4" );
             this.SplitContainer4.Font = null;
@@ -2848,8 +2290,6 @@ namespace Tween.Widgets {
             // 
             // ContextMenuSource
             // 
-            this.ContextMenuSource.AccessibleDescription = null;
-            this.ContextMenuSource.AccessibleName = null;
             this.ContextMenuSource.BackgroundImage = null;
             resources.ApplyResources( this.ContextMenuSource, "ContextMenuSource" );
             this.ContextMenuSource.Font = null;
@@ -2857,8 +2297,6 @@ namespace Tween.Widgets {
             // 
             // SourceCopyMenuItem
             // 
-            this.SourceCopyMenuItem.AccessibleDescription = null;
-            this.SourceCopyMenuItem.AccessibleName = null;
             this.SourceCopyMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SourceCopyMenuItem, "SourceCopyMenuItem" );
             this.SourceCopyMenuItem.Font = null;
@@ -2866,8 +2304,6 @@ namespace Tween.Widgets {
             // 
             // SourceUrlCopyMenuItem
             // 
-            this.SourceUrlCopyMenuItem.AccessibleDescription = null;
-            this.SourceUrlCopyMenuItem.AccessibleName = null;
             this.SourceUrlCopyMenuItem.BackgroundImage = null;
             resources.ApplyResources( this.SourceUrlCopyMenuItem, "SourceUrlCopyMenuItem" );
             this.SourceUrlCopyMenuItem.Font = null;
@@ -2875,8 +2311,6 @@ namespace Tween.Widgets {
             // 
             // TweenMain
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources( this, "$this" );
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = null;

@@ -557,7 +557,7 @@ namespace Tween.Common {
          */
         public static DateTime DateTimeParse(string s) {
             DateTime result;
-            string[] formats[] = { "ddd MMM dd HH:mm:ss zzzz yyyy" };
+            string[] formats = new string { "ddd MMM dd HH:mm:ss zzzz yyyy" };
 
             foreach ( string format in In ) {
                 if ( DateTime.TryParseExact( s, format, DateTimeFormatInfo.InvariantInfo, DateTimeStyles.None, out result ) )
@@ -599,7 +599,7 @@ namespace Tween.Common {
          * 
          */
         public static bool IsValidEmail(string s) {
-            return Regex.IsMatch( s, "^(?("")("".+?""@)|(([0-9a-zA-Z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-zA-Z])@))(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,6}))$" );
+            return Regex.IsMatch( s, "^(?(\")(\".+?\"@)|(([0-9a-zA-Z]((\\.(?!\\.))|[-!#\\$%&'\\*\\+/=\\?\\^`\\{\\}\\|~\\w])*)(?<=[0-9a-zA-Z])@))(?(\\[)(\\[(\\d{1,3}\\.){3}\\d{1,3}\\])|(([0-9a-zA-Z][-\\w]*[0-9a-zA-Z]\\.)+[a-zA-Z]{2,6}))$" );
         }
 
 

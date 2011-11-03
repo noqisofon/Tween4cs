@@ -316,8 +316,6 @@ namespace Tween.Widgets {
             // 
             // SplitContainer1
             // 
-            this.SplitContainer1.AccessibleDescription = null;
-            this.SplitContainer1.AccessibleName = null;
             this.SplitContainer1.BackgroundImage = null;
             resources.ApplyResources( this.SplitContainer1, "SplitContainer1" );
             this.SplitContainer1.Font = null;
@@ -325,8 +323,6 @@ namespace Tween.Widgets {
             // 
             // BasedPanel
             // 
-            this.BasedPanel.AccessibleDescription = null;
-            this.BasedPanel.AccessibleName = null;
             this.BasedPanel.BackgroundImage = null;
             resources.ApplyResources( this.BasedPanel, "BasedPanel" );
             this.BasedPanel.Font = null;
@@ -334,8 +330,6 @@ namespace Tween.Widgets {
             // 
             // AuthClearButton
             // 
-            this.AuthClearButton.AccessibleDescription = null;
-            this.AuthClearButton.AccessibleName = null;
             this.AuthClearButton.BackgroundImage = null;
             resources.ApplyResources( this.AuthClearButton, "AuthClearButton" );
             this.AuthClearButton.Font = null;
@@ -343,8 +337,6 @@ namespace Tween.Widgets {
             // 
             // Label4
             // 
-            this.Label4.AccessibleDescription = null;
-            this.Label4.AccessibleName = null;
             this.Label4.BackgroundImage = null;
             resources.ApplyResources( this.Label4, "Label4" );
             this.Label4.Font = null;
@@ -352,8 +344,6 @@ namespace Tween.Widgets {
             // 
             // GetPeriodPanel
             // 
-            this.GetPeriodPanel.AccessibleDescription = null;
-            this.GetPeriodPanel.AccessibleName = null;
             this.GetPeriodPanel.BackgroundImage = null;
             resources.ApplyResources( this.GetPeriodPanel, "GetPeriodPanel" );
             this.GetPeriodPanel.Font = null;
@@ -361,8 +351,6 @@ namespace Tween.Widgets {
             // 
             // TimelinePeriod
             // 
-            this.TimelinePeriod.AccessibleDescription = null;
-            this.TimelinePeriod.AccessibleName = null;
             this.TimelinePeriod.BackgroundImage = null;
             resources.ApplyResources( this.TimelinePeriod, "TimelinePeriod" );
             this.TimelinePeriod.Font = null;
@@ -370,8 +358,6 @@ namespace Tween.Widgets {
             // 
             // Label3
             // 
-            this.Label3.AccessibleDescription = null;
-            this.Label3.AccessibleName = null;
             this.Label3.BackgroundImage = null;
             resources.ApplyResources( this.Label3, "Label3" );
             this.Label3.Font = null;
@@ -379,8 +365,6 @@ namespace Tween.Widgets {
             // 
             // ButtonApiCalc
             // 
-            this.ButtonApiCalc.AccessibleDescription = null;
-            this.ButtonApiCalc.AccessibleName = null;
             this.ButtonApiCalc.BackgroundImage = null;
             resources.ApplyResources( this.ButtonApiCalc, "ButtonApiCalc" );
             this.ButtonApiCalc.Font = null;
@@ -388,8 +372,6 @@ namespace Tween.Widgets {
             // 
             // LabelPostAndGet
             // 
-            this.LabelPostAndGet.AccessibleDescription = null;
-            this.LabelPostAndGet.AccessibleName = null;
             this.LabelPostAndGet.BackgroundImage = null;
             resources.ApplyResources( this.LabelPostAndGet, "LabelPostAndGet" );
             this.LabelPostAndGet.Font = null;
@@ -397,8 +379,6 @@ namespace Tween.Widgets {
             // 
             // LabelApiUsing
             // 
-            this.LabelApiUsing.AccessibleDescription = null;
-            this.LabelApiUsing.AccessibleName = null;
             this.LabelApiUsing.BackgroundImage = null;
             resources.ApplyResources( this.LabelApiUsing, "LabelApiUsing" );
             this.LabelApiUsing.Font = null;
@@ -406,8 +386,6 @@ namespace Tween.Widgets {
             // 
             // Label33
             // 
-            this.Label33.AccessibleDescription = null;
-            this.Label33.AccessibleName = null;
             this.Label33.BackgroundImage = null;
             resources.ApplyResources( this.Label33, "Label33" );
             this.Label33.Font = null;
@@ -415,8 +393,6 @@ namespace Tween.Widgets {
             // 
             // ListsPeriod
             // 
-            this.ListsPeriod.AccessibleDescription = null;
-            this.ListsPeriod.AccessibleName = null;
             this.ListsPeriod.BackgroundImage = null;
             resources.ApplyResources( this.ListsPeriod, "ListsPeriod" );
             this.ListsPeriod.Font = null;
@@ -424,8 +400,6 @@ namespace Tween.Widgets {
             // 
             // Label7
             // 
-            this.Label7.AccessibleDescription = null;
-            this.Label7.AccessibleName = null;
             this.Label7.BackgroundImage = null;
             resources.ApplyResources( this.Label7, "Label7" );
             this.Label7.Font = null;
@@ -433,8 +407,6 @@ namespace Tween.Widgets {
             // 
             // PubSearchPeriod
             // 
-            this.PubSearchPeriod.AccessibleDescription = null;
-            this.PubSearchPeriod.AccessibleName = null;
             this.PubSearchPeriod.BackgroundImage = null;
             resources.ApplyResources( this.PubSearchPeriod, "PubSearchPeriod" );
             this.PubSearchPeriod.Font = null;
@@ -442,8 +414,6 @@ namespace Tween.Widgets {
             // 
             // Label69
             // 
-            this.Label69.AccessibleDescription = null;
-            this.Label69.AccessibleName = null;
             this.Label69.BackgroundImage = null;
             resources.ApplyResources( this.Label69, "Label69" );
             this.Label69.Font = null;
@@ -451,8 +421,6 @@ namespace Tween.Widgets {
             // 
             // ReplyPeriod
             // 
-            this.ReplyPeriod.AccessibleDescription = null;
-            this.ReplyPeriod.AccessibleName = null;
             this.ReplyPeriod.BackgroundImage = null;
             resources.ApplyResources( this.ReplyPeriod, "ReplyPeriod" );
             this.ReplyPeriod.Font = null;
@@ -460,8 +428,6 @@ namespace Tween.Widgets {
             // 
             // CheckPostAndGet
             // 
-            this.CheckPostAndGet.AccessibleDescription = null;
-            this.CheckPostAndGet.AccessibleName = null;
             this.CheckPostAndGet.BackgroundImage = null;
             resources.ApplyResources( this.CheckPostAndGet, "CheckPostAndGet" );
             this.CheckPostAndGet.Font = null;
@@ -470,8 +436,6 @@ namespace Tween.Widgets {
             // 
             // CheckPeriodAdjust
             // 
-            this.CheckPeriodAdjust.AccessibleDescription = null;
-            this.CheckPeriodAdjust.AccessibleName = null;
             this.CheckPeriodAdjust.BackgroundImage = null;
             resources.ApplyResources( this.CheckPeriodAdjust, "CheckPeriodAdjust" );
             this.CheckPeriodAdjust.Font = null;
@@ -480,8 +444,6 @@ namespace Tween.Widgets {
             // 
             // Label5
             // 
-            this.Label5.AccessibleDescription = null;
-            this.Label5.AccessibleName = null;
             this.Label5.BackgroundImage = null;
             resources.ApplyResources( this.Label5, "Label5" );
             this.Label5.Font = null;
@@ -489,8 +451,6 @@ namespace Tween.Widgets {
             // 
             // DMPeriod
             // 
-            this.DMPeriod.AccessibleDescription = null;
-            this.DMPeriod.AccessibleName = null;
             this.DMPeriod.BackgroundImage = null;
             resources.ApplyResources( this.DMPeriod, "DMPeriod" );
             this.DMPeriod.Font = null;
@@ -498,8 +458,6 @@ namespace Tween.Widgets {
             // 
             // StartupPanel
             // 
-            this.StartupPanel.AccessibleDescription = null;
-            this.StartupPanel.AccessibleName = null;
             this.StartupPanel.BackgroundImage = null;
             resources.ApplyResources( this.StartupPanel, "StartupPanel" );
             this.StartupPanel.Font = null;
@@ -507,8 +465,6 @@ namespace Tween.Widgets {
             // 
             // GetCountPanel
             // 
-            this.GetCountPanel.AccessibleDescription = null;
-            this.GetCountPanel.AccessibleName = null;
             this.GetCountPanel.BackgroundImage = null;
             resources.ApplyResources( this.GetCountPanel, "GetCountPanel" );
             this.GetCountPanel.Font = null;
@@ -516,8 +472,6 @@ namespace Tween.Widgets {
             // 
             // StartupReaded
             // 
-            this.StartupReaded.AccessibleDescription = null;
-            this.StartupReaded.AccessibleName = null;
             this.StartupReaded.BackgroundImage = null;
             resources.ApplyResources( this.StartupReaded, "StartupReaded" );
             this.StartupReaded.Font = null;
@@ -526,8 +480,6 @@ namespace Tween.Widgets {
             // 
             // CheckStartupFollowers
             // 
-            this.CheckStartupFollowers.AccessibleDescription = null;
-            this.CheckStartupFollowers.AccessibleName = null;
             this.CheckStartupFollowers.BackgroundImage = null;
             resources.ApplyResources( this.CheckStartupFollowers, "CheckStartupFollowers" );
             this.CheckStartupFollowers.Font = null;
@@ -536,8 +488,6 @@ namespace Tween.Widgets {
             // 
             // CheckStartupVersion
             // 
-            this.CheckStartupVersion.AccessibleDescription = null;
-            this.CheckStartupVersion.AccessibleName = null;
             this.CheckStartupVersion.BackgroundImage = null;
             resources.ApplyResources( this.CheckStartupVersion, "CheckStartupVersion" );
             this.CheckStartupVersion.Font = null;
@@ -546,8 +496,6 @@ namespace Tween.Widgets {
             // 
             // chkGetFav
             // 
-            this.chkGetFav.AccessibleDescription = null;
-            this.chkGetFav.AccessibleName = null;
             this.chkGetFav.BackgroundImage = null;
             resources.ApplyResources( this.chkGetFav, "chkGetFav" );
             this.chkGetFav.Font = null;
@@ -556,8 +504,6 @@ namespace Tween.Widgets {
             // 
             // TextCountApiReply
             // 
-            this.TextCountApiReply.AccessibleDescription = null;
-            this.TextCountApiReply.AccessibleName = null;
             this.TextCountApiReply.BackgroundImage = null;
             resources.ApplyResources( this.TextCountApiReply, "TextCountApiReply" );
             this.TextCountApiReply.Font = null;
@@ -565,8 +511,6 @@ namespace Tween.Widgets {
             // 
             // Label67
             // 
-            this.Label67.AccessibleDescription = null;
-            this.Label67.AccessibleName = null;
             this.Label67.BackgroundImage = null;
             resources.ApplyResources( this.Label67, "Label67" );
             this.Label67.Font = null;
@@ -574,8 +518,6 @@ namespace Tween.Widgets {
             // 
             // TextCountApi
             // 
-            this.TextCountApi.AccessibleDescription = null;
-            this.TextCountApi.AccessibleName = null;
             this.TextCountApi.BackgroundImage = null;
             resources.ApplyResources( this.TextCountApi, "TextCountApi" );
             this.TextCountApi.Font = null;
@@ -583,8 +525,6 @@ namespace Tween.Widgets {
             // 
             // FavoritesTextCountApi
             // 
-            this.FavoritesTextCountApi.AccessibleDescription = null;
-            this.FavoritesTextCountApi.AccessibleName = null;
             this.FavoritesTextCountApi.BackgroundImage = null;
             resources.ApplyResources( this.FavoritesTextCountApi, "FavoritesTextCountApi" );
             this.FavoritesTextCountApi.Font = null;
@@ -592,8 +532,6 @@ namespace Tween.Widgets {
             // 
             // SearchTextCountApi
             // 
-            this.SearchTextCountApi.AccessibleDescription = null;
-            this.SearchTextCountApi.AccessibleName = null;
             this.SearchTextCountApi.BackgroundImage = null;
             resources.ApplyResources( this.SearchTextCountApi, "SearchTextCountApi" );
             this.SearchTextCountApi.Font = null;
@@ -601,8 +539,6 @@ namespace Tween.Widgets {
             // 
             // Label66
             // 
-            this.Label66.AccessibleDescription = null;
-            this.Label66.AccessibleName = null;
             this.Label66.BackgroundImage = null;
             resources.ApplyResources( this.Label66, "Label66" );
             this.Label66.Font = null;
@@ -610,8 +546,6 @@ namespace Tween.Widgets {
             // 
             // FirstTextCountApi
             // 
-            this.FirstTextCountApi.AccessibleDescription = null;
-            this.FirstTextCountApi.AccessibleName = null;
             this.FirstTextCountApi.BackgroundImage = null;
             resources.ApplyResources( this.FirstTextCountApi, "FirstTextCountApi" );
             this.FirstTextCountApi.Font = null;
@@ -619,8 +553,6 @@ namespace Tween.Widgets {
             // 
             // GetMoreTextCountApi
             // 
-            this.GetMoreTextCountApi.AccessibleDescription = null;
-            this.GetMoreTextCountApi.AccessibleName = null;
             this.GetMoreTextCountApi.BackgroundImage = null;
             resources.ApplyResources( this.GetMoreTextCountApi, "GetMoreTextCountApi" );
             this.GetMoreTextCountApi.Font = null;
@@ -628,8 +560,6 @@ namespace Tween.Widgets {
             // 
             // Label53
             // 
-            this.Label53.AccessibleDescription = null;
-            this.Label53.AccessibleName = null;
             this.Label53.BackgroundImage = null;
             resources.ApplyResources( this.Label53, "Label53" );
             this.Label53.Font = null;
@@ -637,8 +567,6 @@ namespace Tween.Widgets {
             // 
             // UseChangeGetCount
             // 
-            this.UseChangeGetCount.AccessibleDescription = null;
-            this.UseChangeGetCount.AccessibleName = null;
             this.UseChangeGetCount.BackgroundImage = null;
             resources.ApplyResources( this.UseChangeGetCount, "UseChangeGetCount" );
             this.UseChangeGetCount.Font = null;
@@ -647,8 +575,6 @@ namespace Tween.Widgets {
             // 
             // ActionPanel
             // 
-            this.ActionPanel.AccessibleDescription = null;
-            this.ActionPanel.AccessibleName = null;
             this.ActionPanel.BackgroundImage = null;
             resources.ApplyResources( this.ActionPanel, "ActionPanel" );
             this.ActionPanel.Font = null;
@@ -656,8 +582,6 @@ namespace Tween.Widgets {
             // 
             // PreviewPanel
             // 
-            this.PreviewPanel.AccessibleDescription = null;
-            this.PreviewPanel.AccessibleName = null;
             this.PreviewPanel.BackgroundImage = null;
             resources.ApplyResources( this.PreviewPanel, "PreviewPanel" );
             this.PreviewPanel.Font = null;
@@ -665,8 +589,6 @@ namespace Tween.Widgets {
             // 
             // FontPanel
             // 
-            this.FontPanel.AccessibleDescription = null;
-            this.FontPanel.AccessibleName = null;
             this.FontPanel.BackgroundImage = null;
             resources.ApplyResources( this.FontPanel, "FontPanel" );
             this.FontPanel.Font = null;
@@ -674,8 +596,6 @@ namespace Tween.Widgets {
             // 
             // ConnectionPanel
             // 
-            this.ConnectionPanel.AccessibleDescription = null;
-            this.ConnectionPanel.AccessibleName = null;
             this.ConnectionPanel.BackgroundImage = null;
             resources.ApplyResources( this.ConnectionPanel, "ConnectionPanel" );
             this.ConnectionPanel.Font = null;
@@ -683,8 +603,6 @@ namespace Tween.Widgets {
             // 
             // ProxyPanel
             // 
-            this.ProxyPanel.AccessibleDescription = null;
-            this.ProxyPanel.AccessibleName = null;
             this.ProxyPanel.BackgroundImage = null;
             resources.ApplyResources( this.ProxyPanel, "ProxyPanel" );
             this.ProxyPanel.Font = null;
@@ -692,8 +610,6 @@ namespace Tween.Widgets {
             // 
             // ComboBoxPostKeySelect
             // 
-            this.ComboBoxPostKeySelect.AccessibleDescription = null;
-            this.ComboBoxPostKeySelect.AccessibleName = null;
             this.ComboBoxPostKeySelect.BackgroundImage = null;
             resources.ApplyResources( this.ComboBoxPostKeySelect, "ComboBoxPostKeySelect" );
             this.ComboBoxPostKeySelect.Font = null;
@@ -701,8 +617,6 @@ namespace Tween.Widgets {
             // 
             // CheckRetweetNoConfirm
             // 
-            this.CheckRetweetNoConfirm.AccessibleDescription = null;
-            this.CheckRetweetNoConfirm.AccessibleName = null;
             this.CheckRetweetNoConfirm.BackgroundImage = null;
             resources.ApplyResources( this.CheckRetweetNoConfirm, "CheckRetweetNoConfirm" );
             this.CheckRetweetNoConfirm.Font = null;
@@ -711,8 +625,6 @@ namespace Tween.Widgets {
             // 
             // GroupBox3
             // 
-            this.GroupBox3.AccessibleDescription = null;
-            this.GroupBox3.AccessibleName = null;
             this.GroupBox3.BackgroundImage = null;
             resources.ApplyResources( this.GroupBox3, "GroupBox3" );
             this.GroupBox3.Font = null;
@@ -720,8 +632,6 @@ namespace Tween.Widgets {
             // 
             // HotkeyCheck
             // 
-            this.HotkeyCheck.AccessibleDescription = null;
-            this.HotkeyCheck.AccessibleName = null;
             this.HotkeyCheck.BackgroundImage = null;
             resources.ApplyResources( this.HotkeyCheck, "HotkeyCheck" );
             this.HotkeyCheck.Font = null;
@@ -730,8 +640,6 @@ namespace Tween.Widgets {
             // 
             // HotkeyCode
             // 
-            this.HotkeyCode.AccessibleDescription = null;
-            this.HotkeyCode.AccessibleName = null;
             this.HotkeyCode.BackgroundImage = null;
             resources.ApplyResources( this.HotkeyCode, "HotkeyCode" );
             this.HotkeyCode.Font = null;
@@ -739,8 +647,6 @@ namespace Tween.Widgets {
             // 
             // HotkeyText
             // 
-            this.HotkeyText.AccessibleDescription = null;
-            this.HotkeyText.AccessibleName = null;
             this.HotkeyText.BackgroundImage = null;
             resources.ApplyResources( this.HotkeyText, "HotkeyText" );
             this.HotkeyText.Font = null;
@@ -748,8 +654,6 @@ namespace Tween.Widgets {
             // 
             // HotkeyWin
             // 
-            this.HotkeyWin.AccessibleDescription = null;
-            this.HotkeyWin.AccessibleName = null;
             this.HotkeyWin.BackgroundImage = null;
             resources.ApplyResources( this.HotkeyWin, "HotkeyWin" );
             this.HotkeyWin.Font = null;
@@ -758,8 +662,6 @@ namespace Tween.Widgets {
             // 
             // HotkeyAlt
             // 
-            this.HotkeyAlt.AccessibleDescription = null;
-            this.HotkeyAlt.AccessibleName = null;
             this.HotkeyAlt.BackgroundImage = null;
             resources.ApplyResources( this.HotkeyAlt, "HotkeyAlt" );
             this.HotkeyAlt.Font = null;
@@ -768,8 +670,6 @@ namespace Tween.Widgets {
             // 
             // HotkeyShift
             // 
-            this.HotkeyShift.AccessibleDescription = null;
-            this.HotkeyShift.AccessibleName = null;
             this.HotkeyShift.BackgroundImage = null;
             resources.ApplyResources( this.HotkeyShift, "HotkeyShift" );
             this.HotkeyShift.Font = null;
@@ -778,8 +678,6 @@ namespace Tween.Widgets {
             // 
             // HotkeyCtrl
             // 
-            this.HotkeyCtrl.AccessibleDescription = null;
-            this.HotkeyCtrl.AccessibleName = null;
             this.HotkeyCtrl.BackgroundImage = null;
             resources.ApplyResources( this.HotkeyCtrl, "HotkeyCtrl" );
             this.HotkeyCtrl.Font = null;
@@ -788,8 +686,6 @@ namespace Tween.Widgets {
             // 
             // Label77
             // 
-            this.Label77.AccessibleDescription = null;
-            this.Label77.AccessibleName = null;
             this.Label77.BackgroundImage = null;
             resources.ApplyResources( this.Label77, "Label77" );
             this.Label77.Font = null;
@@ -797,8 +693,6 @@ namespace Tween.Widgets {
             // 
             // TextBitlyId
             // 
-            this.TextBitlyId.AccessibleDescription = null;
-            this.TextBitlyId.AccessibleName = null;
             this.TextBitlyId.BackgroundImage = null;
             resources.ApplyResources( this.TextBitlyId, "TextBitlyId" );
             this.TextBitlyId.Font = null;
@@ -806,8 +700,6 @@ namespace Tween.Widgets {
             // 
             // Label76
             // 
-            this.Label76.AccessibleDescription = null;
-            this.Label76.AccessibleName = null;
             this.Label76.BackgroundImage = null;
             resources.ApplyResources( this.Label76, "Label76" );
             this.Label76.Font = null;
@@ -815,8 +707,6 @@ namespace Tween.Widgets {
             // 
             // ComboBoxAutoShortUrlFirst
             // 
-            this.ComboBoxAutoShortUrlFirst.AccessibleDescription = null;
-            this.ComboBoxAutoShortUrlFirst.AccessibleName = null;
             this.ComboBoxAutoShortUrlFirst.BackgroundImage = null;
             resources.ApplyResources( this.ComboBoxAutoShortUrlFirst, "ComboBoxAutoShortUrlFirst" );
             this.ComboBoxAutoShortUrlFirst.Font = null;
@@ -824,8 +714,6 @@ namespace Tween.Widgets {
             // 
             // Label71
             // 
-            this.Label71.AccessibleDescription = null;
-            this.Label71.AccessibleName = null;
             this.Label71.BackgroundImage = null;
             resources.ApplyResources( this.Label71, "Label71" );
             this.Label71.Font = null;
@@ -833,8 +721,6 @@ namespace Tween.Widgets {
             // 
             // CheckAutoConvertUrl
             // 
-            this.CheckAutoConvertUrl.AccessibleDescription = null;
-            this.CheckAutoConvertUrl.AccessibleName = null;
             this.CheckAutoConvertUrl.BackgroundImage = null;
             resources.ApplyResources( this.CheckAutoConvertUrl, "CheckAutoConvertUrl" );
             this.CheckAutoConvertUrl.Font = null;
@@ -843,8 +729,6 @@ namespace Tween.Widgets {
             // 
             // Label57
             // 
-            this.Label57.AccessibleDescription = null;
-            this.Label57.AccessibleName = null;
             this.Label57.BackgroundImage = null;
             resources.ApplyResources( this.Label57, "Label57" );
             this.Label57.Font = null;
@@ -852,8 +736,6 @@ namespace Tween.Widgets {
             // 
             // CheckFavRestrict
             // 
-            this.CheckFavRestrict.AccessibleDescription = null;
-            this.CheckFavRestrict.AccessibleName = null;
             this.CheckFavRestrict.BackgroundImage = null;
             resources.ApplyResources( this.CheckFavRestrict, "CheckFavRestrict" );
             this.CheckFavRestrict.Font = null;
@@ -862,8 +744,6 @@ namespace Tween.Widgets {
             // 
             // CheckTinyURL
             // 
-            this.CheckTinyURL.AccessibleDescription = null;
-            this.CheckTinyURL.AccessibleName = null;
             this.CheckTinyURL.BackgroundImage = null;
             resources.ApplyResources( this.CheckTinyURL, "CheckTinyURL" );
             this.CheckTinyURL.Font = null;
@@ -872,8 +752,6 @@ namespace Tween.Widgets {
             // 
             // Button3
             // 
-            this.Button3.AccessibleDescription = null;
-            this.Button3.AccessibleName = null;
             this.Button3.BackgroundImage = null;
             resources.ApplyResources( this.Button3, "Button3" );
             this.Button3.Font = null;
@@ -881,8 +759,6 @@ namespace Tween.Widgets {
             // 
             // PlaySnd
             // 
-            this.PlaySnd.AccessibleDescription = null;
-            this.PlaySnd.AccessibleName = null;
             this.PlaySnd.BackgroundImage = null;
             resources.ApplyResources( this.PlaySnd, "PlaySnd" );
             this.PlaySnd.Font = null;
@@ -891,8 +767,6 @@ namespace Tween.Widgets {
             // 
             // Label15
             // 
-            this.Label15.AccessibleDescription = null;
-            this.Label15.AccessibleName = null;
             this.Label15.BackgroundImage = null;
             resources.ApplyResources( this.Label15, "Label15" );
             this.Label15.Font = null;
@@ -900,8 +774,6 @@ namespace Tween.Widgets {
             // 
             // BrowserPathText
             // 
-            this.BrowserPathText.AccessibleDescription = null;
-            this.BrowserPathText.AccessibleName = null;
             this.BrowserPathText.BackgroundImage = null;
             resources.ApplyResources( this.BrowserPathText, "BrowserPathText" );
             this.BrowserPathText.Font = null;
@@ -909,8 +781,6 @@ namespace Tween.Widgets {
             // 
             // UReadMng
             // 
-            this.UReadMng.AccessibleDescription = null;
-            this.UReadMng.AccessibleName = null;
             this.UReadMng.BackgroundImage = null;
             resources.ApplyResources( this.UReadMng, "UReadMng" );
             this.UReadMng.Font = null;
@@ -919,8 +789,6 @@ namespace Tween.Widgets {
             // 
             // Label44
             // 
-            this.Label44.AccessibleDescription = null;
-            this.Label44.AccessibleName = null;
             this.Label44.BackgroundImage = null;
             resources.ApplyResources( this.Label44, "Label44" );
             this.Label44.Font = null;
@@ -928,8 +796,6 @@ namespace Tween.Widgets {
             // 
             // CheckCloseToExit
             // 
-            this.CheckCloseToExit.AccessibleDescription = null;
-            this.CheckCloseToExit.AccessibleName = null;
             this.CheckCloseToExit.BackgroundImage = null;
             resources.ApplyResources( this.CheckCloseToExit, "CheckCloseToExit" );
             this.CheckCloseToExit.Font = null;
@@ -938,8 +804,6 @@ namespace Tween.Widgets {
             // 
             // CheckMinimizeToTray
             // 
-            this.CheckMinimizeToTray.AccessibleDescription = null;
-            this.CheckMinimizeToTray.AccessibleName = null;
             this.CheckMinimizeToTray.BackgroundImage = null;
             resources.ApplyResources( this.CheckMinimizeToTray, "CheckMinimizeToTray" );
             this.CheckMinimizeToTray.Font = null;
@@ -948,8 +812,6 @@ namespace Tween.Widgets {
             // 
             // Label27
             // 
-            this.Label27.AccessibleDescription = null;
-            this.Label27.AccessibleName = null;
             this.Label27.BackgroundImage = null;
             resources.ApplyResources( this.Label27, "Label27" );
             this.Label27.Font = null;
@@ -957,8 +819,6 @@ namespace Tween.Widgets {
             // 
             // CheckReadOldPosts
             // 
-            this.CheckReadOldPosts.AccessibleDescription = null;
-            this.CheckReadOldPosts.AccessibleName = null;
             this.CheckReadOldPosts.BackgroundImage = null;
             resources.ApplyResources( this.CheckReadOldPosts, "CheckReadOldPosts" );
             this.CheckReadOldPosts.Font = null;
@@ -967,8 +827,6 @@ namespace Tween.Widgets {
             // 
             // Label12
             // 
-            this.Label12.AccessibleDescription = null;
-            this.Label12.AccessibleName = null;
             this.Label12.BackgroundImage = null;
             resources.ApplyResources( this.Label12, "Label12" );
             this.Label12.Font = null;
@@ -976,8 +834,6 @@ namespace Tween.Widgets {
             // 
             // StatusText
             // 
-            this.StatusText.AccessibleDescription = null;
-            this.StatusText.AccessibleName = null;
             this.StatusText.BackgroundImage = null;
             resources.ApplyResources( this.StatusText, "StatusText" );
             this.StatusText.Font = null;
@@ -985,8 +841,6 @@ namespace Tween.Widgets {
             // 
             // CheckUseRecommendStatus
             // 
-            this.CheckUseRecommendStatus.AccessibleDescription = null;
-            this.CheckUseRecommendStatus.AccessibleName = null;
             this.CheckUseRecommendStatus.BackgroundImage = null;
             resources.ApplyResources( this.CheckUseRecommendStatus, "CheckUseRecommendStatus" );
             this.CheckUseRecommendStatus.Font = null;
@@ -995,8 +849,6 @@ namespace Tween.Widgets {
             // 
             // TweetActPanel
             // 
-            this.TweetActPanel.AccessibleDescription = null;
-            this.TweetActPanel.AccessibleName = null;
             this.TweetActPanel.BackgroundImage = null;
             resources.ApplyResources( this.TweetActPanel, "TweetActPanel" );
             this.TweetActPanel.Font = null;
@@ -1004,8 +856,6 @@ namespace Tween.Widgets {
             // 
             // CheckPreviewEnable
             // 
-            this.CheckPreviewEnable.AccessibleDescription = null;
-            this.CheckPreviewEnable.AccessibleName = null;
             this.CheckPreviewEnable.BackgroundImage = null;
             resources.ApplyResources( this.CheckPreviewEnable, "CheckPreviewEnable" );
             this.CheckPreviewEnable.Font = null;
@@ -1014,8 +864,6 @@ namespace Tween.Widgets {
             // 
             // Label81
             // 
-            this.Label81.AccessibleDescription = null;
-            this.Label81.AccessibleName = null;
             this.Label81.BackgroundImage = null;
             resources.ApplyResources( this.Label81, "Label81" );
             this.Label81.Font = null;
@@ -1023,8 +871,6 @@ namespace Tween.Widgets {
             // 
             // LanguageCombo
             // 
-            this.LanguageCombo.AccessibleDescription = null;
-            this.LanguageCombo.AccessibleName = null;
             this.LanguageCombo.BackgroundImage = null;
             resources.ApplyResources( this.LanguageCombo, "LanguageCombo" );
             this.LanguageCombo.Font = null;
@@ -1032,8 +878,6 @@ namespace Tween.Widgets {
             // 
             // Label13
             // 
-            this.Label13.AccessibleDescription = null;
-            this.Label13.AccessibleName = null;
             this.Label13.BackgroundImage = null;
             resources.ApplyResources( this.Label13, "Label13" );
             this.Label13.Font = null;
@@ -1041,8 +885,6 @@ namespace Tween.Widgets {
             // 
             // CheckAlwaysTop
             // 
-            this.CheckAlwaysTop.AccessibleDescription = null;
-            this.CheckAlwaysTop.AccessibleName = null;
             this.CheckAlwaysTop.BackgroundImage = null;
             resources.ApplyResources( this.CheckAlwaysTop, "CheckAlwaysTop" );
             this.CheckAlwaysTop.Font = null;
@@ -1051,8 +893,6 @@ namespace Tween.Widgets {
             // 
             // CheckMonospace
             // 
-            this.CheckMonospace.AccessibleDescription = null;
-            this.CheckMonospace.AccessibleName = null;
             this.CheckMonospace.BackgroundImage = null;
             resources.ApplyResources( this.CheckMonospace, "CheckMonospace" );
             this.CheckMonospace.Font = null;
@@ -1061,8 +901,6 @@ namespace Tween.Widgets {
             // 
             // CheckBalloonLimit
             // 
-            this.CheckBalloonLimit.AccessibleDescription = null;
-            this.CheckBalloonLimit.AccessibleName = null;
             this.CheckBalloonLimit.BackgroundImage = null;
             resources.ApplyResources( this.CheckBalloonLimit, "CheckBalloonLimit" );
             this.CheckBalloonLimit.Font = null;
@@ -1071,8 +909,6 @@ namespace Tween.Widgets {
             // 
             // Label10
             // 
-            this.Label10.AccessibleDescription = null;
-            this.Label10.AccessibleName = null;
             this.Label10.BackgroundImage = null;
             resources.ApplyResources( this.Label10, "Label10" );
             this.Label10.Font = null;
@@ -1080,8 +916,6 @@ namespace Tween.Widgets {
             // 
             // ComboDispTitle
             // 
-            this.ComboDispTitle.AccessibleDescription = null;
-            this.ComboDispTitle.AccessibleName = null;
             this.ComboDispTitle.BackgroundImage = null;
             resources.ApplyResources( this.ComboDispTitle, "ComboDispTitle" );
             this.ComboDispTitle.Font = null;
@@ -1089,8 +923,6 @@ namespace Tween.Widgets {
             // 
             // Label45
             // 
-            this.Label45.AccessibleDescription = null;
-            this.Label45.AccessibleName = null;
             this.Label45.BackgroundImage = null;
             resources.ApplyResources( this.Label45, "Label45" );
             this.Label45.Font = null;
@@ -1098,8 +930,6 @@ namespace Tween.Widgets {
             // 
             // cmbNameBalloon
             // 
-            this.cmbNameBalloon.AccessibleDescription = null;
-            this.cmbNameBalloon.AccessibleName = null;
             this.cmbNameBalloon.BackgroundImage = null;
             resources.ApplyResources( this.cmbNameBalloon, "cmbNameBalloon" );
             this.cmbNameBalloon.Font = null;
@@ -1107,8 +937,6 @@ namespace Tween.Widgets {
             // 
             // CheckDispUsername
             // 
-            this.CheckDispUsername.AccessibleDescription = null;
-            this.CheckDispUsername.AccessibleName = null;
             this.CheckDispUsername.BackgroundImage = null;
             resources.ApplyResources( this.CheckDispUsername, "CheckDispUsername" );
             this.CheckDispUsername.Font = null;
@@ -1117,8 +945,6 @@ namespace Tween.Widgets {
             // 
             // CheckBox3
             // 
-            this.CheckBox3.AccessibleDescription = null;
-            this.CheckBox3.AccessibleName = null;
             this.CheckBox3.BackgroundImage = null;
             resources.ApplyResources( this.CheckBox3, "CheckBox3" );
             this.CheckBox3.Font = null;
@@ -1127,8 +953,6 @@ namespace Tween.Widgets {
             // 
             // TweetPrvPanel
             // 
-            this.TweetPrvPanel.AccessibleDescription = null;
-            this.TweetPrvPanel.AccessibleName = null;
             this.TweetPrvPanel.BackgroundImage = null;
             resources.ApplyResources( this.TweetPrvPanel, "TweetPrvPanel" );
             this.TweetPrvPanel.Font = null;
@@ -1136,8 +960,6 @@ namespace Tween.Widgets {
             // 
             // CheckSortOrderLock
             // 
-            this.CheckSortOrderLock.AccessibleDescription = null;
-            this.CheckSortOrderLock.AccessibleName = null;
             this.CheckSortOrderLock.BackgroundImage = null;
             resources.ApplyResources( this.CheckSortOrderLock, "CheckSortOrderLock" );
             this.CheckSortOrderLock.Font = null;
@@ -1146,8 +968,6 @@ namespace Tween.Widgets {
             // 
             // CheckShowGrid
             // 
-            this.CheckShowGrid.AccessibleDescription = null;
-            this.CheckShowGrid.AccessibleName = null;
             this.CheckShowGrid.BackgroundImage = null;
             resources.ApplyResources( this.CheckShowGrid, "CheckShowGrid" );
             this.CheckShowGrid.Font = null;
@@ -1156,8 +976,6 @@ namespace Tween.Widgets {
             // 
             // chkReadOwnPost
             // 
-            this.chkReadOwnPost.AccessibleDescription = null;
-            this.chkReadOwnPost.AccessibleName = null;
             this.chkReadOwnPost.BackgroundImage = null;
             resources.ApplyResources( this.chkReadOwnPost, "chkReadOwnPost" );
             this.chkReadOwnPost.Font = null;
@@ -1166,8 +984,6 @@ namespace Tween.Widgets {
             // 
             // chkUnreadStyle
             // 
-            this.chkUnreadStyle.AccessibleDescription = null;
-            this.chkUnreadStyle.AccessibleName = null;
             this.chkUnreadStyle.BackgroundImage = null;
             resources.ApplyResources( this.chkUnreadStyle, "chkUnreadStyle" );
             this.chkUnreadStyle.Font = null;
@@ -1176,8 +992,6 @@ namespace Tween.Widgets {
             // 
             // OneWayLv
             // 
-            this.OneWayLv.AccessibleDescription = null;
-            this.OneWayLv.AccessibleName = null;
             this.OneWayLv.BackgroundImage = null;
             resources.ApplyResources( this.OneWayLv, "OneWayLv" );
             this.OneWayLv.Font = null;
@@ -1186,8 +1000,6 @@ namespace Tween.Widgets {
             // 
             // GroupBox1
             // 
-            this.GroupBox1.AccessibleDescription = null;
-            this.GroupBox1.AccessibleName = null;
             this.GroupBox1.BackgroundImage = null;
             resources.ApplyResources( this.GroupBox1, "GroupBox1" );
             this.GroupBox1.Font = null;
@@ -1195,8 +1007,6 @@ namespace Tween.Widgets {
             // 
             // btnRetweet
             // 
-            this.btnRetweet.AccessibleDescription = null;
-            this.btnRetweet.AccessibleName = null;
             this.btnRetweet.BackgroundImage = null;
             resources.ApplyResources( this.btnRetweet, "btnRetweet" );
             this.btnRetweet.Font = null;
@@ -1204,8 +1014,6 @@ namespace Tween.Widgets {
             // 
             // lblRetweet
             // 
-            this.lblRetweet.AccessibleDescription = null;
-            this.lblRetweet.AccessibleName = null;
             this.lblRetweet.BackgroundImage = null;
             resources.ApplyResources( this.lblRetweet, "lblRetweet" );
             this.lblRetweet.Font = null;
@@ -1213,8 +1021,6 @@ namespace Tween.Widgets {
             // 
             // Label80
             // 
-            this.Label80.AccessibleDescription = null;
-            this.Label80.AccessibleName = null;
             this.Label80.BackgroundImage = null;
             resources.ApplyResources( this.Label80, "Label80" );
             this.Label80.Font = null;
@@ -1222,8 +1028,6 @@ namespace Tween.Widgets {
             // 
             // ButtonBackToDefaultFontColor
             // 
-            this.ButtonBackToDefaultFontColor.AccessibleDescription = null;
-            this.ButtonBackToDefaultFontColor.AccessibleName = null;
             this.ButtonBackToDefaultFontColor.BackgroundImage = null;
             resources.ApplyResources( this.ButtonBackToDefaultFontColor, "ButtonBackToDefaultFontColor" );
             this.ButtonBackToDefaultFontColor.Font = null;
@@ -1231,8 +1035,6 @@ namespace Tween.Widgets {
             // 
             // btnDetailLink
             // 
-            this.btnDetailLink.AccessibleDescription = null;
-            this.btnDetailLink.AccessibleName = null;
             this.btnDetailLink.BackgroundImage = null;
             resources.ApplyResources( this.btnDetailLink, "btnDetailLink" );
             this.btnDetailLink.Font = null;
@@ -1240,8 +1042,6 @@ namespace Tween.Widgets {
             // 
             // lblDetailLink
             // 
-            this.lblDetailLink.AccessibleDescription = null;
-            this.lblDetailLink.AccessibleName = null;
             this.lblDetailLink.BackgroundImage = null;
             resources.ApplyResources( this.lblDetailLink, "lblDetailLink" );
             this.lblDetailLink.Font = null;
@@ -1249,8 +1049,6 @@ namespace Tween.Widgets {
             // 
             // Label18
             // 
-            this.Label18.AccessibleDescription = null;
-            this.Label18.AccessibleName = null;
             this.Label18.BackgroundImage = null;
             resources.ApplyResources( this.Label18, "Label18" );
             this.Label18.Font = null;
@@ -1258,8 +1056,6 @@ namespace Tween.Widgets {
             // 
             // btnUnread
             // 
-            this.btnUnread.AccessibleDescription = null;
-            this.btnUnread.AccessibleName = null;
             this.btnUnread.BackgroundImage = null;
             resources.ApplyResources( this.btnUnread, "btnUnread" );
             this.btnUnread.Font = null;
@@ -1267,8 +1063,6 @@ namespace Tween.Widgets {
             // 
             // lblUnread
             // 
-            this.lblUnread.AccessibleDescription = null;
-            this.lblUnread.AccessibleName = null;
             this.lblUnread.BackgroundImage = null;
             resources.ApplyResources( this.lblUnread, "lblUnread" );
             this.lblUnread.Font = null;
@@ -1276,8 +1070,6 @@ namespace Tween.Widgets {
             // 
             // Label20
             // 
-            this.Label20.AccessibleDescription = null;
-            this.Label20.AccessibleName = null;
             this.Label20.BackgroundImage = null;
             resources.ApplyResources( this.Label20, "Label20" );
             this.Label20.Font = null;
@@ -1285,8 +1077,6 @@ namespace Tween.Widgets {
             // 
             // btnDetailBack
             // 
-            this.btnDetailBack.AccessibleDescription = null;
-            this.btnDetailBack.AccessibleName = null;
             this.btnDetailBack.BackgroundImage = null;
             resources.ApplyResources( this.btnDetailBack, "btnDetailBack" );
             this.btnDetailBack.Font = null;
@@ -1294,8 +1084,6 @@ namespace Tween.Widgets {
             // 
             // lblDetailBackcolor
             // 
-            this.lblDetailBackcolor.AccessibleDescription = null;
-            this.lblDetailBackcolor.AccessibleName = null;
             this.lblDetailBackcolor.BackgroundImage = null;
             resources.ApplyResources( this.lblDetailBackcolor, "lblDetailBackcolor" );
             this.lblDetailBackcolor.Font = null;
@@ -1303,8 +1091,6 @@ namespace Tween.Widgets {
             // 
             // Label37
             // 
-            this.Label37.AccessibleDescription = null;
-            this.Label37.AccessibleName = null;
             this.Label37.BackgroundImage = null;
             resources.ApplyResources( this.Label37, "Label37" );
             this.Label37.Font = null;
@@ -1312,8 +1098,6 @@ namespace Tween.Widgets {
             // 
             // btnDetail
             // 
-            this.btnDetail.AccessibleDescription = null;
-            this.btnDetail.AccessibleName = null;
             this.btnDetail.BackgroundImage = null;
             resources.ApplyResources( this.btnDetail, "btnDetail" );
             this.btnDetail.Font = null;
@@ -1321,8 +1105,6 @@ namespace Tween.Widgets {
             // 
             // lblDetail
             // 
-            this.lblDetail.AccessibleDescription = null;
-            this.lblDetail.AccessibleName = null;
             this.lblDetail.BackgroundImage = null;
             resources.ApplyResources( this.lblDetail, "lblDetail" );
             this.lblDetail.Font = null;
@@ -1330,8 +1112,6 @@ namespace Tween.Widgets {
             // 
             // Label26
             // 
-            this.Label26.AccessibleDescription = null;
-            this.Label26.AccessibleName = null;
             this.Label26.BackgroundImage = null;
             resources.ApplyResources( this.Label26, "Label26" );
             this.Label26.Font = null;
@@ -1339,8 +1119,6 @@ namespace Tween.Widgets {
             // 
             // btnOWL
             // 
-            this.btnOWL.AccessibleDescription = null;
-            this.btnOWL.AccessibleName = null;
             this.btnOWL.BackgroundImage = null;
             resources.ApplyResources( this.btnOWL, "btnOWL" );
             this.btnOWL.Font = null;
@@ -1348,8 +1126,6 @@ namespace Tween.Widgets {
             // 
             // lblOWL
             // 
-            this.lblOWL.AccessibleDescription = null;
-            this.lblOWL.AccessibleName = null;
             this.lblOWL.BackgroundImage = null;
             resources.ApplyResources( this.lblOWL, "lblOWL" );
             this.lblOWL.Font = null;
@@ -1357,8 +1133,6 @@ namespace Tween.Widgets {
             // 
             // Label24
             // 
-            this.Label24.AccessibleDescription = null;
-            this.Label24.AccessibleName = null;
             this.Label24.BackgroundImage = null;
             resources.ApplyResources( this.Label24, "Label24" );
             this.Label24.Font = null;
@@ -1366,8 +1140,6 @@ namespace Tween.Widgets {
             // 
             // btnFav
             // 
-            this.btnFav.AccessibleDescription = null;
-            this.btnFav.AccessibleName = null;
             this.btnFav.BackgroundImage = null;
             resources.ApplyResources( this.btnFav, "btnFav" );
             this.btnFav.Font = null;
@@ -1375,8 +1147,6 @@ namespace Tween.Widgets {
             // 
             // lblFav
             // 
-            this.lblFav.AccessibleDescription = null;
-            this.lblFav.AccessibleName = null;
             this.lblFav.BackgroundImage = null;
             resources.ApplyResources( this.lblFav, "lblFav" );
             this.lblFav.Font = null;
@@ -1384,8 +1154,6 @@ namespace Tween.Widgets {
             // 
             // Label22
             // 
-            this.Label22.AccessibleDescription = null;
-            this.Label22.AccessibleName = null;
             this.Label22.BackgroundImage = null;
             resources.ApplyResources( this.Label22, "Label22" );
             this.Label22.Font = null;
@@ -1393,8 +1161,6 @@ namespace Tween.Widgets {
             // 
             // btnListFont
             // 
-            this.btnListFont.AccessibleDescription = null;
-            this.btnListFont.AccessibleName = null;
             this.btnListFont.BackgroundImage = null;
             resources.ApplyResources( this.btnListFont, "btnListFont" );
             this.btnListFont.Font = null;
@@ -1402,8 +1168,6 @@ namespace Tween.Widgets {
             // 
             // lblListFont
             // 
-            this.lblListFont.AccessibleDescription = null;
-            this.lblListFont.AccessibleName = null;
             this.lblListFont.BackgroundImage = null;
             resources.ApplyResources( this.lblListFont, "lblListFont" );
             this.lblListFont.Font = null;
@@ -1411,8 +1175,6 @@ namespace Tween.Widgets {
             // 
             // Label61
             // 
-            this.Label61.AccessibleDescription = null;
-            this.Label61.AccessibleName = null;
             this.Label61.BackgroundImage = null;
             resources.ApplyResources( this.Label61, "Label61" );
             this.Label61.Font = null;
@@ -1429,8 +1191,6 @@ namespace Tween.Widgets {
             // 
             // TwitterSearchAPIText
             // 
-            this.TwitterSearchAPIText.AccessibleDescription = null;
-            this.TwitterSearchAPIText.AccessibleName = null;
             this.TwitterSearchAPIText.BackgroundImage = null;
             resources.ApplyResources( this.TwitterSearchAPIText, "TwitterSearchAPIText" );
             this.TwitterSearchAPIText.Font = null;
@@ -1438,8 +1198,6 @@ namespace Tween.Widgets {
             // 
             // Label31
             // 
-            this.Label31.AccessibleDescription = null;
-            this.Label31.AccessibleName = null;
             this.Label31.BackgroundImage = null;
             resources.ApplyResources( this.Label31, "Label31" );
             this.Label31.Font = null;
@@ -1447,8 +1205,6 @@ namespace Tween.Widgets {
             // 
             // TwitterAPIText
             // 
-            this.TwitterAPIText.AccessibleDescription = null;
-            this.TwitterAPIText.AccessibleName = null;
             this.TwitterAPIText.BackgroundImage = null;
             resources.ApplyResources( this.TwitterAPIText, "TwitterAPIText" );
             this.TwitterAPIText.Font = null;
@@ -1456,8 +1212,6 @@ namespace Tween.Widgets {
             // 
             // Label8
             // 
-            this.Label8.AccessibleDescription = null;
-            this.Label8.AccessibleName = null;
             this.Label8.BackgroundImage = null;
             resources.ApplyResources( this.Label8, "Label8" );
             this.Label8.Font = null;
@@ -1465,8 +1219,6 @@ namespace Tween.Widgets {
             // 
             // CheckUseSsl
             // 
-            this.CheckUseSsl.AccessibleDescription = null;
-            this.CheckUseSsl.AccessibleName = null;
             this.CheckUseSsl.BackgroundImage = null;
             resources.ApplyResources( this.CheckUseSsl, "CheckUseSsl" );
             this.CheckUseSsl.Font = null;
@@ -1475,8 +1227,6 @@ namespace Tween.Widgets {
             // 
             // Label64
             // 
-            this.Label64.AccessibleDescription = null;
-            this.Label64.AccessibleName = null;
             this.Label64.BackgroundImage = null;
             resources.ApplyResources( this.Label64, "Label64" );
             this.Label64.Font = null;
@@ -1484,8 +1234,6 @@ namespace Tween.Widgets {
             // 
             // ConnectionTimeOut
             // 
-            this.ConnectionTimeOut.AccessibleDescription = null;
-            this.ConnectionTimeOut.AccessibleName = null;
             this.ConnectionTimeOut.BackgroundImage = null;
             resources.ApplyResources( this.ConnectionTimeOut, "ConnectionTimeOut" );
             this.ConnectionTimeOut.Font = null;
@@ -1493,8 +1241,6 @@ namespace Tween.Widgets {
             // 
             // Label63
             // 
-            this.Label63.AccessibleDescription = null;
-            this.Label63.AccessibleName = null;
             this.Label63.BackgroundImage = null;
             resources.ApplyResources( this.Label63, "Label63" );
             this.Label63.Font = null;
@@ -1502,8 +1248,6 @@ namespace Tween.Widgets {
             // 
             // Label55
             // 
-            this.Label55.AccessibleDescription = null;
-            this.Label55.AccessibleName = null;
             this.Label55.BackgroundImage = null;
             resources.ApplyResources( this.Label55, "Label55" );
             this.Label55.Font = null;
@@ -1511,8 +1255,6 @@ namespace Tween.Widgets {
             // 
             // TextProxyPassword
             // 
-            this.TextProxyPassword.AccessibleDescription = null;
-            this.TextProxyPassword.AccessibleName = null;
             this.TextProxyPassword.BackgroundImage = null;
             resources.ApplyResources( this.TextProxyPassword, "TextProxyPassword" );
             this.TextProxyPassword.Font = null;
@@ -1520,8 +1262,6 @@ namespace Tween.Widgets {
             // 
             // LabelProxyPassword
             // 
-            this.LabelProxyPassword.AccessibleDescription = null;
-            this.LabelProxyPassword.AccessibleName = null;
             this.LabelProxyPassword.BackgroundImage = null;
             resources.ApplyResources( this.LabelProxyPassword, "LabelProxyPassword" );
             this.LabelProxyPassword.Font = null;
@@ -1529,8 +1269,6 @@ namespace Tween.Widgets {
             // 
             // TextProxyUser
             // 
-            this.TextProxyUser.AccessibleDescription = null;
-            this.TextProxyUser.AccessibleName = null;
             this.TextProxyUser.BackgroundImage = null;
             resources.ApplyResources( this.TextProxyUser, "TextProxyUser" );
             this.TextProxyUser.Font = null;
@@ -1538,8 +1276,6 @@ namespace Tween.Widgets {
             // 
             // LabelProxyUser
             // 
-            this.LabelProxyUser.AccessibleDescription = null;
-            this.LabelProxyUser.AccessibleName = null;
             this.LabelProxyUser.BackgroundImage = null;
             resources.ApplyResources( this.LabelProxyUser, "LabelProxyUser" );
             this.LabelProxyUser.Font = null;
@@ -1547,8 +1283,6 @@ namespace Tween.Widgets {
             // 
             // TextProxyPort
             // 
-            this.TextProxyPort.AccessibleDescription = null;
-            this.TextProxyPort.AccessibleName = null;
             this.TextProxyPort.BackgroundImage = null;
             resources.ApplyResources( this.TextProxyPort, "TextProxyPort" );
             this.TextProxyPort.Font = null;
@@ -1556,8 +1290,6 @@ namespace Tween.Widgets {
             // 
             // LabelProxyPort
             // 
-            this.LabelProxyPort.AccessibleDescription = null;
-            this.LabelProxyPort.AccessibleName = null;
             this.LabelProxyPort.BackgroundImage = null;
             resources.ApplyResources( this.LabelProxyPort, "LabelProxyPort" );
             this.LabelProxyPort.Font = null;
@@ -1565,8 +1297,6 @@ namespace Tween.Widgets {
             // 
             // TextProxyAddress
             // 
-            this.TextProxyAddress.AccessibleDescription = null;
-            this.TextProxyAddress.AccessibleName = null;
             this.TextProxyAddress.BackgroundImage = null;
             resources.ApplyResources( this.TextProxyAddress, "TextProxyAddress" );
             this.TextProxyAddress.Font = null;
@@ -1574,8 +1304,6 @@ namespace Tween.Widgets {
             // 
             // LabelProxyAddress
             // 
-            this.LabelProxyAddress.AccessibleDescription = null;
-            this.LabelProxyAddress.AccessibleName = null;
             this.LabelProxyAddress.BackgroundImage = null;
             resources.ApplyResources( this.LabelProxyAddress, "LabelProxyAddress" );
             this.LabelProxyAddress.Font = null;
@@ -1583,8 +1311,6 @@ namespace Tween.Widgets {
             // 
             // RadioProxySpecified
             // 
-            this.RadioProxySpecified.AccessibleDescription = null;
-            this.RadioProxySpecified.AccessibleName = null;
             this.RadioProxySpecified.BackgroundImage = null;
             resources.ApplyResources( this.RadioProxySpecified, "RadioProxySpecified" );
             this.RadioProxySpecified.Font = null;
@@ -1592,8 +1318,6 @@ namespace Tween.Widgets {
             // 
             // RadioProxyIE
             // 
-            this.RadioProxyIE.AccessibleDescription = null;
-            this.RadioProxyIE.AccessibleName = null;
             this.RadioProxyIE.BackgroundImage = null;
             resources.ApplyResources( this.RadioProxyIE, "RadioProxyIE" );
             this.RadioProxyIE.Font = null;
@@ -1601,8 +1325,6 @@ namespace Tween.Widgets {
             // 
             // RadioProxyNone
             // 
-            this.RadioProxyNone.AccessibleDescription = null;
-            this.RadioProxyNone.AccessibleName = null;
             this.RadioProxyNone.BackgroundImage = null;
             resources.ApplyResources( this.RadioProxyNone, "RadioProxyNone" );
             this.RadioProxyNone.Font = null;
@@ -1610,8 +1332,6 @@ namespace Tween.Widgets {
             // 
             // FontPanel2
             // 
-            this.FontPanel2.AccessibleDescription = null;
-            this.FontPanel2.AccessibleName = null;
             this.FontPanel2.BackgroundImage = null;
             resources.ApplyResources( this.FontPanel2, "FontPanel2" );
             this.FontPanel2.Font = null;
@@ -1619,8 +1339,6 @@ namespace Tween.Widgets {
             // 
             // CheckNicoms
             // 
-            this.CheckNicoms.AccessibleDescription = null;
-            this.CheckNicoms.AccessibleName = null;
             this.CheckNicoms.BackgroundImage = null;
             resources.ApplyResources( this.CheckNicoms, "CheckNicoms" );
             this.CheckNicoms.Font = null;
@@ -1629,8 +1347,6 @@ namespace Tween.Widgets {
             // 
             // Label60
             // 
-            this.Label60.AccessibleDescription = null;
-            this.Label60.AccessibleName = null;
             this.Label60.BackgroundImage = null;
             resources.ApplyResources( this.Label60, "Label60" );
             this.Label60.Font = null;
@@ -1638,8 +1354,6 @@ namespace Tween.Widgets {
             // 
             // ComboBoxOutputzUrlmode
             // 
-            this.ComboBoxOutputzUrlmode.AccessibleDescription = null;
-            this.ComboBoxOutputzUrlmode.AccessibleName = null;
             this.ComboBoxOutputzUrlmode.BackgroundImage = null;
             resources.ApplyResources( this.ComboBoxOutputzUrlmode, "ComboBoxOutputzUrlmode" );
             this.ComboBoxOutputzUrlmode.Font = null;
@@ -1647,8 +1361,6 @@ namespace Tween.Widgets {
             // 
             // Label59
             // 
-            this.Label59.AccessibleDescription = null;
-            this.Label59.AccessibleName = null;
             this.Label59.BackgroundImage = null;
             resources.ApplyResources( this.Label59, "Label59" );
             this.Label59.Font = null;
@@ -1656,8 +1368,6 @@ namespace Tween.Widgets {
             // 
             // TextBoxOutputzKey
             // 
-            this.TextBoxOutputzKey.AccessibleDescription = null;
-            this.TextBoxOutputzKey.AccessibleName = null;
             this.TextBoxOutputzKey.BackgroundImage = null;
             resources.ApplyResources( this.TextBoxOutputzKey, "TextBoxOutputzKey" );
             this.TextBoxOutputzKey.Font = null;
@@ -1665,8 +1375,6 @@ namespace Tween.Widgets {
             // 
             // CheckOutputz
             // 
-            this.CheckOutputz.AccessibleDescription = null;
-            this.CheckOutputz.AccessibleName = null;
             this.CheckOutputz.BackgroundImage = null;
             resources.ApplyResources( this.CheckOutputz, "CheckOutputz" );
             this.CheckOutputz.Font = null;
@@ -1675,8 +1383,6 @@ namespace Tween.Widgets {
             // 
             // GroupBox5
             // 
-            this.GroupBox5.AccessibleDescription = null;
-            this.GroupBox5.AccessibleName = null;
             this.GroupBox5.BackgroundImage = null;
             resources.ApplyResources( this.GroupBox5, "GroupBox5" );
             this.GroupBox5.Font = null;
@@ -1684,8 +1390,6 @@ namespace Tween.Widgets {
             // 
             // ButtonBackToDefaultFontColor2
             // 
-            this.ButtonBackToDefaultFontColor2.AccessibleDescription = null;
-            this.ButtonBackToDefaultFontColor2.AccessibleName = null;
             this.ButtonBackToDefaultFontColor2.BackgroundImage = null;
             resources.ApplyResources( this.ButtonBackToDefaultFontColor2, "ButtonBackToDefaultFontColor2" );
             this.ButtonBackToDefaultFontColor2.Font = null;
@@ -1693,8 +1397,6 @@ namespace Tween.Widgets {
             // 
             // Cancel
             // 
-            this.Cancel.AccessibleDescription = null;
-            this.Cancel.AccessibleName = null;
             this.Cancel.BackgroundImage = null;
             resources.ApplyResources( this.Cancel, "Cancel" );
             this.Cancel.Font = null;
@@ -1702,8 +1404,6 @@ namespace Tween.Widgets {
             // 
             // Save
             // 
-            this.Save.AccessibleDescription = null;
-            this.Save.AccessibleName = null;
             this.Save.BackgroundImage = null;
             resources.ApplyResources( this.Save, "Save" );
             this.Save.Font = null;
@@ -1711,8 +1411,6 @@ namespace Tween.Widgets {
             // 
             // TextBitlyPw
             // 
-            this.TextBitlyPw.AccessibleDescription = null;
-            this.TextBitlyPw.AccessibleName = null;
             this.TextBitlyPw.BackgroundImage = null;
             resources.ApplyResources( this.TextBitlyPw, "TextBitlyPw" );
             this.TextBitlyPw.Font = null;
@@ -1720,8 +1418,6 @@ namespace Tween.Widgets {
             // 
             // lblInputFont
             // 
-            this.lblInputFont.AccessibleDescription = null;
-            this.lblInputFont.AccessibleName = null;
             this.lblInputFont.BackgroundImage = null;
             resources.ApplyResources( this.lblInputFont, "lblInputFont" );
             this.lblInputFont.Font = null;
@@ -1729,8 +1425,6 @@ namespace Tween.Widgets {
             // 
             // lblInputBackcolor
             // 
-            this.lblInputBackcolor.AccessibleDescription = null;
-            this.lblInputBackcolor.AccessibleName = null;
             this.lblInputBackcolor.BackgroundImage = null;
             resources.ApplyResources( this.lblInputBackcolor, "lblInputBackcolor" );
             this.lblInputBackcolor.Font = null;
@@ -1738,8 +1432,6 @@ namespace Tween.Widgets {
             // 
             // lblAtTo
             // 
-            this.lblAtTo.AccessibleDescription = null;
-            this.lblAtTo.AccessibleName = null;
             this.lblAtTo.BackgroundImage = null;
             resources.ApplyResources( this.lblAtTo, "lblAtTo" );
             this.lblAtTo.Font = null;
@@ -1747,8 +1439,6 @@ namespace Tween.Widgets {
             // 
             // lblListBackcolor
             // 
-            this.lblListBackcolor.AccessibleDescription = null;
-            this.lblListBackcolor.AccessibleName = null;
             this.lblListBackcolor.BackgroundImage = null;
             resources.ApplyResources( this.lblListBackcolor, "lblListBackcolor" );
             this.lblListBackcolor.Font = null;
@@ -1756,8 +1446,6 @@ namespace Tween.Widgets {
             // 
             // lblAtFromTarget
             // 
-            this.lblAtFromTarget.AccessibleDescription = null;
-            this.lblAtFromTarget.AccessibleName = null;
             this.lblAtFromTarget.BackgroundImage = null;
             resources.ApplyResources( this.lblAtFromTarget, "lblAtFromTarget" );
             this.lblAtFromTarget.Font = null;
@@ -1765,8 +1453,6 @@ namespace Tween.Widgets {
             // 
             // lblAtTarget
             // 
-            this.lblAtTarget.AccessibleDescription = null;
-            this.lblAtTarget.AccessibleName = null;
             this.lblAtTarget.BackgroundImage = null;
             resources.ApplyResources( this.lblAtTarget, "lblAtTarget" );
             this.lblAtTarget.Font = null;
@@ -1774,8 +1460,6 @@ namespace Tween.Widgets {
             // 
             // lblTarget
             // 
-            this.lblTarget.AccessibleDescription = null;
-            this.lblTarget.AccessibleName = null;
             this.lblTarget.BackgroundImage = null;
             resources.ApplyResources( this.lblTarget, "lblTarget" );
             this.lblTarget.Font = null;
@@ -1783,8 +1467,6 @@ namespace Tween.Widgets {
             // 
             // lblAtSelf
             // 
-            this.lblAtSelf.AccessibleDescription = null;
-            this.lblAtSelf.AccessibleName = null;
             this.lblAtSelf.BackgroundImage = null;
             resources.ApplyResources( this.lblAtSelf, "lblAtSelf" );
             this.lblAtSelf.Font = null;
@@ -1792,8 +1474,6 @@ namespace Tween.Widgets {
             // 
             // lblSelf
             // 
-            this.lblSelf.AccessibleDescription = null;
-            this.lblSelf.AccessibleName = null;
             this.lblSelf.BackgroundImage = null;
             resources.ApplyResources( this.lblSelf, "lblSelf" );
             this.lblSelf.Font = null;
@@ -1801,8 +1481,6 @@ namespace Tween.Widgets {
             // 
             // btnInputFont
             // 
-            this.btnInputFont.AccessibleDescription = null;
-            this.btnInputFont.AccessibleName = null;
             this.btnInputFont.BackgroundImage = null;
             resources.ApplyResources( this.btnInputFont, "btnInputFont" );
             this.btnInputFont.Font = null;
@@ -1810,8 +1488,6 @@ namespace Tween.Widgets {
             // 
             // btnInputBackcolor
             // 
-            this.btnInputBackcolor.AccessibleDescription = null;
-            this.btnInputBackcolor.AccessibleName = null;
             this.btnInputBackcolor.BackgroundImage = null;
             resources.ApplyResources( this.btnInputBackcolor, "btnInputBackcolor" );
             this.btnInputBackcolor.Font = null;
@@ -1819,8 +1495,6 @@ namespace Tween.Widgets {
             // 
             // btnAtTo
             // 
-            this.btnAtTo.AccessibleDescription = null;
-            this.btnAtTo.AccessibleName = null;
             this.btnAtTo.BackgroundImage = null;
             resources.ApplyResources( this.btnAtTo, "btnAtTo" );
             this.btnAtTo.Font = null;
@@ -1828,8 +1502,6 @@ namespace Tween.Widgets {
             // 
             // btnListBack
             // 
-            this.btnListBack.AccessibleDescription = null;
-            this.btnListBack.AccessibleName = null;
             this.btnListBack.BackgroundImage = null;
             resources.ApplyResources( this.btnListBack, "btnListBack" );
             this.btnListBack.Font = null;
@@ -1837,8 +1509,6 @@ namespace Tween.Widgets {
             // 
             // btnAtFromTarget
             // 
-            this.btnAtFromTarget.AccessibleDescription = null;
-            this.btnAtFromTarget.AccessibleName = null;
             this.btnAtFromTarget.BackgroundImage = null;
             resources.ApplyResources( this.btnAtFromTarget, "btnAtFromTarget" );
             this.btnAtFromTarget.Font = null;
@@ -1846,8 +1516,6 @@ namespace Tween.Widgets {
             // 
             // btnAtTarget
             // 
-            this.btnAtTarget.AccessibleDescription = null;
-            this.btnAtTarget.AccessibleName = null;
             this.btnAtTarget.BackgroundImage = null;
             resources.ApplyResources( this.btnAtTarget, "btnAtTarget" );
             this.btnAtTarget.Font = null;
@@ -1855,8 +1523,6 @@ namespace Tween.Widgets {
             // 
             // btnTarget
             // 
-            this.btnTarget.AccessibleDescription = null;
-            this.btnTarget.AccessibleName = null;
             this.btnTarget.BackgroundImage = null;
             resources.ApplyResources( this.btnTarget, "btnTarget" );
             this.btnTarget.Font = null;
@@ -1864,8 +1530,6 @@ namespace Tween.Widgets {
             // 
             // btnAtSelf
             // 
-            this.btnAtSelf.AccessibleDescription = null;
-            this.btnAtSelf.AccessibleName = null;
             this.btnAtSelf.BackgroundImage = null;
             resources.ApplyResources( this.btnAtSelf, "btnAtSelf" );
             this.btnAtSelf.Font = null;
@@ -1873,8 +1537,6 @@ namespace Tween.Widgets {
             // 
             // btnSelf
             // 
-            this.btnSelf.AccessibleDescription = null;
-            this.btnSelf.AccessibleName = null;
             this.btnSelf.BackgroundImage = null;
             resources.ApplyResources( this.btnSelf, "btnSelf" );
             this.btnSelf.Font = null;
@@ -1882,8 +1544,6 @@ namespace Tween.Widgets {
             // 
             // Label30
             // 
-            this.Label30.AccessibleDescription = null;
-            this.Label30.AccessibleName = null;
             this.Label30.BackgroundImage = null;
             resources.ApplyResources( this.Label30, "Label30" );
             this.Label30.Font = null;
@@ -1891,8 +1551,6 @@ namespace Tween.Widgets {
             // 
             // Label28
             // 
-            this.Label28.AccessibleDescription = null;
-            this.Label28.AccessibleName = null;
             this.Label28.BackgroundImage = null;
             resources.ApplyResources( this.Label28, "Label28" );
             this.Label28.Font = null;
@@ -1900,8 +1558,6 @@ namespace Tween.Widgets {
             // 
             // Label19
             // 
-            this.Label19.AccessibleDescription = null;
-            this.Label19.AccessibleName = null;
             this.Label19.BackgroundImage = null;
             resources.ApplyResources( this.Label19, "Label19" );
             this.Label19.Font = null;
@@ -1909,8 +1565,6 @@ namespace Tween.Widgets {
             // 
             // Label47
             // 
-            this.Label47.AccessibleDescription = null;
-            this.Label47.AccessibleName = null;
             this.Label47.BackgroundImage = null;
             resources.ApplyResources( this.Label47, "Label47" );
             this.Label47.Font = null;
@@ -1918,8 +1572,6 @@ namespace Tween.Widgets {
             // 
             // LabelDateTimeFormatApplied
             // 
-            this.LabelDateTimeFormatApplied.AccessibleDescription = null;
-            this.LabelDateTimeFormatApplied.AccessibleName = null;
             this.LabelDateTimeFormatApplied.BackgroundImage = null;
             resources.ApplyResources( this.LabelDateTimeFormatApplied, "LabelDateTimeFormatApplied" );
             this.LabelDateTimeFormatApplied.Font = null;
@@ -1927,8 +1579,6 @@ namespace Tween.Widgets {
             // 
             // Label62
             // 
-            this.Label62.AccessibleDescription = null;
-            this.Label62.AccessibleName = null;
             this.Label62.BackgroundImage = null;
             resources.ApplyResources( this.Label62, "Label62" );
             this.Label62.Font = null;
@@ -1936,8 +1586,6 @@ namespace Tween.Widgets {
             // 
             // CmbDateTimeFormat
             // 
-            this.CmbDateTimeFormat.AccessibleDescription = null;
-            this.CmbDateTimeFormat.AccessibleName = null;
             this.CmbDateTimeFormat.BackgroundImage = null;
             resources.ApplyResources( this.CmbDateTimeFormat, "CmbDateTimeFormat" );
             this.CmbDateTimeFormat.Font = null;
@@ -1945,8 +1593,6 @@ namespace Tween.Widgets {
             // 
             // Label23
             // 
-            this.Label23.AccessibleDescription = null;
-            this.Label23.AccessibleName = null;
             this.Label23.BackgroundImage = null;
             resources.ApplyResources( this.Label23, "Label23" );
             this.Label23.Font = null;
@@ -1954,8 +1600,6 @@ namespace Tween.Widgets {
             // 
             // Label11
             // 
-            this.Label11.AccessibleDescription = null;
-            this.Label11.AccessibleName = null;
             this.Label11.BackgroundImage = null;
             resources.ApplyResources( this.Label11, "Label11" );
             this.Label11.Font = null;
@@ -1963,8 +1607,6 @@ namespace Tween.Widgets {
             // 
             // IconSize
             // 
-            this.IconSize.AccessibleDescription = null;
-            this.IconSize.AccessibleName = null;
             this.IconSize.BackgroundImage = null;
             resources.ApplyResources( this.IconSize, "IconSize" );
             this.IconSize.Font = null;
@@ -1972,8 +1614,6 @@ namespace Tween.Widgets {
             // 
             // TextBox3
             // 
-            this.TextBox3.AccessibleDescription = null;
-            this.TextBox3.AccessibleName = null;
             this.TextBox3.BackgroundImage = null;
             resources.ApplyResources( this.TextBox3, "TextBox3" );
             this.TextBox3.Font = null;
@@ -1981,8 +1621,6 @@ namespace Tween.Widgets {
             // 
             // ReplyIconStateCombo
             // 
-            this.ReplyIconStateCombo.AccessibleDescription = null;
-            this.ReplyIconStateCombo.AccessibleName = null;
             this.ReplyIconStateCombo.BackgroundImage = null;
             resources.ApplyResources( this.ReplyIconStateCombo, "ReplyIconStateCombo" );
             this.ReplyIconStateCombo.Font = null;
@@ -1990,8 +1628,6 @@ namespace Tween.Widgets {
             // 
             // Label72
             // 
-            this.Label72.AccessibleDescription = null;
-            this.Label72.AccessibleName = null;
             this.Label72.BackgroundImage = null;
             resources.ApplyResources( this.Label72, "Label72" );
             this.Label72.Font = null;
@@ -1999,8 +1635,6 @@ namespace Tween.Widgets {
             // 
             // ChkNewMentionsBlink
             // 
-            this.ChkNewMentionsBlink.AccessibleDescription = null;
-            this.ChkNewMentionsBlink.AccessibleName = null;
             this.ChkNewMentionsBlink.BackgroundImage = null;
             resources.ApplyResources( this.ChkNewMentionsBlink, "ChkNewMentionsBlink" );
             this.ChkNewMentionsBlink.Font = null;
@@ -2009,8 +1643,6 @@ namespace Tween.Widgets {
             // 
             // chkTabIconDisp
             // 
-            this.chkTabIconDisp.AccessibleDescription = null;
-            this.chkTabIconDisp.AccessibleName = null;
             this.chkTabIconDisp.BackgroundImage = null;
             resources.ApplyResources( this.chkTabIconDisp, "chkTabIconDisp" );
             this.chkTabIconDisp.Font = null;
@@ -2019,8 +1651,6 @@ namespace Tween.Widgets {
             // 
             // StartupUserstreamCheck
             // 
-            this.StartupUserstreamCheck.AccessibleDescription = null;
-            this.StartupUserstreamCheck.AccessibleName = null;
             this.StartupUserstreamCheck.BackgroundImage = null;
             resources.ApplyResources( this.StartupUserstreamCheck, "StartupUserstreamCheck" );
             this.StartupUserstreamCheck.Font = null;
@@ -2029,8 +1659,6 @@ namespace Tween.Widgets {
             // 
             // Label65
             // 
-            this.Label65.AccessibleDescription = null;
-            this.Label65.AccessibleName = null;
             this.Label65.BackgroundImage = null;
             resources.ApplyResources( this.Label65, "Label65" );
             this.Label65.Font = null;
@@ -2038,8 +1666,6 @@ namespace Tween.Widgets {
             // 
             // Label52
             // 
-            this.Label52.AccessibleDescription = null;
-            this.Label52.AccessibleName = null;
             this.Label52.BackgroundImage = null;
             resources.ApplyResources( this.Label52, "Label52" );
             this.Label52.Font = null;
@@ -2047,8 +1673,6 @@ namespace Tween.Widgets {
             // 
             // Label49
             // 
-            this.Label49.AccessibleDescription = null;
-            this.Label49.AccessibleName = null;
             this.Label49.BackgroundImage = null;
             resources.ApplyResources( this.Label49, "Label49" );
             this.Label49.Font = null;
@@ -2056,8 +1680,6 @@ namespace Tween.Widgets {
             // 
             // Label9
             // 
-            this.Label9.AccessibleDescription = null;
-            this.Label9.AccessibleName = null;
             this.Label9.BackgroundImage = null;
             resources.ApplyResources( this.Label9, "Label9" );
             this.Label9.Font = null;
@@ -2065,8 +1687,6 @@ namespace Tween.Widgets {
             // 
             // Label14
             // 
-            this.Label14.AccessibleDescription = null;
-            this.Label14.AccessibleName = null;
             this.Label14.BackgroundImage = null;
             resources.ApplyResources( this.Label14, "Label14" );
             this.Label14.Font = null;
@@ -2074,8 +1694,6 @@ namespace Tween.Widgets {
             // 
             // Label16
             // 
-            this.Label16.AccessibleDescription = null;
-            this.Label16.AccessibleName = null;
             this.Label16.BackgroundImage = null;
             resources.ApplyResources( this.Label16, "Label16" );
             this.Label16.Font = null;
@@ -2083,8 +1701,6 @@ namespace Tween.Widgets {
             // 
             // Label32
             // 
-            this.Label32.AccessibleDescription = null;
-            this.Label32.AccessibleName = null;
             this.Label32.BackgroundImage = null;
             resources.ApplyResources( this.Label32, "Label32" );
             this.Label32.Font = null;
@@ -2092,8 +1708,6 @@ namespace Tween.Widgets {
             // 
             // Label34
             // 
-            this.Label34.AccessibleDescription = null;
-            this.Label34.AccessibleName = null;
             this.Label34.BackgroundImage = null;
             resources.ApplyResources( this.Label34, "Label34" );
             this.Label34.Font = null;
@@ -2101,8 +1715,6 @@ namespace Tween.Widgets {
             // 
             // Label36
             // 
-            this.Label36.AccessibleDescription = null;
-            this.Label36.AccessibleName = null;
             this.Label36.BackgroundImage = null;
             resources.ApplyResources( this.Label36, "Label36" );
             this.Label36.Font = null;
@@ -2110,8 +1722,6 @@ namespace Tween.Widgets {
             // 
             // CooperatePanel
             // 
-            this.CooperatePanel.AccessibleDescription = null;
-            this.CooperatePanel.AccessibleName = null;
             this.CooperatePanel.BackgroundImage = null;
             resources.ApplyResources( this.CooperatePanel, "CooperatePanel" );
             this.CooperatePanel.Font = null;
@@ -2119,8 +1729,6 @@ namespace Tween.Widgets {
             // 
             // ShortUrlPanel
             // 
-            this.ShortUrlPanel.AccessibleDescription = null;
-            this.ShortUrlPanel.AccessibleName = null;
             this.ShortUrlPanel.BackgroundImage = null;
             resources.ApplyResources( this.ShortUrlPanel, "ShortUrlPanel" );
             this.ShortUrlPanel.Font = null;
@@ -2128,8 +1736,6 @@ namespace Tween.Widgets {
             // 
             // UserTimelineTextCountApi
             // 
-            this.UserTimelineTextCountApi.AccessibleDescription = null;
-            this.UserTimelineTextCountApi.AccessibleName = null;
             this.UserTimelineTextCountApi.BackgroundImage = null;
             resources.ApplyResources( this.UserTimelineTextCountApi, "UserTimelineTextCountApi" );
             this.UserTimelineTextCountApi.Font = null;
@@ -2137,8 +1743,6 @@ namespace Tween.Widgets {
             // 
             // Label17
             // 
-            this.Label17.AccessibleDescription = null;
-            this.Label17.AccessibleName = null;
             this.Label17.BackgroundImage = null;
             resources.ApplyResources( this.Label17, "Label17" );
             this.Label17.Font = null;
@@ -2146,8 +1750,6 @@ namespace Tween.Widgets {
             // 
             // Label21
             // 
-            this.Label21.AccessibleDescription = null;
-            this.Label21.AccessibleName = null;
             this.Label21.BackgroundImage = null;
             resources.ApplyResources( this.Label21, "Label21" );
             this.Label21.Font = null;
@@ -2155,8 +1757,6 @@ namespace Tween.Widgets {
             // 
             // UserTimelinePeriod
             // 
-            this.UserTimelinePeriod.AccessibleDescription = null;
-            this.UserTimelinePeriod.AccessibleName = null;
             this.UserTimelinePeriod.BackgroundImage = null;
             resources.ApplyResources( this.UserTimelinePeriod, "UserTimelinePeriod" );
             this.UserTimelinePeriod.Font = null;
@@ -2164,8 +1764,6 @@ namespace Tween.Widgets {
             // 
             // CheckOpenUserTimeline
             // 
-            this.CheckOpenUserTimeline.AccessibleDescription = null;
-            this.CheckOpenUserTimeline.AccessibleName = null;
             this.CheckOpenUserTimeline.BackgroundImage = null;
             resources.ApplyResources( this.CheckOpenUserTimeline, "CheckOpenUserTimeline" );
             this.CheckOpenUserTimeline.Font = null;
@@ -2174,8 +1772,6 @@ namespace Tween.Widgets {
             // 
             // CheckHashSupple
             // 
-            this.CheckHashSupple.AccessibleDescription = null;
-            this.CheckHashSupple.AccessibleName = null;
             this.CheckHashSupple.BackgroundImage = null;
             resources.ApplyResources( this.CheckHashSupple, "CheckHashSupple" );
             this.CheckHashSupple.Font = null;
@@ -2184,8 +1780,6 @@ namespace Tween.Widgets {
             // 
             // CheckAtIdSupple
             // 
-            this.CheckAtIdSupple.AccessibleDescription = null;
-            this.CheckAtIdSupple.AccessibleName = null;
             this.CheckAtIdSupple.BackgroundImage = null;
             resources.ApplyResources( this.CheckAtIdSupple, "CheckAtIdSupple" );
             this.CheckAtIdSupple.Font = null;
@@ -2194,8 +1788,6 @@ namespace Tween.Widgets {
             // 
             // NotifyPanel
             // 
-            this.NotifyPanel.AccessibleDescription = null;
-            this.NotifyPanel.AccessibleName = null;
             this.NotifyPanel.BackgroundImage = null;
             resources.ApplyResources( this.NotifyPanel, "NotifyPanel" );
             this.NotifyPanel.Font = null;
@@ -2203,8 +1795,6 @@ namespace Tween.Widgets {
             // 
             // CheckEventNotify
             // 
-            this.CheckEventNotify.AccessibleDescription = null;
-            this.CheckEventNotify.AccessibleName = null;
             this.CheckEventNotify.BackgroundImage = null;
             resources.ApplyResources( this.CheckEventNotify, "CheckEventNotify" );
             this.CheckEventNotify.Font = null;
@@ -2213,8 +1803,6 @@ namespace Tween.Widgets {
             // 
             // CheckUnfavoritesEvent
             // 
-            this.CheckUnfavoritesEvent.AccessibleDescription = null;
-            this.CheckUnfavoritesEvent.AccessibleName = null;
             this.CheckUnfavoritesEvent.BackgroundImage = null;
             resources.ApplyResources( this.CheckUnfavoritesEvent, "CheckUnfavoritesEvent" );
             this.CheckUnfavoritesEvent.Font = null;
@@ -2223,8 +1811,6 @@ namespace Tween.Widgets {
             // 
             // CheckFavoritesEvent
             // 
-            this.CheckFavoritesEvent.AccessibleDescription = null;
-            this.CheckFavoritesEvent.AccessibleName = null;
             this.CheckFavoritesEvent.BackgroundImage = null;
             resources.ApplyResources( this.CheckFavoritesEvent, "CheckFavoritesEvent" );
             this.CheckFavoritesEvent.Font = null;
@@ -2233,8 +1819,6 @@ namespace Tween.Widgets {
             // 
             // CheckFollowEvent
             // 
-            this.CheckFollowEvent.AccessibleDescription = null;
-            this.CheckFollowEvent.AccessibleName = null;
             this.CheckFollowEvent.BackgroundImage = null;
             resources.ApplyResources( this.CheckFollowEvent, "CheckFollowEvent" );
             this.CheckFollowEvent.Font = null;
@@ -2243,8 +1827,6 @@ namespace Tween.Widgets {
             // 
             // CheckListMemberRemovedEvent
             // 
-            this.CheckListMemberRemovedEvent.AccessibleDescription = null;
-            this.CheckListMemberRemovedEvent.AccessibleName = null;
             this.CheckListMemberRemovedEvent.BackgroundImage = null;
             resources.ApplyResources( this.CheckListMemberRemovedEvent, "CheckListMemberRemovedEvent" );
             this.CheckListMemberRemovedEvent.Font = null;
@@ -2253,8 +1835,6 @@ namespace Tween.Widgets {
             // 
             // CheckListMemberAddedEvent
             // 
-            this.CheckListMemberAddedEvent.AccessibleDescription = null;
-            this.CheckListMemberAddedEvent.AccessibleName = null;
             this.CheckListMemberAddedEvent.BackgroundImage = null;
             resources.ApplyResources( this.CheckListMemberAddedEvent, "CheckListMemberAddedEvent" );
             this.CheckListMemberAddedEvent.Font = null;
@@ -2263,8 +1843,6 @@ namespace Tween.Widgets {
             // 
             // CheckForceEventNotify
             // 
-            this.CheckForceEventNotify.AccessibleDescription = null;
-            this.CheckForceEventNotify.AccessibleName = null;
             this.CheckForceEventNotify.BackgroundImage = null;
             resources.ApplyResources( this.CheckForceEventNotify, "CheckForceEventNotify" );
             this.CheckForceEventNotify.Font = null;
@@ -2273,8 +1851,6 @@ namespace Tween.Widgets {
             // 
             // CheckBlockEvent
             // 
-            this.CheckBlockEvent.AccessibleDescription = null;
-            this.CheckBlockEvent.AccessibleName = null;
             this.CheckBlockEvent.BackgroundImage = null;
             resources.ApplyResources( this.CheckBlockEvent, "CheckBlockEvent" );
             this.CheckBlockEvent.Font = null;
@@ -2283,8 +1859,6 @@ namespace Tween.Widgets {
             // 
             // ListTextCountApi
             // 
-            this.ListTextCountApi.AccessibleDescription = null;
-            this.ListTextCountApi.AccessibleName = null;
             this.ListTextCountApi.BackgroundImage = null;
             resources.ApplyResources( this.ListTextCountApi, "ListTextCountApi" );
             this.ListTextCountApi.Font = null;
@@ -2292,8 +1866,6 @@ namespace Tween.Widgets {
             // 
             // Label25
             // 
-            this.Label25.AccessibleDescription = null;
-            this.Label25.AccessibleName = null;
             this.Label25.BackgroundImage = null;
             resources.ApplyResources( this.Label25, "Label25" );
             this.Label25.Font = null;
@@ -2301,8 +1873,6 @@ namespace Tween.Widgets {
             // 
             // CheckListCreatedEvent
             // 
-            this.CheckListCreatedEvent.AccessibleDescription = null;
-            this.CheckListCreatedEvent.AccessibleName = null;
             this.CheckListCreatedEvent.BackgroundImage = null;
             resources.ApplyResources( this.CheckListCreatedEvent, "CheckListCreatedEvent" );
             this.CheckListCreatedEvent.Font = null;
@@ -2311,8 +1881,6 @@ namespace Tween.Widgets {
             // 
             // CheckFavEventUnread
             // 
-            this.CheckFavEventUnread.AccessibleDescription = null;
-            this.CheckFavEventUnread.AccessibleName = null;
             this.CheckFavEventUnread.BackgroundImage = null;
             resources.ApplyResources( this.CheckFavEventUnread, "CheckFavEventUnread" );
             this.CheckFavEventUnread.Font = null;
@@ -2321,8 +1889,6 @@ namespace Tween.Widgets {
             // 
             // ComboBoxTranslateLanguage
             // 
-            this.ComboBoxTranslateLanguage.AccessibleDescription = null;
-            this.ComboBoxTranslateLanguage.AccessibleName = null;
             this.ComboBoxTranslateLanguage.BackgroundImage = null;
             resources.ApplyResources( this.ComboBoxTranslateLanguage, "ComboBoxTranslateLanguage" );
             this.ComboBoxTranslateLanguage.Font = null;
@@ -2330,8 +1896,6 @@ namespace Tween.Widgets {
             // 
             // Label29
             // 
-            this.Label29.AccessibleDescription = null;
-            this.Label29.AccessibleName = null;
             this.Label29.BackgroundImage = null;
             resources.ApplyResources( this.Label29, "Label29" );
             this.Label29.Font = null;
@@ -2339,8 +1903,6 @@ namespace Tween.Widgets {
             // 
             // ComboBoxEventNotifySound
             // 
-            this.ComboBoxEventNotifySound.AccessibleDescription = null;
-            this.ComboBoxEventNotifySound.AccessibleName = null;
             this.ComboBoxEventNotifySound.BackgroundImage = null;
             resources.ApplyResources( this.ComboBoxEventNotifySound, "ComboBoxEventNotifySound" );
             this.ComboBoxEventNotifySound.Font = null;
@@ -2348,8 +1910,6 @@ namespace Tween.Widgets {
             // 
             // Label35
             // 
-            this.Label35.AccessibleDescription = null;
-            this.Label35.AccessibleName = null;
             this.Label35.BackgroundImage = null;
             resources.ApplyResources( this.Label35, "Label35" );
             this.Label35.Font = null;
@@ -2357,8 +1917,6 @@ namespace Tween.Widgets {
             // 
             // LabelUserStreamActive
             // 
-            this.LabelUserStreamActive.AccessibleDescription = null;
-            this.LabelUserStreamActive.AccessibleName = null;
             this.LabelUserStreamActive.BackgroundImage = null;
             resources.ApplyResources( this.LabelUserStreamActive, "LabelUserStreamActive" );
             this.LabelUserStreamActive.Font = null;
@@ -2366,8 +1924,6 @@ namespace Tween.Widgets {
             // 
             // LabelApiUsingUserStreamEnabled
             // 
-            this.LabelApiUsingUserStreamEnabled.AccessibleDescription = null;
-            this.LabelApiUsingUserStreamEnabled.AccessibleName = null;
             this.LabelApiUsingUserStreamEnabled.BackgroundImage = null;
             resources.ApplyResources( this.LabelApiUsingUserStreamEnabled, "LabelApiUsingUserStreamEnabled" );
             this.LabelApiUsingUserStreamEnabled.Font = null;
@@ -2375,8 +1931,6 @@ namespace Tween.Widgets {
             // 
             // CheckUserUpdateEvent
             // 
-            this.CheckUserUpdateEvent.AccessibleDescription = null;
-            this.CheckUserUpdateEvent.AccessibleName = null;
             this.CheckUserUpdateEvent.BackgroundImage = null;
             resources.ApplyResources( this.CheckUserUpdateEvent, "CheckUserUpdateEvent" );
             this.CheckUserUpdateEvent.Font = null;
@@ -2385,8 +1939,6 @@ namespace Tween.Widgets {
             // 
             // TreeViewSetting
             // 
-            this.TreeViewSetting.AccessibleDescription = null;
-            this.TreeViewSetting.AccessibleName = null;
             this.TreeViewSetting.BackgroundImage = null;
             resources.ApplyResources( this.TreeViewSetting, "TreeViewSetting" );
             this.TreeViewSetting.Font = null;
@@ -2394,17 +1946,10 @@ namespace Tween.Widgets {
             // 
             // ToolTip1
             // 
-            this.ToolTip1.AccessibleDescription = null;
-            this.ToolTip1.AccessibleName = null;
-            this.ToolTip1.BackgroundImage = null;
             resources.ApplyResources( this.ToolTip1, "ToolTip1" );
-            this.ToolTip1.Font = null;
-            this.ToolTip1.Name = "ToolTip1";
             // 
             // Label38
             // 
-            this.Label38.AccessibleDescription = null;
-            this.Label38.AccessibleName = null;
             this.Label38.BackgroundImage = null;
             resources.ApplyResources( this.Label38, "Label38" );
             this.Label38.Font = null;
@@ -2412,8 +1957,6 @@ namespace Tween.Widgets {
             // 
             // ListDoubleClickActionComboBox
             // 
-            this.ListDoubleClickActionComboBox.AccessibleDescription = null;
-            this.ListDoubleClickActionComboBox.AccessibleName = null;
             this.ListDoubleClickActionComboBox.BackgroundImage = null;
             resources.ApplyResources( this.ListDoubleClickActionComboBox, "ListDoubleClickActionComboBox" );
             this.ListDoubleClickActionComboBox.Font = null;
@@ -2421,8 +1964,6 @@ namespace Tween.Widgets {
             // 
             // Label39
             // 
-            this.Label39.AccessibleDescription = null;
-            this.Label39.AccessibleName = null;
             this.Label39.BackgroundImage = null;
             resources.ApplyResources( this.Label39, "Label39" );
             this.Label39.Font = null;
@@ -2430,8 +1971,6 @@ namespace Tween.Widgets {
             // 
             // UserAppointUrlText
             // 
-            this.UserAppointUrlText.AccessibleDescription = null;
-            this.UserAppointUrlText.AccessibleName = null;
             this.UserAppointUrlText.BackgroundImage = null;
             resources.ApplyResources( this.UserAppointUrlText, "UserAppointUrlText" );
             this.UserAppointUrlText.Font = null;
@@ -2439,8 +1978,6 @@ namespace Tween.Widgets {
             // 
             // HideDuplicatedRetweetsCheck
             // 
-            this.HideDuplicatedRetweetsCheck.AccessibleDescription = null;
-            this.HideDuplicatedRetweetsCheck.AccessibleName = null;
             this.HideDuplicatedRetweetsCheck.BackgroundImage = null;
             resources.ApplyResources( this.HideDuplicatedRetweetsCheck, "HideDuplicatedRetweetsCheck" );
             this.HideDuplicatedRetweetsCheck.Font = null;
@@ -2449,8 +1986,6 @@ namespace Tween.Widgets {
             // 
             // CheckForceResolve
             // 
-            this.CheckForceResolve.AccessibleDescription = null;
-            this.CheckForceResolve.AccessibleName = null;
             this.CheckForceResolve.BackgroundImage = null;
             resources.ApplyResources( this.CheckForceResolve, "CheckForceResolve" );
             this.CheckForceResolve.Font = null;
@@ -2459,8 +1994,6 @@ namespace Tween.Widgets {
             // 
             // IsPreviewFoursquareCheckBox
             // 
-            this.IsPreviewFoursquareCheckBox.AccessibleDescription = null;
-            this.IsPreviewFoursquareCheckBox.AccessibleName = null;
             this.IsPreviewFoursquareCheckBox.BackgroundImage = null;
             resources.ApplyResources( this.IsPreviewFoursquareCheckBox, "IsPreviewFoursquareCheckBox" );
             this.IsPreviewFoursquareCheckBox.Font = null;
@@ -2469,8 +2002,6 @@ namespace Tween.Widgets {
             // 
             // FoursquareGroupBox
             // 
-            this.FoursquareGroupBox.AccessibleDescription = null;
-            this.FoursquareGroupBox.AccessibleName = null;
             this.FoursquareGroupBox.BackgroundImage = null;
             resources.ApplyResources( this.FoursquareGroupBox, "FoursquareGroupBox" );
             this.FoursquareGroupBox.Font = null;
@@ -2478,8 +2009,6 @@ namespace Tween.Widgets {
             // 
             // FoursquarePreviewZoomTextBox
             // 
-            this.FoursquarePreviewZoomTextBox.AccessibleDescription = null;
-            this.FoursquarePreviewZoomTextBox.AccessibleName = null;
             this.FoursquarePreviewZoomTextBox.BackgroundImage = null;
             resources.ApplyResources( this.FoursquarePreviewZoomTextBox, "FoursquarePreviewZoomTextBox" );
             this.FoursquarePreviewZoomTextBox.Font = null;
@@ -2487,8 +2016,6 @@ namespace Tween.Widgets {
             // 
             // FoursquarePreviewHeightTextBox
             // 
-            this.FoursquarePreviewHeightTextBox.AccessibleDescription = null;
-            this.FoursquarePreviewHeightTextBox.AccessibleName = null;
             this.FoursquarePreviewHeightTextBox.BackgroundImage = null;
             resources.ApplyResources( this.FoursquarePreviewHeightTextBox, "FoursquarePreviewHeightTextBox" );
             this.FoursquarePreviewHeightTextBox.Font = null;
@@ -2496,8 +2023,6 @@ namespace Tween.Widgets {
             // 
             // Label41
             // 
-            this.Label41.AccessibleDescription = null;
-            this.Label41.AccessibleName = null;
             this.Label41.BackgroundImage = null;
             resources.ApplyResources( this.Label41, "Label41" );
             this.Label41.Font = null;
@@ -2505,8 +2030,6 @@ namespace Tween.Widgets {
             // 
             // Label40
             // 
-            this.Label40.AccessibleDescription = null;
-            this.Label40.AccessibleName = null;
             this.Label40.BackgroundImage = null;
             resources.ApplyResources( this.Label40, "Label40" );
             this.Label40.Font = null;
@@ -2514,8 +2037,6 @@ namespace Tween.Widgets {
             // 
             // Label42
             // 
-            this.Label42.AccessibleDescription = null;
-            this.Label42.AccessibleName = null;
             this.Label42.BackgroundImage = null;
             resources.ApplyResources( this.Label42, "Label42" );
             this.Label42.Font = null;
@@ -2523,8 +2044,6 @@ namespace Tween.Widgets {
             // 
             // FoursquarePreviewWidthTextBox
             // 
-            this.FoursquarePreviewWidthTextBox.AccessibleDescription = null;
-            this.FoursquarePreviewWidthTextBox.AccessibleName = null;
             this.FoursquarePreviewWidthTextBox.BackgroundImage = null;
             resources.ApplyResources( this.FoursquarePreviewWidthTextBox, "FoursquarePreviewWidthTextBox" );
             this.FoursquarePreviewWidthTextBox.Font = null;
@@ -2532,8 +2051,6 @@ namespace Tween.Widgets {
             // 
             // StartAuthButton
             // 
-            this.StartAuthButton.AccessibleDescription = null;
-            this.StartAuthButton.AccessibleName = null;
             this.StartAuthButton.BackgroundImage = null;
             resources.ApplyResources( this.StartAuthButton, "StartAuthButton" );
             this.StartAuthButton.Font = null;
@@ -2541,8 +2058,6 @@ namespace Tween.Widgets {
             // 
             // CreateAccountButton
             // 
-            this.CreateAccountButton.AccessibleDescription = null;
-            this.CreateAccountButton.AccessibleName = null;
             this.CreateAccountButton.BackgroundImage = null;
             resources.ApplyResources( this.CreateAccountButton, "CreateAccountButton" );
             this.CreateAccountButton.Font = null;
@@ -2550,8 +2065,6 @@ namespace Tween.Widgets {
             // 
             // GroupBox2
             // 
-            this.GroupBox2.AccessibleDescription = null;
-            this.GroupBox2.AccessibleName = null;
             this.GroupBox2.BackgroundImage = null;
             resources.ApplyResources( this.GroupBox2, "GroupBox2" );
             this.GroupBox2.Font = null;
@@ -2559,8 +2072,6 @@ namespace Tween.Widgets {
             // 
             // Label1
             // 
-            this.Label1.AccessibleDescription = null;
-            this.Label1.AccessibleName = null;
             this.Label1.BackgroundImage = null;
             resources.ApplyResources( this.Label1, "Label1" );
             this.Label1.Font = null;
@@ -2568,8 +2079,6 @@ namespace Tween.Widgets {
             // 
             // EmailText
             // 
-            this.EmailText.AccessibleDescription = null;
-            this.EmailText.AccessibleName = null;
             this.EmailText.BackgroundImage = null;
             resources.ApplyResources( this.EmailText, "EmailText" );
             this.EmailText.Font = null;
@@ -2577,8 +2086,6 @@ namespace Tween.Widgets {
             // 
             // Label6
             // 
-            this.Label6.AccessibleDescription = null;
-            this.Label6.AccessibleName = null;
             this.Label6.BackgroundImage = null;
             resources.ApplyResources( this.Label6, "Label6" );
             this.Label6.Font = null;
@@ -2586,8 +2093,6 @@ namespace Tween.Widgets {
             // 
             // FollowCheckBox
             // 
-            this.FollowCheckBox.AccessibleDescription = null;
-            this.FollowCheckBox.AccessibleName = null;
             this.FollowCheckBox.BackgroundImage = null;
             resources.ApplyResources( this.FollowCheckBox, "FollowCheckBox" );
             this.FollowCheckBox.Font = null;
@@ -2596,8 +2101,6 @@ namespace Tween.Widgets {
             // 
             // Label43
             // 
-            this.Label43.AccessibleDescription = null;
-            this.Label43.AccessibleName = null;
             this.Label43.BackgroundImage = null;
             resources.ApplyResources( this.Label43, "Label43" );
             this.Label43.Font = null;
@@ -2605,8 +2108,6 @@ namespace Tween.Widgets {
             // 
             // UserstreamPeriod
             // 
-            this.UserstreamPeriod.AccessibleDescription = null;
-            this.UserstreamPeriod.AccessibleName = null;
             this.UserstreamPeriod.BackgroundImage = null;
             resources.ApplyResources( this.UserstreamPeriod, "UserstreamPeriod" );
             this.UserstreamPeriod.Font = null;
@@ -2614,8 +2115,6 @@ namespace Tween.Widgets {
             // 
             // Label46
             // 
-            this.Label46.AccessibleDescription = null;
-            this.Label46.AccessibleName = null;
             this.Label46.BackgroundImage = null;
             resources.ApplyResources( this.Label46, "Label46" );
             this.Label46.Font = null;
@@ -2623,8 +2122,6 @@ namespace Tween.Widgets {
             // 
             // ShortenTcoCheck
             // 
-            this.ShortenTcoCheck.AccessibleDescription = null;
-            this.ShortenTcoCheck.AccessibleName = null;
             this.ShortenTcoCheck.BackgroundImage = null;
             resources.ApplyResources( this.ShortenTcoCheck, "ShortenTcoCheck" );
             this.ShortenTcoCheck.Font = null;
@@ -2633,8 +2130,6 @@ namespace Tween.Widgets {
             // 
             // IsListsIncludeRtsCheckBox
             // 
-            this.IsListsIncludeRtsCheckBox.AccessibleDescription = null;
-            this.IsListsIncludeRtsCheckBox.AccessibleName = null;
             this.IsListsIncludeRtsCheckBox.BackgroundImage = null;
             resources.ApplyResources( this.IsListsIncludeRtsCheckBox, "IsListsIncludeRtsCheckBox" );
             this.IsListsIncludeRtsCheckBox.Font = null;
@@ -2643,8 +2138,6 @@ namespace Tween.Widgets {
             // 
             // AuthUserCombo
             // 
-            this.AuthUserCombo.AccessibleDescription = null;
-            this.AuthUserCombo.AccessibleName = null;
             this.AuthUserCombo.BackgroundImage = null;
             resources.ApplyResources( this.AuthUserCombo, "AuthUserCombo" );
             this.AuthUserCombo.Font = null;
@@ -2652,8 +2145,6 @@ namespace Tween.Widgets {
             // 
             // TabMouseLockCheck
             // 
-            this.TabMouseLockCheck.AccessibleDescription = null;
-            this.TabMouseLockCheck.AccessibleName = null;
             this.TabMouseLockCheck.BackgroundImage = null;
             resources.ApplyResources( this.TabMouseLockCheck, "TabMouseLockCheck" );
             this.TabMouseLockCheck.Font = null;
@@ -2662,8 +2153,6 @@ namespace Tween.Widgets {
             // 
             // IsRemoveSameFavEventCheckBox
             // 
-            this.IsRemoveSameFavEventCheckBox.AccessibleDescription = null;
-            this.IsRemoveSameFavEventCheckBox.AccessibleName = null;
             this.IsRemoveSameFavEventCheckBox.BackgroundImage = null;
             resources.ApplyResources( this.IsRemoveSameFavEventCheckBox, "IsRemoveSameFavEventCheckBox" );
             this.IsRemoveSameFavEventCheckBox.Font = null;
@@ -2672,8 +2161,6 @@ namespace Tween.Widgets {
             // 
             // IsNotifyUseGrowlCheckBox
             // 
-            this.IsNotifyUseGrowlCheckBox.AccessibleDescription = null;
-            this.IsNotifyUseGrowlCheckBox.AccessibleName = null;
             this.IsNotifyUseGrowlCheckBox.BackgroundImage = null;
             resources.ApplyResources( this.IsNotifyUseGrowlCheckBox, "IsNotifyUseGrowlCheckBox" );
             this.IsNotifyUseGrowlCheckBox.Font = null;
@@ -2682,8 +2169,6 @@ namespace Tween.Widgets {
             // 
             // Label2
             // 
-            this.Label2.AccessibleDescription = null;
-            this.Label2.AccessibleName = null;
             this.Label2.BackgroundImage = null;
             resources.ApplyResources( this.Label2, "Label2" );
             this.Label2.Font = null;
@@ -2691,8 +2176,6 @@ namespace Tween.Widgets {
             // 
             // AppendSettingDialog
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources( this, "$this" );
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = null;

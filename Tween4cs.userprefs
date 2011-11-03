@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="App/Widgets/AppendSettingDialog.Designer.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="App/Widgets/AppendSettingDialog.cs" ctype="Workbench">
     <Files>
-      <File FileName="App/Common/Utility.cs" Line="269" Column="10" />
-      <File FileName="App/Common/TabUsageType.cs" Line="1" Column="1" />
-      <File FileName="App/Widgets/AppendSettingDialog.Designer.cs" Line="2397" Column="27" />
+      <File FileName="App/Widgets/AppendSettingDialog.Designer.cs" Line="42" Column="18" />
+      <File FileName="App/Widgets/AppendSettingDialog.cs" Line="170" Column="133" />
+      <File FileName="App/Extensions/Twitter/UserAccount.cs" Line="39" Column="41" />
+      <File FileName="App/Extensions/Twitter/Twitter.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +15,14 @@
           <Node name="Tween4cs" expanded="True">
             <Node name="Common" expanded="True" />
             <Node name="Connections" expanded="True" />
-            <Node name="Extensions" expanded="True" />
+            <Node name="CustomControls" expanded="True" />
+            <Node name="Extensions" expanded="True">
+              <Node name="Growl" expanded="True" />
+              <Node name="Twitter" expanded="True" />
+            </Node>
+            <Node name="Properties" expanded="True" />
             <Node name="Widgets" expanded="True">
-              <Node name="AppendSettingDialog.Designer.cs" selected="True" />
+              <Node name="AppendSettingDialog.cs" selected="True" />
             </Node>
           </Node>
         </State>

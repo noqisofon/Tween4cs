@@ -20,10 +20,20 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // 
 using System;
+
+
 namespace Tween.Extensions.Growl {
+    
+    
     public class GrowlHelper {
         public GrowlHelper(string s) {
         }
+        
+        
+        public static bool IsDllExists {
+            get { return false; }
+        }
     }
-}
 
+
+}

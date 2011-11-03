@@ -28,6 +28,31 @@ namespace Tween.Extensions.Twitter {
     public class UserAccount {
         public UserAccount () {
         }
+        
+        public string Username {
+            get { return string.user_name_; }
+        }
+        
+        
+        public long UserId {
+            get { return this.user_id_; }
+            set { this.user_id_ = value; }
+        }
+        
+        
+        public string Token {
+            get { return this.access_token_; }
+        }
+        
+        
+        public string TokenSecret {
+            get { return this.access_secret_token_; }
+        }
+        
+        private string user_name_;
+        private long user_id_;
+        private string access_token_;
+        private string access_secret_token_;
     }
 
 

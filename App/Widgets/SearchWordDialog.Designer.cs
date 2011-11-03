@@ -1,4 +1,4 @@
-namespace Tween.Widgets {
+namespace Sample {
     partial class SearchWordDialog : System.Windows.Forms.Form {
         /**
          * フォームがコンポーネントの一覧をクリーンアップするために Dispose メソッドをオーバーライドします。
@@ -42,8 +42,6 @@ namespace Tween.Widgets {
             // 
             // TableLayoutPanel1
             // 
-            this.TableLayoutPanel1.AccessibleDescription = null;
-            this.TableLayoutPanel1.AccessibleName = null;
             this.TableLayoutPanel1.BackgroundImage = null;
             resources.ApplyResources( this.TableLayoutPanel1, "TableLayoutPanel1" );
             this.TableLayoutPanel1.Font = null;
@@ -51,8 +49,6 @@ namespace Tween.Widgets {
             // 
             // OK_Button
             // 
-            this.OK_Button.AccessibleDescription = null;
-            this.OK_Button.AccessibleName = null;
             this.OK_Button.BackgroundImage = null;
             resources.ApplyResources( this.OK_Button, "OK_Button" );
             this.OK_Button.Font = null;
@@ -60,8 +56,6 @@ namespace Tween.Widgets {
             // 
             // Cancel_Button
             // 
-            this.Cancel_Button.AccessibleDescription = null;
-            this.Cancel_Button.AccessibleName = null;
             this.Cancel_Button.BackgroundImage = null;
             resources.ApplyResources( this.Cancel_Button, "Cancel_Button" );
             this.Cancel_Button.Font = null;
@@ -69,8 +63,6 @@ namespace Tween.Widgets {
             // 
             // SWordText
             // 
-            this.SWordText.AccessibleDescription = null;
-            this.SWordText.AccessibleName = null;
             this.SWordText.BackgroundImage = null;
             resources.ApplyResources( this.SWordText, "SWordText" );
             this.SWordText.Font = null;
@@ -78,8 +70,6 @@ namespace Tween.Widgets {
             // 
             // Label1
             // 
-            this.Label1.AccessibleDescription = null;
-            this.Label1.AccessibleName = null;
             this.Label1.BackgroundImage = null;
             resources.ApplyResources( this.Label1, "Label1" );
             this.Label1.Font = null;
@@ -87,8 +77,6 @@ namespace Tween.Widgets {
             // 
             // CheckSearchCaseSensitive
             // 
-            this.CheckSearchCaseSensitive.AccessibleDescription = null;
-            this.CheckSearchCaseSensitive.AccessibleName = null;
             this.CheckSearchCaseSensitive.BackgroundImage = null;
             resources.ApplyResources( this.CheckSearchCaseSensitive, "CheckSearchCaseSensitive" );
             this.CheckSearchCaseSensitive.Font = null;
@@ -97,8 +85,6 @@ namespace Tween.Widgets {
             // 
             // CheckSearchRegex
             // 
-            this.CheckSearchRegex.AccessibleDescription = null;
-            this.CheckSearchRegex.AccessibleName = null;
             this.CheckSearchRegex.BackgroundImage = null;
             resources.ApplyResources( this.CheckSearchRegex, "CheckSearchRegex" );
             this.CheckSearchRegex.Font = null;
@@ -107,8 +93,6 @@ namespace Tween.Widgets {
             // 
             // SearchWordDialog
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources( this, "$this" );
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = null;

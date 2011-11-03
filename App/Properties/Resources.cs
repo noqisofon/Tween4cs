@@ -28,6 +28,11 @@ namespace Tween.Properties {
     public class Resources {
         public Resources() {
         }
+        
+        
+        public static string SettingSave_ClickText1 {
+            get { return string.Empty; }
+        }
     }
 
 

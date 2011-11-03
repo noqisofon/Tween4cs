@@ -39,13 +39,13 @@ namespace Tween.Connections {
          * 
          */
         public TwitterOAuthHttpConnection() : base( string.Empty, string.Empty, string.Empty, string.Empty,
-													string.Empty, 0, string.Empty, string.Empty ) {
+                                                   string.Empty, 0, string.Empty, string.Empty ) {
         }
         /**
          * 
          */
-        public TwitterOAuthHttpConnection(OAuthHttpConnection other) : base( other.consumer_key_, other.consumer_secret_, other.access_token_, other.access_secret_,
-																			 other.user_ident_key_, other.user_id_ident_key_, other.authorized_username_, other.authorized_user_id_ ) {
+        public TwitterOAuthHttpConnection(OAuthHttpConnection other) : base( other.consumer_key_, other.consumer_secret_, other.access_token_, other.access_secret_, other.authorized_username_, other.authorized_user_id_,
+                                                                             other.user_ident_key_, other.user_id_ident_key_ ) {
         }
         /**
          * @param consumer_key
