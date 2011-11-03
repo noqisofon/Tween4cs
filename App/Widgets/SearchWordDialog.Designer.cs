@@ -1,4 +1,4 @@
-namespace Sample {
+namespace Tween.Widgets {
     partial class SearchWordDialog : System.Windows.Forms.Form {
         /**
          * フォームがコンポーネントの一覧をクリーンアップするために Dispose メソッドをオーバーライドします。
