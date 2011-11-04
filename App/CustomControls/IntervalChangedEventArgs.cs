@@ -1,7 +1,7 @@
 using System;
 
 
-namespace Tween {
+namespace Tween.CustomControls {
 
 	
 	/// <summary>

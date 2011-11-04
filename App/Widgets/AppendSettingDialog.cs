@@ -30,6 +30,7 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 
+using Tween.CustomControls;
 using Tween.Common;
 using Tween.Connections;
 using Tween.Extensions;

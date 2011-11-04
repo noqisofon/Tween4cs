@@ -1,5 +1,5 @@
 //  
-//  WIN32API.cs
+//  HashtagManager.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
@@ -20,21 +20,10 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // 
 using System;
-
-using Tween.Connections;
-
-
-namespace Tween {
-    
-    
-    public static class WIN32API {
-        public static void SetProxy(ProxyType proxy_type,
-                                                 string proxy_address,
-                                                 int proxy_port,
-                                                 string proxy_user,
-                                                 string proxy_password) {
+namespace Tween.Extensions.Twitter {
+    public class HashtagManager {
+        public HashtagManager() {
         }
     }
-
-
 }
+
