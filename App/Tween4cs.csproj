@@ -136,6 +136,11 @@
     <Compile Include="CustomControls\IntervalChangedEventArgs.cs" />
     <Compile Include="Common\Tuple.cs" />
     <Compile Include="Common\WIN32API.cs" />
+    <Compile Include="Extensions\ApiInformationChangedEventArgs.cs" />
+    <Compile Include="Extensions\AbstractApiInformation.cs" />
+    <Compile Include="Extensions\ApiAccessLevel.cs" />
+    <Compile Include="Extensions\ApiInformation.cs" />
+    <Compile Include="Extensions\ApiInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.desktop" />
