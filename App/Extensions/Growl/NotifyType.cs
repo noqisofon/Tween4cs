@@ -1,5 +1,5 @@
 //  
-//  GrowlHelper.cs
+//  NotifyType.cs
 //  
 //  Author:
 //       rihine <ned.rihine@gmail.com>
@@ -20,41 +20,8 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // 
 using System;
-
-
 namespace Tween.Extensions.Growl {
-    
-
-    /**
-     * 
-     */
-    public class GrowlHelper {
-        /**
-         * 
-         */
-        public GrowlHelper(string app_name) {
-            this.application_name_ = app_name;
-        }
-
-
-        /**
-         * 
-         */
-        public string AppName {
-            get { return this.application_name_; }
-        }
-        
-
-        /**
-         * 
-         */
-        public static bool IsDllExists {
-            get { return false; }
-        }
-
-
-        private string application_name_;
+    public enum NotifyType {
     }
-
-
 }
+

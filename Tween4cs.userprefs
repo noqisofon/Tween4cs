@@ -1,9 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" ctype="Workspace" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="App/Extensions/ApiInformation.cs" ctype="Workbench">
+  <MonoDevelop.Ide.Workbench ActiveDocument="App/Extensions/Twitter/Twitter.cs" ctype="Workbench">
     <Files>
-      <File FileName="App/Extensions/ApiInformation.cs" Line="1" Column="1" />
-      <File FileName="App/Extensions/ApiInformationChangedEventArgs.cs" Line="34" Column="12" />
+      <File FileName="App/Connections/OAuthHttpConnection.cs" Line="538" Column="23" />
+      <File FileName="App/Connections/EchoOAuthHttpConnection.cs" Line="48" Column="1" />
+      <File FileName="App/Widgets/AppendSettingDialog.cs" Line="171" Column="58" />
+      <File FileName="App/Extensions/Twitter/Twitter.cs" Line="53" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,11 +13,14 @@
           <Option id="ShowVersionControlOverlays" value="True" />
           <Option id="ShowAllFiles" value="False" />
           <Node name="Tween4cs" expanded="True">
-            <Node name="Common" expanded="True" />
             <Node name="Connections" expanded="True" />
             <Node name="CustomControls" expanded="True" />
             <Node name="Extensions" expanded="True">
-              <Node name="ApiInformation.cs" selected="True" />
+              <Node name="Common" expanded="True" />
+              <Node name="Growl" expanded="True" />
+              <Node name="Twitter" expanded="True">
+                <Node name="Twitter.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Widgets" expanded="True" />
           </Node>

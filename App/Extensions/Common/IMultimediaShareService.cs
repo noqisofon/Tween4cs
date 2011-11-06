@@ -22,7 +22,7 @@
 using System;
 
 
-namespace Tween.Extensions {
+namespace Tween.Extensions.Common {
 
 
     /**

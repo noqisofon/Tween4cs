@@ -63,6 +63,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="notify-sharp, Version=0.4.0.0, Culture=neutral, PublicKeyToken=2df29c54e245917a">
+      <Package>notify-sharp</Package>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
@@ -84,8 +87,6 @@
     <Compile Include="Extensions\Outputz\OutputzUrlMode.cs" />
     <Compile Include="Extensions\Twitter\UserAccount.cs" />
     <Compile Include="Extensions\Twitter\DataModel\Configuration.cs" />
-    <Compile Include="Extensions\IMultimediaShareService.cs" />
-    <Compile Include="Extensions\UploadFileType.cs" />
     <Compile Include="Connections\TwitterOAuthHttpConnection.cs" />
     <Compile Include="CustomControls\ToolStripLabelHistory.cs" />
     <Compile Include="Extensions\Growl\GrowlHelper.cs" />
@@ -141,6 +142,10 @@
     <Compile Include="Extensions\ApiAccessLevel.cs" />
     <Compile Include="Extensions\ApiInformation.cs" />
     <Compile Include="Extensions\ApiInfo.cs" />
+    <Compile Include="Extensions\Growl\NotifyType.cs" />
+    <Compile Include="Extensions\Common\IMultimediaShareService.cs" />
+    <Compile Include="Extensions\Common\UploadFileType.cs" />
+    <Compile Include="Connections\EchoOAuthHttpConnection.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.desktop" />
